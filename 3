@@ -1,0 +1,4348 @@
+.class public final Lstudio/scillarium/ottnavigator/PlayerActivity;
+.super Lvg/c;
+
+
+# static fields
+.field public static final synthetic k0:I
+
+
+# instance fields
+.field public J:J
+
+.field public K:J
+
+.field public L:Z
+
+.field public M:Lxg/v;
+
+.field public N:Z
+
+.field public final O:Ljd/b;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljd/b<",
+            "Lvg/e;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field public volatile P:Lgg/y0;
+
+.field public Q:Lstudio/scillarium/ottnavigator/ui/views/PlayerLayerOverlayView;
+
+.field public R:Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView;
+
+.field public S:Lstudio/scillarium/ottnavigator/ui/views/PlayerHud;
+
+.field public T:Landroid/view/View;
+
+.field public U:Landroid/widget/FrameLayout;
+
+.field public final V:Ljd/b;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljd/b<",
+            "Lcom/facebook/drawee/view/SimpleDraweeView;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field public W:Ljd/b;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljd/b<",
+            "+",
+            "Lh3/i<",
+            "Lb3/a<",
+            "Li4/b;",
+            ">;>;>;"
+        }
+    .end annotation
+.end field
+
+.field public X:Ljd/b;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljd/b<",
+            "Lvg/c0;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field public Y:Z
+
+.field public Z:Z
+
+.field public a0:Z
+
+.field public volatile b0:Lfg/j;
+
+.field public c0:Lxg/i;
+
+.field public d0:Lxg/i0;
+
+.field public e0:I
+
+.field public f0:J
+
+.field public g0:Landroid/view/View;
+
+.field public h0:Lxg/l;
+
+.field public i0:J
+
+.field public j0:J
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 1
+
+    invoke-direct {p0}, Lvg/c;-><init>()V
+
+    const/4 v0, 0x1
+
+    iput-boolean v0, p0, Lstudio/scillarium/ottnavigator/PlayerActivity;->N:Z
+
+    new-instance v0, Lstudio/scillarium/ottnavigator/PlayerActivity$c;
+
+    invoke-direct {v0, p0}, Lstudio/scillarium/ottnavigator/PlayerActivity$c;-><init>(Lstudio/scillarium/ottnavigator/PlayerActivity;)V
+
+    invoke-static {v0}, Lda/u0;->c(Ltd/a;)Ljd/b;
+
+    move-result-object v0
+
+    iput-object v0, p0, Lstudio/scillarium/ottnavigator/PlayerActivity;->O:Ljd/b;
+
+    new-instance v0, Lstudio/scillarium/ottnavigator/PlayerActivity$a;
+
+    invoke-direct {v0, p0}, Lstudio/scillarium/ottnavigator/PlayerActivity$a;-><init>(Lstudio/scillarium/ottnavigator/PlayerActivity;)V
+
+    invoke-static {v0}, Lda/u0;->c(Ltd/a;)Ljd/b;
+
+    move-result-object v0
+
+    iput-object v0, p0, Lstudio/scillarium/ottnavigator/PlayerActivity;->V:Ljd/b;
+
+    sget-object v0, Lstudio/scillarium/ottnavigator/PlayerActivity$b;->p:Lstudio/scillarium/ottnavigator/PlayerActivity$b;
+
+    invoke-static {v0}, Lda/u0;->c(Ltd/a;)Ljd/b;
+
+    move-result-object v0
+
+    iput-object v0, p0, Lstudio/scillarium/ottnavigator/PlayerActivity;->W:Ljd/b;
+
+    new-instance v0, Lstudio/scillarium/ottnavigator/PlayerActivity$d;
+
+    invoke-direct {v0, p0}, Lstudio/scillarium/ottnavigator/PlayerActivity$d;-><init>(Lstudio/scillarium/ottnavigator/PlayerActivity;)V
+
+    invoke-static {v0}, Lda/u0;->c(Ltd/a;)Ljd/b;
+
+    move-result-object v0
+
+    iput-object v0, p0, Lstudio/scillarium/ottnavigator/PlayerActivity;->X:Ljd/b;
+
+    return-void
+.end method
+
+.method public static synthetic L(Lstudio/scillarium/ottnavigator/PlayerActivity;ZI)V
+    .locals 1
+
+    const/4 v0, 0x1
+
+    and-int/2addr p2, v0
+
+    if-eqz p2, :cond_0
+
+    move p1, v0
+
+    :cond_0
+    invoke-virtual {p0, p1}, Lstudio/scillarium/ottnavigator/PlayerActivity;->K(Z)V
+
+    return-void
+.end method
+
+.method public static synthetic O(Lstudio/scillarium/ottnavigator/PlayerActivity;Ljava/lang/String;ZI)V
+    .locals 0
+
+    and-int/lit8 p3, p3, 0x2
+
+    if-eqz p3, :cond_0
+
+    const/4 p2, 0x0
+
+    :cond_0
+    invoke-virtual {p0, p1, p2}, Lstudio/scillarium/ottnavigator/PlayerActivity;->N(Ljava/lang/String;Z)V
+
+    return-void
+.end method
+
+.method public static synthetic R(Lstudio/scillarium/ottnavigator/PlayerActivity;ILfg/k;Lfg/i;Lvg/d;IJZI)V
+    .locals 11
+
+    and-int/lit8 v0, p9, 0x10
+
+    const/4 v1, 0x0
+
+    if-eqz v0, :cond_0
+
+    move v7, v1
+
+    goto :goto_0
+
+    :cond_0
+    move/from16 v7, p5
+
+    :goto_0
+    and-int/lit8 v0, p9, 0x20
+
+    if-eqz v0, :cond_1
+
+    const-wide/16 v2, 0x0
+
+    move-wide v8, v2
+
+    goto :goto_1
+
+    :cond_1
+    move-wide/from16 v8, p6
+
+    :goto_1
+    and-int/lit8 v0, p9, 0x40
+
+    if-eqz v0, :cond_2
+
+    move v10, v1
+
+    goto :goto_2
+
+    :cond_2
+    move/from16 v10, p8
+
+    :goto_2
+    move-object v2, p0
+
+    move v3, p1
+
+    move-object v4, p2
+
+    move-object v5, p3
+
+    move-object v6, p4
+
+    invoke-virtual/range {v2 .. v10}, Lstudio/scillarium/ottnavigator/PlayerActivity;->Q(ILfg/k;Lfg/i;Lvg/d;IJZ)V
+
+    return-void
+.end method
+
+.method public static synthetic T(Lstudio/scillarium/ottnavigator/PlayerActivity;Lfg/i;Lfg/k;Lvg/d;JZI)V
+    .locals 7
+
+    and-int/lit8 v0, p7, 0x4
+
+    if-eqz v0, :cond_0
+
+    const/4 p3, 0x0
+
+    :cond_0
+    move-object v3, p3
+
+    and-int/lit8 p3, p7, 0x8
+
+    if-eqz p3, :cond_1
+
+    const-wide/16 p4, 0x0
+
+    :cond_1
+    move-wide v4, p4
+
+    and-int/lit8 p3, p7, 0x10
+
+    if-eqz p3, :cond_2
+
+    const/4 p6, 0x0
+
+    :cond_2
+    move v6, p6
+
+    move-object v0, p0
+
+    move-object v1, p1
+
+    move-object v2, p2
+
+    invoke-virtual/range {v0 .. v6}, Lstudio/scillarium/ottnavigator/PlayerActivity;->S(Lfg/i;Lfg/k;Lvg/d;JZ)V
+
+    return-void
+.end method
+
+.method public static final x(Lstudio/scillarium/ottnavigator/PlayerActivity;ILfg/i;Lfg/k;)V
+    .locals 11
+
+    invoke-virtual {p0}, Lstudio/scillarium/ottnavigator/PlayerActivity;->I()Lstudio/scillarium/ottnavigator/ui/views/PlayerLayerOverlayView;
+
+    move-result-object v0
+
+    const/4 v1, 0x0
+
+    invoke-virtual {v0, v1}, Lstudio/scillarium/ottnavigator/ui/views/PlayerLayerOverlayView;->c(Lstudio/scillarium/ottnavigator/ui/views/PlayerLayerOverlayView$b;)V
+
+    sget-object v0, Lcg/i4;->e0:Lcg/i4;
+
+    const/4 v2, 0x0
+
+    const/4 v3, 0x1
+
+    invoke-static {v0, v2, v3, v1}, Lcg/i4;->e(Lcg/i4;ZILjava/lang/Object;)Z
+
+    move-result v0
+
+    const/4 v4, -0x1
+
+    const-wide/16 v5, 0x0
+
+    if-eqz v0, :cond_2
+
+    sget-object v0, Lvf/r;->a:Lvf/r;
+
+    invoke-static {v4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Ljava/lang/Number;->longValue()J
+
+    move-result-wide v7
+
+    new-instance v0, Lbg/m1;
+
+    invoke-direct {v0, v1, v1, v1, p0}, Lbg/m1;-><init>(Ljava/lang/ref/WeakReference;Ljava/lang/ref/WeakReference;Ljava/lang/ref/WeakReference;Lstudio/scillarium/ottnavigator/PlayerActivity;)V
+
+    invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
+
+    move-result-object v9
+
+    invoke-static {}, Landroid/os/Looper;->myLooper()Landroid/os/Looper;
+
+    move-result-object v10
+
+    invoke-static {v9, v10}, Lda/o0;->b(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v9
+
+    if-eqz v9, :cond_0
+
+    invoke-virtual {v0}, Lbg/m1;->run()V
+
+    goto :goto_0
+
+    :cond_0
+    cmp-long v9, v7, v5
+
+    if-gtz v9, :cond_1
+
+    sget-object v7, Lvf/r;->d:Ljd/b;
+
+    check-cast v7, Ljd/e;
+
+    invoke-virtual {v7}, Ljd/e;->getValue()Ljava/lang/Object;
+
+    move-result-object v7
+
+    check-cast v7, Landroid/os/Handler;
+
+    invoke-virtual {v7, v0}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
+
+    goto :goto_0
+
+    :cond_1
+    sget-object v9, Lvf/r;->d:Ljd/b;
+
+    check-cast v9, Ljd/e;
+
+    invoke-virtual {v9}, Ljd/e;->getValue()Ljava/lang/Object;
+
+    move-result-object v9
+
+    check-cast v9, Landroid/os/Handler;
+
+    invoke-virtual {v9, v0, v7, v8}, Landroid/os/Handler;->postDelayed(Ljava/lang/Runnable;J)Z
+
+    :cond_2
+    :goto_0
+    invoke-virtual {p0}, Lstudio/scillarium/ottnavigator/PlayerActivity;->E()Lxg/v;
+
+    move-result-object v0
+
+    iget-wide v7, v0, Lxg/v;->h:J
+
+    cmp-long v0, v7, v5
+
+    if-eqz v0, :cond_5
+
+    sget-object v0, Lvf/r;->a:Lvf/r;
+
+    invoke-virtual {p0}, Lstudio/scillarium/ottnavigator/PlayerActivity;->E()Lxg/v;
+
+    move-result-object v0
+
+    iget-wide v5, v0, Lxg/v;->h:J
+
+    invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v0
+
+    invoke-static {v0}, Lqb/s0;->h(Ljava/lang/Number;)J
+
+    move-result-wide v7
+
+    add-long/2addr v7, v5
+
+    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
+
+    move-result-wide v5
+
+    sget-wide v9, Lvf/r;->b:J
+
+    add-long/2addr v5, v9
+
+    cmp-long v0, v7, v5
+
+    if-gez v0, :cond_3
+
+    move v0, v3
+
+    goto :goto_1
+
+    :cond_3
+    move v0, v2
+
+    :goto_1
+    if-eqz v0, :cond_5
+
+    invoke-virtual {p0}, Lstudio/scillarium/ottnavigator/PlayerActivity;->E()Lxg/v;
+
+    move-result-object v0
+
+    iget v0, v0, Lxg/v;->c:I
+
+    if-ne v0, v3, :cond_4
+
+    sget-object v0, Log/d0;->a:Log/d0;
+
+    invoke-virtual {p0}, Lstudio/scillarium/ottnavigator/PlayerActivity;->E()Lxg/v;
+
+    move-result-object v5
+
+    iget-object v5, v5, Lxg/v;->b:Lfg/i;
+
+    invoke-virtual {p0}, Lstudio/scillarium/ottnavigator/PlayerActivity;->E()Lxg/v;
+
+    move-result-object v6
+
+    iget-object v6, v6, Lxg/v;->d:Lfg/k;
+
+    invoke-virtual {p0}, Lstudio/scillarium/ottnavigator/PlayerActivity;->E()Lxg/v;
+
+    move-result-object v7
+
+    iget-wide v7, v7, Lxg/v;->f:J
+
+    invoke-virtual {p0}, Lstudio/scillarium/ottnavigator/PlayerActivity;->H()Lgg/y0;
+
+    move-result-object v9
+
+    invoke-virtual {v9}, Lgg/y0;->f()J
+
+    move-result-wide v9
+
+    add-long/2addr v9, v7
+
+    invoke-static {v9, v10}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+
+    move-result-object v7
+
+    invoke-virtual {v0, v5, v6, v7}, Log/d0;->b(Lfg/i;Lfg/k;Ljava/lang/Long;)V
+
+    goto :goto_2
+
+    :cond_4
+    sget-object v0, Log/d0;->a:Log/d0;
+
+    invoke-virtual {p0}, Lstudio/scillarium/ottnavigator/PlayerActivity;->E()Lxg/v;
+
+    move-result-object v5
+
+    iget-object v5, v5, Lxg/v;->b:Lfg/i;
+
+    invoke-virtual {v0, v5}, Log/d0;->e(Lfg/i;)V
+
+    :cond_5
+    :goto_2
+    invoke-virtual {p0}, Lstudio/scillarium/ottnavigator/PlayerActivity;->D()Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView;->d()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_6
+
+    invoke-static {p0, v2, v3}, Lstudio/scillarium/ottnavigator/PlayerActivity;->z(Lstudio/scillarium/ottnavigator/PlayerActivity;ZI)V
+
+    invoke-virtual {p0}, Lstudio/scillarium/ottnavigator/PlayerActivity;->D()Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView;
+
+    move-result-object v0
+
+    iput v4, v0, Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView;->p:I
+
+    :cond_6
+    iput-object v1, p0, Lstudio/scillarium/ottnavigator/PlayerActivity;->b0:Lfg/j;
+
+    new-instance p0, Ljava/lang/StringBuilder;
+
+    invoke-direct {p0}, Ljava/lang/StringBuilder;-><init>()V
+
+    invoke-virtual {p0, p1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    const-string p1, ": "
+
+    invoke-virtual {p0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget-object p1, p2, Lfg/i;->o:Ljava/lang/String;
+
+    invoke-virtual {p0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const/16 p1, 0x2f
+
+    invoke-virtual {p0, p1}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
+
+    if-eqz p3, :cond_7
+
+    iget p3, p3, Lfg/k;->q:I
+
+    int-to-long v0, p3
+
+    invoke-static {v0, v1}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+
+    move-result-object p3
+
+    goto :goto_3
+
+    :cond_7
+    const-string p3, ""
+
+    :goto_3
+    invoke-virtual {p0, p3}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {p0, p1}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
+
+    sget-object p1, Lgg/i0;->a:Lgg/i0;
+
+    const/4 p3, 0x2
+
+    invoke-static {p1, p2, v2, p3}, Lgg/i0;->a(Lgg/i0;Lfg/i;ZI)Lgg/q;
+
+    move-result-object p1
+
+    if-eqz p1, :cond_8
+
+    invoke-virtual {p1}, Lgg/q;->f()Lgg/i0$a;
+
+    move-result-object p1
+
+    if-eqz p1, :cond_8
+
+    iget-object p1, p1, Lgg/i0$a;->c:Ljava/lang/String;
+
+    if-nez p1, :cond_9
+
+    :cond_8
+    const-string p1, "?"
+
+    :cond_9
+    invoke-virtual {p0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {p0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object p0
+
+    const-string p1, "stream"
+
+    invoke-static {p1, p0}, Lgg/w0;->n(Ljava/lang/String;Ljava/lang/String;)V
+
+    return-void
+.end method
+
+.method public static final y(Lstudio/scillarium/ottnavigator/PlayerActivity;Z)V
+    .locals 11
+
+    invoke-virtual {p0}, Lstudio/scillarium/ottnavigator/PlayerActivity;->F()Lxg/i0;
+
+    move-result-object v0
+
+    const/4 v1, 0x0
+
+    invoke-virtual {v0, v1}, Lxg/i0;->a(Z)V
+
+    invoke-virtual {p0}, Lstudio/scillarium/ottnavigator/PlayerActivity;->J()Lstudio/scillarium/ottnavigator/ui/views/PlayerHud;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Lstudio/scillarium/ottnavigator/ui/views/PlayerHud;->e()V
+
+    invoke-virtual {p0}, Lstudio/scillarium/ottnavigator/PlayerActivity;->I()Lstudio/scillarium/ottnavigator/ui/views/PlayerLayerOverlayView;
+
+    move-result-object v0
+
+    invoke-static {v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
+
+    if-eqz p1, :cond_6
+
+    sget-object v2, Lk4/x;->s:Ljava/lang/Boolean;
+
+    const/4 v3, 0x1
+
+    const/4 v4, 0x0
+
+    if-eqz v2, :cond_0
+
+    invoke-virtual {v2}, Ljava/lang/Boolean;->booleanValue()Z
+
+    move-result v2
+
+    goto :goto_0
+
+    :cond_0
+    sget-object v2, Lcg/i4;->r0:Lcg/i4;
+
+    invoke-static {v2, v1, v3, v4}, Lcg/i4;->e(Lcg/i4;ZILjava/lang/Object;)Z
+
+    move-result v2
+
+    invoke-static {v2}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    move-result-object v5
+
+    sput-object v5, Lk4/x;->s:Ljava/lang/Boolean;
+
+    :goto_0
+    if-nez v2, :cond_6
+
+    sget-object v2, Lbg/o;->v:Lbg/o;
+
+    invoke-static {}, Lbg/o;->t()Lqg/m;
+
+    move-result-object v2
+
+    iget-boolean v2, v2, Lqg/m;->a:Z
+
+    if-eqz v2, :cond_6
+
+    sget-object v2, Lvf/r;->a:Lvf/r;
+
+    sget-object v2, Log/x0;->a:Log/x0;
+
+    sget-object v2, Log/x0;->i:Log/p0;
+
+    iget-wide v5, v2, Log/p0;->d:J
+
+    const/4 v2, 0x3
+
+    invoke-static {v2, v5, v6}, Lbg/p;->a(IJ)J
+
+    move-result-wide v5
+
+    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
+
+    move-result-wide v7
+
+    sget-wide v9, Lvf/r;->b:J
+
+    add-long/2addr v7, v9
+
+    cmp-long v2, v5, v7
+
+    if-gez v2, :cond_1
+
+    move v2, v3
+
+    goto :goto_1
+
+    :cond_1
+    move v2, v1
+
+    :goto_1
+    if-eqz v2, :cond_6
+
+    iget-object v2, v0, Lstudio/scillarium/ottnavigator/ui/views/PlayerLayerOverlayView;->x:Lxg/v;
+
+    if-nez v2, :cond_2
+
+    move-object v2, v4
+
+    :cond_2
+    iget-object v2, v2, Lxg/v;->i:Ljd/c;
+
+    if-eqz v2, :cond_6
+
+    invoke-static {}, Ldh/a;->c()J
+
+    move-result-wide v5
+
+    const/16 v2, 0xf
+
+    invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v2
+
+    invoke-static {v2}, Lqb/s0;->g(Ljava/lang/Number;)J
+
+    move-result-wide v7
+
+    add-long/2addr v7, v5
+
+    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
+
+    move-result-wide v5
+
+    sget-wide v9, Lvf/r;->b:J
+
+    add-long/2addr v5, v9
+
+    cmp-long v2, v7, v5
+
+    if-gez v2, :cond_3
+
+    goto :goto_2
+
+    :cond_3
+    move v3, v1
+
+    :goto_2
+    if-eqz v3, :cond_6
+
+    sget-object v2, Ldh/q1;->a:Ldh/q1;
+
+    invoke-virtual {v2, v4}, Ldh/q1;->n(Landroid/view/View;)Z
+
+    move-result v2
+
+    if-eqz v2, :cond_6
+
+    iget-object v0, v0, Lstudio/scillarium/ottnavigator/ui/views/PlayerLayerOverlayView;->x:Lxg/v;
+
+    if-nez v0, :cond_4
+
+    goto :goto_3
+
+    :cond_4
+    move-object v4, v0
+
+    :goto_3
+    iget-object v0, v4, Lxg/v;->a:Lstudio/scillarium/ottnavigator/PlayerActivity;
+
+    sget-object v2, Lz9/ca2;->t:Lrf/a;
+
+    if-nez v2, :cond_5
+
+    goto :goto_4
+
+    :cond_5
+    iget-object v3, v2, Lrf/a;->a:Ljava/lang/String;
+
+    invoke-virtual {v2, v3}, Lrf/a;->a(Ljava/lang/String;)Z
+
+    move-result v3
+
+    if-eqz v3, :cond_6
+
+    iget-object v3, v2, Lrf/a;->a:Ljava/lang/String;
+
+    invoke-virtual {v2, v3}, Lrf/a;->b(Ljava/lang/String;)V
+
+    sget-object v2, Lz9/ca2;->r:Lc8/e;
+
+    invoke-virtual {v2, v0}, Lc8/e;->p(Landroid/app/Activity;)V
+
+    :cond_6
+    :goto_4
+    if-eqz p1, :cond_9
+
+    sget-object p1, Ldh/f;->a:Ldh/f;
+
+    invoke-virtual {p0}, Lstudio/scillarium/ottnavigator/PlayerActivity;->E()Lxg/v;
+
+    move-result-object p0
+
+    const-wide v2, -0xcfddb858a16fL
+
+    invoke-static {v2, v3}, Lhd/a;->a(J)Ljava/lang/String;
+
+    sget-object p1, Lgg/i0;->a:Lgg/i0;
+
+    invoke-virtual {p1}, Lgg/i0;->g()Z
+
+    move-result p1
+
+    if-nez p1, :cond_7
+
+    goto :goto_5
+
+    :cond_7
+    sget-object p1, Lkd/n;->o:Lkd/n;
+
+    iput-object p1, p0, Lxg/v;->s:Ljava/util/List;
+
+    invoke-virtual {p0, v1}, Lxg/v;->g(Z)Lzf/d;
+
+    move-result-object p1
+
+    if-nez p1, :cond_8
+
+    goto :goto_5
+
+    :cond_8
+    sget-object v0, Lvf/r;->a:Lvf/r;
+
+    const/16 v1, 0x14
+
+    invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v1
+
+    invoke-static {v1}, Lqb/s0;->h(Ljava/lang/Number;)J
+
+    move-result-wide v1
+
+    new-instance v3, Ldh/l;
+
+    invoke-direct {v3, p0, p1}, Ldh/l;-><init>(Lxg/v;Lzf/d;)V
+
+    invoke-virtual {v0, v1, v2, v3}, Lvf/r;->d(JLtd/a;)V
+
+    :cond_9
+    :goto_5
+    return-void
+.end method
+
+.method public static z(Lstudio/scillarium/ottnavigator/PlayerActivity;ZI)V
+    .locals 1
+
+    const/4 v0, 0x1
+
+    and-int/2addr p2, v0
+
+    if-eqz p2, :cond_0
+
+    move p1, v0
+
+    :cond_0
+    invoke-virtual {p0}, Lstudio/scillarium/ottnavigator/PlayerActivity;->D()Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView;
+
+    move-result-object p0
+
+    invoke-virtual {p0, p1}, Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView;->a(Z)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final A(Ljava/lang/String;)V
+    .locals 8
+
+    if-eqz p1, :cond_5
+
+    invoke-virtual {p1}, Ljava/lang/String;->hashCode()I
+
+    move-result v0
+
+    const v1, 0x35f183
+
+    const-string v2, "img"
+
+    const-string v3, "ottnav"
+
+    const/4 v4, 0x6
+
+    const/4 v5, 0x0
+
+    const/4 v6, 0x2
+
+    const/4 v7, 0x0
+
+    if-eq v0, v1, :cond_3
+
+    const v1, 0x5e0c07b
+
+    if-eq v0, v1, :cond_2
+
+    const v1, 0x72d0b2fa
+
+    if-eq v0, v1, :cond_0
+
+    goto/16 :goto_0
+
+    :cond_0
+    const-string v0, "scratch"
+
+    invoke-virtual {p1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result p1
+
+    if-nez p1, :cond_1
+
+    goto/16 :goto_0
+
+    :cond_1
+    iget-object p1, p0, Lstudio/scillarium/ottnavigator/PlayerActivity;->V:Ljd/b;
+
+    invoke-interface {p1}, Ljd/b;->getValue()Ljava/lang/Object;
+
+    move-result-object p1
+
+    check-cast p1, Lcom/facebook/drawee/view/SimpleDraweeView;
+
+    sget-object v0, Lvf/p;->b:Lvf/p$a;
+
+    sget-object v1, Ldh/i1;->a:Ldh/i1;
+
+    sget-object v1, Ldh/i1;->D:Ljd/b;
+
+    check-cast v1, Ljd/e;
+
+    invoke-virtual {v1}, Ljd/e;->getValue()Ljava/lang/Object;
+
+    move-result-object v1
+
+    check-cast v1, Ljava/lang/String;
+
+    invoke-static {v0, v1, v7, v5, v4}, Lvf/p$a;->c(Lvf/p$a;Ljava/lang/String;ZLjava/lang/String;I)Lvf/p;
+
+    move-result-object v0
+
+    invoke-static {v0, v3, v7, v6}, Lvf/p;->c(Lvf/p;Ljava/lang/String;ZI)Lvf/p;
+
+    invoke-static {v0, v2, v7, v6}, Lvf/p;->c(Lvf/p;Ljava/lang/String;ZI)Lvf/p;
+
+    sget-object v1, Ldh/i1;->G:Ljd/b;
+
+    check-cast v1, Ljd/e;
+
+    invoke-virtual {v1}, Ljd/e;->getValue()Ljava/lang/Object;
+
+    move-result-object v1
+
+    check-cast v1, Ljava/lang/String;
+
+    invoke-static {v0, v1, v7, v6}, Lvf/p;->c(Lvf/p;Ljava/lang/String;ZI)Lvf/p;
+
+    invoke-virtual {v0}, Lvf/p;->d()Landroid/net/Uri;
+
+    move-result-object v0
+
+    invoke-static {v0}, Ll4/b;->a(Landroid/net/Uri;)Ll4/b;
+
+    move-result-object v0
+
+    invoke-virtual {p1, v0}, Lcom/facebook/drawee/view/SimpleDraweeView;->setImageRequest(Ll4/b;)V
+
+    invoke-virtual {p1, v7}, Landroid/widget/ImageView;->setVisibility(I)V
+
+    goto/16 :goto_1
+
+    :cond_2
+    const-string v0, "grain"
+
+    invoke-virtual {p1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result p1
+
+    if-eqz p1, :cond_5
+
+    iget-object p1, p0, Lstudio/scillarium/ottnavigator/PlayerActivity;->V:Ljd/b;
+
+    invoke-interface {p1}, Ljd/b;->getValue()Ljava/lang/Object;
+
+    move-result-object p1
+
+    check-cast p1, Lcom/facebook/drawee/view/SimpleDraweeView;
+
+    sget-object v0, Lvf/p;->b:Lvf/p$a;
+
+    sget-object v1, Ldh/i1;->a:Ldh/i1;
+
+    sget-object v1, Ldh/i1;->D:Ljd/b;
+
+    check-cast v1, Ljd/e;
+
+    invoke-virtual {v1}, Ljd/e;->getValue()Ljava/lang/Object;
+
+    move-result-object v1
+
+    check-cast v1, Ljava/lang/String;
+
+    invoke-static {v0, v1, v7, v5, v4}, Lvf/p$a;->c(Lvf/p$a;Ljava/lang/String;ZLjava/lang/String;I)Lvf/p;
+
+    move-result-object v0
+
+    invoke-static {v0, v3, v7, v6}, Lvf/p;->c(Lvf/p;Ljava/lang/String;ZI)Lvf/p;
+
+    invoke-static {v0, v2, v7, v6}, Lvf/p;->c(Lvf/p;Ljava/lang/String;ZI)Lvf/p;
+
+    sget-object v1, Ldh/i1;->F:Ljd/b;
+
+    check-cast v1, Ljd/e;
+
+    invoke-virtual {v1}, Ljd/e;->getValue()Ljava/lang/Object;
+
+    move-result-object v1
+
+    check-cast v1, Ljava/lang/String;
+
+    invoke-static {v0, v1, v7, v6}, Lvf/p;->c(Lvf/p;Ljava/lang/String;ZI)Lvf/p;
+
+    invoke-virtual {v0}, Lvf/p;->d()Landroid/net/Uri;
+
+    move-result-object v0
+
+    invoke-static {v0}, Ll4/b;->a(Landroid/net/Uri;)Ll4/b;
+
+    move-result-object v0
+
+    invoke-virtual {p1, v0}, Lcom/facebook/drawee/view/SimpleDraweeView;->setImageRequest(Ll4/b;)V
+
+    invoke-virtual {p1, v7}, Landroid/widget/ImageView;->setVisibility(I)V
+
+    goto :goto_1
+
+    :cond_3
+    const-string v0, "snow"
+
+    invoke-virtual {p1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result p1
+
+    if-nez p1, :cond_4
+
+    goto :goto_0
+
+    :cond_4
+    iget-object p1, p0, Lstudio/scillarium/ottnavigator/PlayerActivity;->V:Ljd/b;
+
+    invoke-interface {p1}, Ljd/b;->getValue()Ljava/lang/Object;
+
+    move-result-object p1
+
+    check-cast p1, Lcom/facebook/drawee/view/SimpleDraweeView;
+
+    sget-object v0, Lvf/p;->b:Lvf/p$a;
+
+    sget-object v1, Ldh/i1;->a:Ldh/i1;
+
+    sget-object v1, Ldh/i1;->D:Ljd/b;
+
+    check-cast v1, Ljd/e;
+
+    invoke-virtual {v1}, Ljd/e;->getValue()Ljava/lang/Object;
+
+    move-result-object v1
+
+    check-cast v1, Ljava/lang/String;
+
+    invoke-static {v0, v1, v7, v5, v4}, Lvf/p$a;->c(Lvf/p$a;Ljava/lang/String;ZLjava/lang/String;I)Lvf/p;
+
+    move-result-object v0
+
+    invoke-static {v0, v3, v7, v6}, Lvf/p;->c(Lvf/p;Ljava/lang/String;ZI)Lvf/p;
+
+    invoke-static {v0, v2, v7, v6}, Lvf/p;->c(Lvf/p;Ljava/lang/String;ZI)Lvf/p;
+
+    sget-object v1, Ldh/i1;->H:Ljd/b;
+
+    check-cast v1, Ljd/e;
+
+    invoke-virtual {v1}, Ljd/e;->getValue()Ljava/lang/Object;
+
+    move-result-object v1
+
+    check-cast v1, Ljava/lang/String;
+
+    invoke-static {v0, v1, v7, v6}, Lvf/p;->c(Lvf/p;Ljava/lang/String;ZI)Lvf/p;
+
+    invoke-virtual {v0}, Lvf/p;->d()Landroid/net/Uri;
+
+    move-result-object v0
+
+    invoke-static {v0}, Ll4/b;->a(Landroid/net/Uri;)Ll4/b;
+
+    move-result-object v0
+
+    invoke-virtual {p1, v0}, Lcom/facebook/drawee/view/SimpleDraweeView;->setImageRequest(Ll4/b;)V
+
+    invoke-virtual {p1, v7}, Landroid/widget/ImageView;->setVisibility(I)V
+
+    goto :goto_1
+
+    :cond_5
+    :goto_0
+    iget-object p1, p0, Lstudio/scillarium/ottnavigator/PlayerActivity;->V:Ljd/b;
+
+    invoke-interface {p1}, Ljd/b;->getValue()Ljava/lang/Object;
+
+    move-result-object p1
+
+    check-cast p1, Lcom/facebook/drawee/view/SimpleDraweeView;
+
+    const/16 v0, 0x8
+
+    invoke-virtual {p1, v0}, Landroid/widget/ImageView;->setVisibility(I)V
+
+    :goto_1
+    return-void
+.end method
+
+.method public final B(Ljava/lang/String;)I
+    .locals 2
+
+    invoke-virtual {p1}, Ljava/lang/String;->hashCode()I
+
+    move-result v0
+
+    const/16 v1, 0x62
+
+    if-eq v0, v1, :cond_e
+
+    const/16 v1, 0x6c
+
+    if-eq v0, v1, :cond_c
+
+    const/16 v1, 0x72
+
+    if-eq v0, v1, :cond_a
+
+    const/16 v1, 0x74
+
+    if-eq v0, v1, :cond_8
+
+    const/16 v1, 0xc4a
+
+    if-eq v0, v1, :cond_6
+
+    const/16 v1, 0xc50
+
+    if-eq v0, v1, :cond_4
+
+    const/16 v1, 0xe78
+
+    if-eq v0, v1, :cond_2
+
+    const/16 v1, 0xe7e
+
+    if-eq v0, v1, :cond_0
+
+    goto/16 :goto_0
+
+    :cond_0
+    const-string v0, "tr"
+
+    invoke-virtual {p1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result p1
+
+    if-nez p1, :cond_1
+
+    goto :goto_0
+
+    :cond_1
+    const/16 p1, 0x35
+
+    goto :goto_1
+
+    :cond_2
+    const-string v0, "tl"
+
+    invoke-virtual {p1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result p1
+
+    if-nez p1, :cond_3
+
+    goto :goto_0
+
+    :cond_3
+    const/16 p1, 0x33
+
+    goto :goto_1
+
+    :cond_4
+    const-string v0, "br"
+
+    invoke-virtual {p1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result p1
+
+    if-nez p1, :cond_5
+
+    goto :goto_0
+
+    :cond_5
+    const/16 p1, 0x55
+
+    goto :goto_1
+
+    :cond_6
+    const-string v0, "bl"
+
+    invoke-virtual {p1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result p1
+
+    if-nez p1, :cond_7
+
+    goto :goto_0
+
+    :cond_7
+    const/16 p1, 0x53
+
+    goto :goto_1
+
+    :cond_8
+    const-string v0, "t"
+
+    invoke-virtual {p1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result p1
+
+    if-nez p1, :cond_9
+
+    goto :goto_0
+
+    :cond_9
+    const/16 p1, 0x31
+
+    goto :goto_1
+
+    :cond_a
+    const-string v0, "r"
+
+    invoke-virtual {p1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result p1
+
+    if-nez p1, :cond_b
+
+    goto :goto_0
+
+    :cond_b
+    const/16 p1, 0x15
+
+    goto :goto_1
+
+    :cond_c
+    const-string v0, "l"
+
+    invoke-virtual {p1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result p1
+
+    if-nez p1, :cond_d
+
+    goto :goto_0
+
+    :cond_d
+    const/16 p1, 0x13
+
+    goto :goto_1
+
+    :cond_e
+    const-string v0, "b"
+
+    invoke-virtual {p1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result p1
+
+    if-nez p1, :cond_f
+
+    :goto_0
+    const/16 p1, 0x11
+
+    goto :goto_1
+
+    :cond_f
+    const/16 p1, 0x51
+
+    :goto_1
+    return p1
+.end method
+
+.method public final C()Lxg/i;
+    .locals 1
+
+    iget-object v0, p0, Lstudio/scillarium/ottnavigator/PlayerActivity;->c0:Lxg/i;
+
+    if-eqz v0, :cond_0
+
+    return-object v0
+
+    :cond_0
+    const/4 v0, 0x0
+
+    return-object v0
+.end method
+
+.method public final D()Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView;
+    .locals 1
+
+    iget-object v0, p0, Lstudio/scillarium/ottnavigator/PlayerActivity;->R:Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView;
+
+    if-eqz v0, :cond_0
+
+    return-object v0
+
+    :cond_0
+    const/4 v0, 0x0
+
+    return-object v0
+.end method
+
+.method public final E()Lxg/v;
+    .locals 1
+
+    iget-object v0, p0, Lstudio/scillarium/ottnavigator/PlayerActivity;->M:Lxg/v;
+
+    if-eqz v0, :cond_0
+
+    return-object v0
+
+    :cond_0
+    const/4 v0, 0x0
+
+    return-object v0
+.end method
+
+.method public final F()Lxg/i0;
+    .locals 1
+
+    iget-object v0, p0, Lstudio/scillarium/ottnavigator/PlayerActivity;->d0:Lxg/i0;
+
+    if-eqz v0, :cond_0
+
+    return-object v0
+
+    :cond_0
+    const/4 v0, 0x0
+
+    return-object v0
+.end method
+
+.method public final G()Landroid/widget/FrameLayout;
+    .locals 1
+
+    iget-object v0, p0, Lstudio/scillarium/ottnavigator/PlayerActivity;->U:Landroid/widget/FrameLayout;
+
+    if-eqz v0, :cond_0
+
+    return-object v0
+
+    :cond_0
+    const/4 v0, 0x0
+
+    return-object v0
+.end method
+
+.method public final H()Lgg/y0;
+    .locals 1
+
+    iget-object v0, p0, Lstudio/scillarium/ottnavigator/PlayerActivity;->P:Lgg/y0;
+
+    if-eqz v0, :cond_0
+
+    return-object v0
+
+    :cond_0
+    const/4 v0, 0x0
+
+    return-object v0
+.end method
+
+.method public final I()Lstudio/scillarium/ottnavigator/ui/views/PlayerLayerOverlayView;
+    .locals 1
+
+    iget-object v0, p0, Lstudio/scillarium/ottnavigator/PlayerActivity;->Q:Lstudio/scillarium/ottnavigator/ui/views/PlayerLayerOverlayView;
+
+    if-eqz v0, :cond_0
+
+    return-object v0
+
+    :cond_0
+    const/4 v0, 0x0
+
+    return-object v0
+.end method
+
+.method public final J()Lstudio/scillarium/ottnavigator/ui/views/PlayerHud;
+    .locals 1
+
+    iget-object v0, p0, Lstudio/scillarium/ottnavigator/PlayerActivity;->S:Lstudio/scillarium/ottnavigator/ui/views/PlayerHud;
+
+    if-eqz v0, :cond_0
+
+    return-object v0
+
+    :cond_0
+    const/4 v0, 0x0
+
+    return-object v0
+.end method
+
+.method public final K(Z)V
+    .locals 4
+
+    sget-object v0, Lvf/r;->a:Lvf/r;
+
+    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
+
+    move-result-wide v0
+
+    sget-wide v2, Lvf/r;->b:J
+
+    add-long/2addr v0, v2
+
+    iput-wide v0, p0, Lstudio/scillarium/ottnavigator/PlayerActivity;->J:J
+
+    if-eqz p1, :cond_0
+
+    iput-wide v0, p0, Lstudio/scillarium/ottnavigator/PlayerActivity;->K:J
+
+    :cond_0
+    const/4 p1, 0x0
+
+    iput-boolean p1, p0, Lstudio/scillarium/ottnavigator/PlayerActivity;->Y:Z
+
+    iput-boolean p1, p0, Lstudio/scillarium/ottnavigator/PlayerActivity;->Z:Z
+
+    iput-boolean p1, p0, Lstudio/scillarium/ottnavigator/PlayerActivity;->a0:Z
+
+    return-void
+.end method
+
+.method public final M()Z
+    .locals 1
+
+    iget-object v0, p0, Lvg/c;->G:Ljava/util/concurrent/ConcurrentSkipListSet;
+
+    invoke-virtual {v0}, Ljava/util/concurrent/ConcurrentSkipListSet;->isEmpty()Z
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public final N(Ljava/lang/String;Z)V
+    .locals 3
+
+    new-instance v0, Lxg/c0;
+
+    invoke-virtual {p0}, Lstudio/scillarium/ottnavigator/PlayerActivity;->E()Lxg/v;
+
+    move-result-object v1
+
+    invoke-direct {v0, v1}, Lxg/c0;-><init>(Lxg/v;)V
+
+    const/4 v1, 0x0
+
+    const/4 v2, 0x4
+
+    invoke-static {v0, p1, p2, v1, v2}, Lxg/c0;->c(Lxg/c0;Ljava/lang/String;ZZI)V
+
+    return-void
+.end method
+
+.method public final P()V
+    .locals 4
+
+    invoke-virtual {p0}, Lstudio/scillarium/ottnavigator/PlayerActivity;->H()Lgg/y0;
+
+    move-result-object v0
+
+    const/4 v1, 0x1
+
+    invoke-virtual {v0, v1}, Lgg/y0;->q(Z)V
+
+    invoke-virtual {p0}, Lstudio/scillarium/ottnavigator/PlayerActivity;->H()Lgg/y0;
+
+    move-result-object v0
+
+    invoke-static {v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
+
+    instance-of v0, v0, Ljg/g;
+
+    xor-int/2addr v0, v1
+
+    if-eqz v0, :cond_1
+
+    invoke-virtual {p0}, Lstudio/scillarium/ottnavigator/PlayerActivity;->H()Lgg/y0;
+
+    move-result-object v0
+
+    invoke-virtual {p0}, Lstudio/scillarium/ottnavigator/PlayerActivity;->E()Lxg/v;
+
+    move-result-object v2
+
+    iget v2, v2, Lxg/v;->c:I
+
+    if-ne v2, v1, :cond_0
+
+    invoke-virtual {p0}, Lstudio/scillarium/ottnavigator/PlayerActivity;->E()Lxg/v;
+
+    move-result-object v2
+
+    iget-wide v2, v2, Lxg/v;->n:D
+
+    goto :goto_0
+
+    :cond_0
+    const-wide/high16 v2, 0x3ff0000000000000L    # 1.0
+
+    :goto_0
+    invoke-virtual {v0, v2, v3}, Lgg/y0;->F(D)V
+
+    :cond_1
+    sget-object v0, Lcg/i4;->k2:Lcg/i4;
+
+    const/4 v2, 0x0
+
+    const/4 v3, 0x0
+
+    invoke-static {v0, v2, v1, v3}, Lcg/i4;->e(Lcg/i4;ZILjava/lang/Object;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_2
+
+    sget-object v0, Lvf/r;->a:Lvf/r;
+
+    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
+
+    move-result-wide v0
+
+    sget-wide v2, Lvf/r;->b:J
+
+    add-long/2addr v0, v2
+
+    iput-wide v0, p0, Lstudio/scillarium/ottnavigator/PlayerActivity;->K:J
+
+    :cond_2
+    iget-object v0, p0, Lstudio/scillarium/ottnavigator/PlayerActivity;->T:Landroid/view/View;
+
+    if-nez v0, :cond_3
+
+    goto :goto_1
+
+    :cond_3
+    const/16 v1, 0x8
+
+    invoke-virtual {v0, v1}, Landroid/view/View;->setVisibility(I)V
+
+    :goto_1
+    return-void
+.end method
+
+.method public final Q(ILfg/k;Lfg/i;Lvg/d;IJZ)V
+    .locals 16
+
+    sget-object v0, Lvf/r;->a:Lvf/r;
+
+    const/4 v0, -0x1
+
+    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Ljava/lang/Number;->longValue()J
+
+    move-result-wide v0
+
+    const/4 v4, 0x0
+
+    const/4 v5, 0x0
+
+    const/4 v3, 0x0
+
+    new-instance v15, Lstudio/scillarium/ottnavigator/PlayerActivity$e;
+
+    move-object v2, v15
+
+    move-object/from16 v6, p3
+
+    move-object/from16 v7, p0
+
+    move/from16 v8, p1
+
+    move-object/from16 v9, p2
+
+    move-object/from16 v10, p4
+
+    move/from16 v11, p5
+
+    move/from16 v12, p8
+
+    move-wide/from16 v13, p6
+
+    invoke-direct/range {v2 .. v14}, Lstudio/scillarium/ottnavigator/PlayerActivity$e;-><init>(Ljava/lang/ref/WeakReference;Ljava/lang/ref/WeakReference;Ljava/lang/ref/WeakReference;Lfg/i;Lstudio/scillarium/ottnavigator/PlayerActivity;ILfg/k;Lvg/d;IZJ)V
+
+    invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
+
+    move-result-object v2
+
+    invoke-static {}, Landroid/os/Looper;->myLooper()Landroid/os/Looper;
+
+    move-result-object v3
+
+    invoke-static {v2, v3}, Lda/o0;->b(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v2
+
+    if-eqz v2, :cond_0
+
+    invoke-interface {v15}, Ljava/lang/Runnable;->run()V
+
+    goto :goto_0
+
+    :cond_0
+    const-wide/16 v2, 0x0
+
+    cmp-long v2, v0, v2
+
+    if-gtz v2, :cond_1
+
+    sget-object v0, Lvf/r;->d:Ljd/b;
+
+    check-cast v0, Ljd/e;
+
+    invoke-virtual {v0}, Ljd/e;->getValue()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Landroid/os/Handler;
+
+    invoke-virtual {v0, v15}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
+
+    goto :goto_0
+
+    :cond_1
+    sget-object v2, Lvf/r;->d:Ljd/b;
+
+    check-cast v2, Ljd/e;
+
+    invoke-virtual {v2}, Ljd/e;->getValue()Ljava/lang/Object;
+
+    move-result-object v2
+
+    check-cast v2, Landroid/os/Handler;
+
+    invoke-virtual {v2, v15, v0, v1}, Landroid/os/Handler;->postDelayed(Ljava/lang/Runnable;J)Z
+
+    :goto_0
+    return-void
+.end method
+
+.method public final S(Lfg/i;Lfg/k;Lvg/d;JZ)V
+    .locals 10
+
+    move-object v3, p1
+
+    move-object v2, p2
+
+    if-nez v2, :cond_0
+
+    return-void
+
+    :cond_0
+    const/4 v0, 0x3
+
+    if-eqz p6, :cond_1
+
+    move v5, v0
+
+    goto :goto_0
+
+    :cond_1
+    const/4 v1, 0x0
+
+    move v5, v1
+
+    :goto_0
+    const/4 v1, 0x1
+
+    if-nez p3, :cond_3
+
+    iget-object v4, v3, Lfg/i;->t:Lfg/g;
+
+    const/4 v6, 0x1
+
+    new-instance v7, Lvg/d;
+
+    invoke-direct {v7}, Lvg/d;-><init>()V
+
+    if-eqz v4, :cond_2
+
+    iget-object v8, v7, Lvg/d;->o:Ljava/util/LinkedList;
+
+    invoke-static {v6, v4, v8}, Lbg/h;->c(ILfg/g;Ljava/util/LinkedList;)V
+
+    goto :goto_1
+
+    :cond_2
+    iget-object v4, v7, Lvg/d;->o:Ljava/util/LinkedList;
+
+    new-instance v8, Lvg/d$b;
+
+    iget-object v9, v3, Lfg/i;->t:Lfg/g;
+
+    invoke-direct {v8, v6, v9}, Lvg/d$b;-><init>(ILjava/lang/Object;)V
+
+    invoke-virtual {v4, v8}, Ljava/util/LinkedList;->add(Ljava/lang/Object;)Z
+
+    :goto_1
+    iget-object v4, v7, Lvg/d;->o:Ljava/util/LinkedList;
+
+    const/4 v6, 0x2
+
+    invoke-static {v6, p1, v4}, Lbg/i;->a(ILfg/i;Ljava/util/LinkedList;)V
+
+    iget-object v4, v7, Lvg/d;->o:Ljava/util/LinkedList;
+
+    invoke-static {v0, p2, v4}, Lbg/j;->b(ILfg/k;Ljava/util/LinkedList;)V
+
+    move-object v4, v7
+
+    goto :goto_2
+
+    :cond_3
+    move-object v4, p3
+
+    :goto_2
+    const/4 v8, 0x0
+
+    const/16 v9, 0x40
+
+    move-object v0, p0
+
+    move-object v2, p2
+
+    move-object v3, p1
+
+    move-wide v6, p4
+
+    invoke-static/range {v0 .. v9}, Lstudio/scillarium/ottnavigator/PlayerActivity;->R(Lstudio/scillarium/ottnavigator/PlayerActivity;ILfg/k;Lfg/i;Lvg/d;IJZI)V
+
+    return-void
+.end method
+
+.method public final U(Z)V
+    .locals 21
+
+    invoke-virtual/range {p0 .. p0}, Lstudio/scillarium/ottnavigator/PlayerActivity;->D()Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView;
+
+    move-result-object v0
+
+    const/4 v1, 0x0
+
+    invoke-virtual {v0, v1}, Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView;->a(Z)V
+
+    invoke-virtual/range {p0 .. p0}, Lstudio/scillarium/ottnavigator/PlayerActivity;->D()Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView;
+
+    move-result-object v0
+
+    invoke-static {v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
+
+    sget-object v2, Lvf/r;->a:Lvf/r;
+
+    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
+
+    move-result-wide v2
+
+    sget-wide v4, Lvf/r;->b:J
+
+    add-long/2addr v2, v4
+
+    iput-wide v2, v0, Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView;->s:J
+
+    move/from16 v2, p1
+
+    invoke-virtual {v0, v2}, Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView;->c(Z)Ljd/f;
+
+    move-result-object v2
+
+    if-nez v2, :cond_0
+
+    goto/16 :goto_8
+
+    :cond_0
+    iget-object v3, v2, Ljd/f;->o:Ljava/lang/Object;
+
+    check-cast v3, Lfg/i;
+
+    iget-object v4, v2, Ljd/f;->p:Ljava/lang/Object;
+
+    check-cast v4, Ljava/lang/Number;
+
+    invoke-virtual {v4}, Ljava/lang/Number;->intValue()I
+
+    move-result v4
+
+    iget-object v2, v2, Ljd/f;->q:Ljava/lang/Object;
+
+    check-cast v2, Ljava/util/List;
+
+    iput v4, v0, Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView;->p:I
+
+    invoke-interface {v2}, Ljava/util/List;->size()I
+
+    move-result v5
+
+    const/4 v6, 0x3
+
+    const/4 v10, 0x2
+
+    const/4 v7, 0x1
+
+    if-gt v5, v6, :cond_1
+
+    const/4 v5, 0x0
+
+    :goto_0
+    move-object v12, v5
+
+    goto :goto_1
+
+    :cond_1
+    if-le v4, v7, :cond_2
+
+    add-int/lit8 v5, v4, -0x2
+
+    invoke-interface {v2, v5}, Ljava/util/List;->get(I)Ljava/lang/Object;
+
+    move-result-object v5
+
+    check-cast v5, Lfg/i;
+
+    goto :goto_0
+
+    :cond_2
+    if-ne v4, v7, :cond_3
+
+    invoke-static {v2, v7}, Landroidx/fragment/app/b1;->a(Ljava/util/List;I)Ljava/lang/Object;
+
+    move-result-object v5
+
+    check-cast v5, Lfg/i;
+
+    goto :goto_0
+
+    :cond_3
+    invoke-static {v2, v10}, Landroidx/fragment/app/b1;->a(Ljava/util/List;I)Ljava/lang/Object;
+
+    move-result-object v5
+
+    check-cast v5, Lfg/i;
+
+    goto :goto_0
+
+    :goto_1
+    if-lez v4, :cond_4
+
+    add-int/lit8 v5, v4, -0x1
+
+    goto :goto_2
+
+    :cond_4
+    invoke-interface {v2}, Ljava/util/List;->size()I
+
+    move-result v5
+
+    sub-int/2addr v5, v7
+
+    :goto_2
+    invoke-interface {v2, v5}, Ljava/util/List;->get(I)Ljava/lang/Object;
+
+    move-result-object v5
+
+    check-cast v5, Lfg/i;
+
+    invoke-interface {v2}, Ljava/util/List;->size()I
+
+    move-result v8
+
+    sub-int/2addr v8, v7
+
+    if-lt v4, v8, :cond_5
+
+    move v8, v1
+
+    goto :goto_3
+
+    :cond_5
+    add-int/lit8 v8, v4, 0x1
+
+    :goto_3
+    invoke-interface {v2, v8}, Ljava/util/List;->get(I)Ljava/lang/Object;
+
+    move-result-object v8
+
+    move-object v9, v8
+
+    check-cast v9, Lfg/i;
+
+    invoke-interface {v2}, Ljava/util/List;->size()I
+
+    move-result v8
+
+    if-gt v8, v6, :cond_6
+
+    const/4 v2, 0x0
+
+    goto :goto_5
+
+    :cond_6
+    invoke-interface {v2}, Ljava/util/List;->size()I
+
+    move-result v6
+
+    add-int/lit8 v8, v4, 0x2
+
+    if-ltz v8, :cond_7
+
+    if-ge v8, v6, :cond_7
+
+    move v6, v7
+
+    goto :goto_4
+
+    :cond_7
+    move v6, v1
+
+    :goto_4
+    if-eqz v6, :cond_8
+
+    invoke-interface {v2, v8}, Ljava/util/List;->get(I)Ljava/lang/Object;
+
+    move-result-object v2
+
+    check-cast v2, Lfg/i;
+
+    goto :goto_5
+
+    :cond_8
+    add-int/2addr v4, v7
+
+    invoke-interface {v2}, Ljava/util/List;->size()I
+
+    move-result v6
+
+    if-ne v4, v6, :cond_9
+
+    invoke-interface {v2, v7}, Ljava/util/List;->get(I)Ljava/lang/Object;
+
+    move-result-object v2
+
+    check-cast v2, Lfg/i;
+
+    goto :goto_5
+
+    :cond_9
+    invoke-interface {v2, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
+
+    move-result-object v2
+
+    check-cast v2, Lfg/i;
+
+    :goto_5
+    const/16 v7, 0x8
+
+    if-nez v12, :cond_a
+
+    iget-object v4, v0, Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView;->r:Ljd/b;
+
+    invoke-interface {v4}, Ljd/b;->getValue()Ljava/lang/Object;
+
+    move-result-object v4
+
+    check-cast v4, Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView$c;
+
+    iget-object v4, v4, Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView$c;->e:Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView$a;
+
+    iget-object v4, v4, Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView$a;->a:Landroid/view/ViewGroup;
+
+    invoke-virtual {v4, v7}, Landroid/view/ViewGroup;->setVisibility(I)V
+
+    goto :goto_6
+
+    :cond_a
+    iget-object v4, v0, Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView;->r:Ljd/b;
+
+    invoke-interface {v4}, Ljd/b;->getValue()Ljava/lang/Object;
+
+    move-result-object v4
+
+    check-cast v4, Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView$c;
+
+    iget-object v4, v4, Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView$c;->e:Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView$a;
+
+    iget-object v4, v4, Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView$a;->a:Landroid/view/ViewGroup;
+
+    invoke-virtual {v4, v1}, Landroid/view/ViewGroup;->setVisibility(I)V
+
+    iget-object v4, v0, Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView;->r:Ljd/b;
+
+    invoke-interface {v4}, Ljd/b;->getValue()Ljava/lang/Object;
+
+    move-result-object v4
+
+    check-cast v4, Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView$c;
+
+    iget-object v4, v4, Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView$c;->e:Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView$a;
+
+    iget-object v4, v4, Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView$a;->b:Lstudio/scillarium/ottnavigator/ui/views/ChannelIconView;
+
+    invoke-virtual {v4, v12}, Lstudio/scillarium/ottnavigator/ui/views/ChannelIconView;->a(Lfg/i;)V
+
+    iget-object v4, v0, Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView;->r:Ljd/b;
+
+    invoke-interface {v4}, Ljd/b;->getValue()Ljava/lang/Object;
+
+    move-result-object v4
+
+    check-cast v4, Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView$c;
+
+    iget-object v4, v4, Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView$c;->e:Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView$a;
+
+    iget-object v4, v4, Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView$a;->c:Landroid/widget/TextView;
+
+    invoke-virtual {v12}, Lfg/i;->d()Ljava/lang/String;
+
+    move-result-object v6
+
+    invoke-virtual {v4, v6}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+
+    iget-object v4, v0, Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView;->r:Ljd/b;
+
+    invoke-interface {v4}, Ljd/b;->getValue()Ljava/lang/Object;
+
+    move-result-object v4
+
+    check-cast v4, Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView$c;
+
+    iget-object v4, v4, Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView$c;->e:Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView$a;
+
+    iget-object v4, v4, Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView$a;->d:Landroid/widget/TextView;
+
+    sget-object v6, Log/x0;->a:Log/x0;
+
+    sget-object v11, Log/x0;->e:Log/m;
+
+    const/4 v13, 0x0
+
+    const-wide/16 v14, 0x0
+
+    const/16 v16, 0x6
+
+    invoke-static/range {v11 .. v16}, Log/m;->t(Log/m;Lfg/i;ZJI)Lfg/k;
+
+    move-result-object v6
+
+    invoke-virtual {v6}, Lfg/k;->g()Ljava/lang/String;
+
+    move-result-object v6
+
+    invoke-virtual {v4, v6}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+
+    :goto_6
+    iget-object v4, v0, Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView;->r:Ljd/b;
+
+    invoke-interface {v4}, Ljd/b;->getValue()Ljava/lang/Object;
+
+    move-result-object v4
+
+    check-cast v4, Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView$c;
+
+    iget-object v4, v4, Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView$c;->f:Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView$a;
+
+    iget-object v4, v4, Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView$a;->a:Landroid/view/ViewGroup;
+
+    invoke-virtual {v4, v1}, Landroid/view/ViewGroup;->setVisibility(I)V
+
+    iget-object v4, v0, Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView;->r:Ljd/b;
+
+    invoke-interface {v4}, Ljd/b;->getValue()Ljava/lang/Object;
+
+    move-result-object v4
+
+    check-cast v4, Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView$c;
+
+    iget-object v4, v4, Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView$c;->f:Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView$a;
+
+    iget-object v4, v4, Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView$a;->b:Lstudio/scillarium/ottnavigator/ui/views/ChannelIconView;
+
+    invoke-virtual {v4, v5}, Lstudio/scillarium/ottnavigator/ui/views/ChannelIconView;->a(Lfg/i;)V
+
+    iget-object v4, v0, Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView;->r:Ljd/b;
+
+    invoke-interface {v4}, Ljd/b;->getValue()Ljava/lang/Object;
+
+    move-result-object v4
+
+    check-cast v4, Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView$c;
+
+    iget-object v4, v4, Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView$c;->f:Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView$a;
+
+    iget-object v4, v4, Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView$a;->c:Landroid/widget/TextView;
+
+    invoke-virtual {v5}, Lfg/i;->d()Ljava/lang/String;
+
+    move-result-object v6
+
+    invoke-virtual {v4, v6}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+
+    iget-object v4, v0, Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView;->r:Ljd/b;
+
+    invoke-interface {v4}, Ljd/b;->getValue()Ljava/lang/Object;
+
+    move-result-object v4
+
+    check-cast v4, Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView$c;
+
+    iget-object v4, v4, Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView$c;->f:Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView$a;
+
+    iget-object v4, v4, Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView$a;->d:Landroid/widget/TextView;
+
+    sget-object v6, Log/x0;->a:Log/x0;
+
+    sget-object v11, Log/x0;->e:Log/m;
+
+    const/4 v15, 0x0
+
+    const-wide/16 v19, 0x0
+
+    const/4 v12, 0x6
+
+    const-wide/16 v16, 0x0
+
+    const/16 v18, 0x6
+
+    move-object v13, v11
+
+    move-object v14, v5
+
+    invoke-static/range {v13 .. v18}, Log/m;->t(Log/m;Lfg/i;ZJI)Lfg/k;
+
+    move-result-object v5
+
+    invoke-virtual {v5}, Lfg/k;->g()Ljava/lang/String;
+
+    move-result-object v5
+
+    invoke-virtual {v4, v5}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+
+    iget-object v4, v0, Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView;->r:Ljd/b;
+
+    invoke-interface {v4}, Ljd/b;->getValue()Ljava/lang/Object;
+
+    move-result-object v4
+
+    check-cast v4, Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView$c;
+
+    iget-object v4, v4, Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView$c;->b:Landroid/view/View;
+
+    invoke-virtual {v4, v1}, Landroid/view/View;->setVisibility(I)V
+
+    iget-object v4, v0, Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView;->r:Ljd/b;
+
+    invoke-interface {v4}, Ljd/b;->getValue()Ljava/lang/Object;
+
+    move-result-object v4
+
+    check-cast v4, Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView$c;
+
+    iget-object v4, v4, Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView$c;->a:Lstudio/scillarium/ottnavigator/ui/views/ChannelIconView;
+
+    invoke-virtual {v4, v3}, Lstudio/scillarium/ottnavigator/ui/views/ChannelIconView;->a(Lfg/i;)V
+
+    iget-object v4, v0, Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView;->r:Ljd/b;
+
+    invoke-interface {v4}, Ljd/b;->getValue()Ljava/lang/Object;
+
+    move-result-object v4
+
+    check-cast v4, Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView$c;
+
+    iget-object v4, v4, Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView$c;->c:Landroid/widget/TextView;
+
+    invoke-virtual {v3}, Lfg/i;->d()Ljava/lang/String;
+
+    move-result-object v5
+
+    invoke-virtual {v4, v5}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+
+    iget-object v4, v0, Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView;->r:Ljd/b;
+
+    invoke-interface {v4}, Ljd/b;->getValue()Ljava/lang/Object;
+
+    move-result-object v4
+
+    check-cast v4, Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView$c;
+
+    iget-object v13, v4, Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView$c;->d:Landroid/widget/TextView;
+
+    const/4 v6, 0x0
+
+    const-wide/16 v14, 0x0
+
+    const/16 v16, 0x6
+
+    move-object v4, v11
+
+    move-object v5, v3
+
+    move v10, v7
+
+    move-wide v7, v14
+
+    move-object v14, v9
+
+    move/from16 v9, v16
+
+    invoke-static/range {v4 .. v9}, Log/m;->t(Log/m;Lfg/i;ZJI)Lfg/k;
+
+    move-result-object v4
+
+    invoke-virtual {v4}, Lfg/k;->g()Ljava/lang/String;
+
+    move-result-object v4
+
+    invoke-virtual {v13, v4}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+
+    iget-object v4, v0, Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView;->r:Ljd/b;
+
+    invoke-interface {v4}, Ljd/b;->getValue()Ljava/lang/Object;
+
+    move-result-object v4
+
+    check-cast v4, Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView$c;
+
+    iget-object v4, v4, Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView$c;->g:Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView$a;
+
+    iget-object v4, v4, Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView$a;->a:Landroid/view/ViewGroup;
+
+    invoke-virtual {v4, v1}, Landroid/view/ViewGroup;->setVisibility(I)V
+
+    iget-object v4, v0, Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView;->r:Ljd/b;
+
+    invoke-interface {v4}, Ljd/b;->getValue()Ljava/lang/Object;
+
+    move-result-object v4
+
+    check-cast v4, Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView$c;
+
+    iget-object v4, v4, Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView$c;->g:Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView$a;
+
+    iget-object v4, v4, Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView$a;->b:Lstudio/scillarium/ottnavigator/ui/views/ChannelIconView;
+
+    invoke-virtual {v4, v14}, Lstudio/scillarium/ottnavigator/ui/views/ChannelIconView;->a(Lfg/i;)V
+
+    iget-object v4, v0, Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView;->r:Ljd/b;
+
+    invoke-interface {v4}, Ljd/b;->getValue()Ljava/lang/Object;
+
+    move-result-object v4
+
+    check-cast v4, Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView$c;
+
+    iget-object v4, v4, Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView$c;->g:Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView$a;
+
+    iget-object v4, v4, Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView$a;->c:Landroid/widget/TextView;
+
+    invoke-virtual {v14}, Lfg/i;->d()Ljava/lang/String;
+
+    move-result-object v5
+
+    invoke-virtual {v4, v5}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+
+    iget-object v4, v0, Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView;->r:Ljd/b;
+
+    invoke-interface {v4}, Ljd/b;->getValue()Ljava/lang/Object;
+
+    move-result-object v4
+
+    check-cast v4, Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView$c;
+
+    iget-object v4, v4, Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView$c;->g:Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView$a;
+
+    iget-object v4, v4, Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView$a;->d:Landroid/widget/TextView;
+
+    const/4 v15, 0x0
+
+    move-object v13, v11
+
+    move-wide/from16 v16, v19
+
+    move/from16 v18, v12
+
+    invoke-static/range {v13 .. v18}, Log/m;->t(Log/m;Lfg/i;ZJI)Lfg/k;
+
+    move-result-object v5
+
+    invoke-virtual {v5}, Lfg/k;->g()Ljava/lang/String;
+
+    move-result-object v5
+
+    invoke-virtual {v4, v5}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+
+    if-nez v2, :cond_b
+
+    iget-object v2, v0, Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView;->r:Ljd/b;
+
+    invoke-interface {v2}, Ljd/b;->getValue()Ljava/lang/Object;
+
+    move-result-object v2
+
+    check-cast v2, Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView$c;
+
+    iget-object v2, v2, Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView$c;->h:Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView$a;
+
+    iget-object v2, v2, Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView$a;->a:Landroid/view/ViewGroup;
+
+    invoke-virtual {v2, v10}, Landroid/view/ViewGroup;->setVisibility(I)V
+
+    goto :goto_7
+
+    :cond_b
+    iget-object v4, v0, Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView;->r:Ljd/b;
+
+    invoke-interface {v4}, Ljd/b;->getValue()Ljava/lang/Object;
+
+    move-result-object v4
+
+    check-cast v4, Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView$c;
+
+    iget-object v4, v4, Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView$c;->h:Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView$a;
+
+    iget-object v4, v4, Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView$a;->a:Landroid/view/ViewGroup;
+
+    invoke-virtual {v4, v1}, Landroid/view/ViewGroup;->setVisibility(I)V
+
+    iget-object v4, v0, Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView;->r:Ljd/b;
+
+    invoke-interface {v4}, Ljd/b;->getValue()Ljava/lang/Object;
+
+    move-result-object v4
+
+    check-cast v4, Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView$c;
+
+    iget-object v4, v4, Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView$c;->h:Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView$a;
+
+    iget-object v4, v4, Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView$a;->b:Lstudio/scillarium/ottnavigator/ui/views/ChannelIconView;
+
+    invoke-virtual {v4, v2}, Lstudio/scillarium/ottnavigator/ui/views/ChannelIconView;->a(Lfg/i;)V
+
+    iget-object v4, v0, Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView;->r:Ljd/b;
+
+    invoke-interface {v4}, Ljd/b;->getValue()Ljava/lang/Object;
+
+    move-result-object v4
+
+    check-cast v4, Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView$c;
+
+    iget-object v4, v4, Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView$c;->h:Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView$a;
+
+    iget-object v4, v4, Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView$a;->c:Landroid/widget/TextView;
+
+    invoke-virtual {v2}, Lfg/i;->d()Ljava/lang/String;
+
+    move-result-object v5
+
+    invoke-virtual {v4, v5}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+
+    iget-object v4, v0, Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView;->r:Ljd/b;
+
+    invoke-interface {v4}, Ljd/b;->getValue()Ljava/lang/Object;
+
+    move-result-object v4
+
+    check-cast v4, Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView$c;
+
+    iget-object v4, v4, Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView$c;->h:Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView$a;
+
+    iget-object v4, v4, Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView$a;->d:Landroid/widget/TextView;
+
+    const/4 v15, 0x0
+
+    const-wide/16 v16, 0x0
+
+    const/16 v18, 0x6
+
+    move-object v13, v11
+
+    move-object v14, v2
+
+    invoke-static/range {v13 .. v18}, Log/m;->t(Log/m;Lfg/i;ZJI)Lfg/k;
+
+    move-result-object v2
+
+    invoke-virtual {v2}, Lfg/k;->g()Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-virtual {v4, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+
+    :goto_7
+    new-instance v2, Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView$b;
+
+    const/4 v4, 0x2
+
+    invoke-direct {v2, v0, v3, v1, v4}, Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView$b;-><init>(Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView;Lfg/i;ZI)V
+
+    iget-object v3, v0, Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView;->o:Lxg/v;
+
+    if-nez v3, :cond_c
+
+    const/4 v3, 0x0
+
+    :cond_c
+    iget-object v3, v3, Lxg/v;->a:Lstudio/scillarium/ottnavigator/PlayerActivity;
+
+    iget-object v3, v3, Lstudio/scillarium/ottnavigator/PlayerActivity;->O:Ljd/b;
+
+    invoke-interface {v3}, Ljd/b;->getValue()Ljava/lang/Object;
+
+    move-result-object v3
+
+    check-cast v3, Lvg/e;
+
+    sget-object v4, Lcg/i4;->r3:Lcg/i4;
+
+    const/4 v5, 0x0
+
+    const/4 v6, 0x1
+
+    invoke-static {v4, v1, v6, v5}, Lcg/i4;->n(Lcg/i4;ZILjava/lang/Object;)J
+
+    move-result-wide v4
+
+    invoke-virtual {v3, v2, v4, v5}, Landroid/os/Handler;->postDelayed(Ljava/lang/Runnable;J)Z
+
+    iput-object v2, v0, Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView;->q:Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView$b;
+
+    invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->setVisibility(I)V
+
+    :goto_8
+    return-void
+.end method
+
+.method public final V(J)V
+    .locals 12
+
+    invoke-virtual {p0}, Lstudio/scillarium/ottnavigator/PlayerActivity;->E()Lxg/v;
+
+    move-result-object v0
+
+    iget-object v3, v0, Lxg/v;->d:Lfg/k;
+
+    const/16 v0, 0xa
+
+    const/4 v11, 0x1
+
+    if-eqz v3, :cond_0
+
+    const-wide/16 v1, 0x0
+
+    cmp-long v1, p1, v1
+
+    if-gez v1, :cond_0
+
+    sget-object v1, Log/x0;->a:Log/x0;
+
+    new-instance v2, Lstudio/scillarium/ottnavigator/PlayerActivity$g;
+
+    invoke-direct {v2, p0, v3, p1, p2}, Lstudio/scillarium/ottnavigator/PlayerActivity$g;-><init>(Lstudio/scillarium/ottnavigator/PlayerActivity;Lfg/k;J)V
+
+    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object p1
+
+    invoke-virtual {v1, p1, v2}, Log/x0;->e(Ljava/lang/Number;Ltd/a;)V
+
+    goto :goto_0
+
+    :cond_0
+    if-eqz v3, :cond_1
+
+    invoke-virtual {p0}, Lstudio/scillarium/ottnavigator/PlayerActivity;->E()Lxg/v;
+
+    move-result-object v1
+
+    iget v1, v1, Lxg/v;->c:I
+
+    if-ne v1, v11, :cond_1
+
+    invoke-virtual {v3}, Lfg/k;->h()J
+
+    move-result-wide v1
+
+    add-long/2addr v1, p1
+
+    sget-object v4, Lvf/r;->a:Lvf/r;
+
+    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
+
+    move-result-wide v4
+
+    sget-wide v6, Lvf/r;->b:J
+
+    add-long/2addr v4, v6
+
+    cmp-long v1, v1, v4
+
+    if-lez v1, :cond_1
+
+    const/4 v2, 0x0
+
+    invoke-virtual {p0}, Lstudio/scillarium/ottnavigator/PlayerActivity;->E()Lxg/v;
+
+    move-result-object p1
+
+    iget-object v4, p1, Lxg/v;->b:Lfg/i;
+
+    invoke-virtual {p0}, Lstudio/scillarium/ottnavigator/PlayerActivity;->E()Lxg/v;
+
+    move-result-object p1
+
+    iget-object v5, p1, Lxg/v;->e:Lvg/d;
+
+    const/4 v6, 0x1
+
+    const-wide/16 v7, 0x0
+
+    const/4 v9, 0x0
+
+    const/16 v10, 0x60
+
+    move-object v1, p0
+
+    invoke-static/range {v1 .. v10}, Lstudio/scillarium/ottnavigator/PlayerActivity;->R(Lstudio/scillarium/ottnavigator/PlayerActivity;ILfg/k;Lfg/i;Lvg/d;IJZI)V
+
+    goto :goto_0
+
+    :cond_1
+    if-eqz v3, :cond_2
+
+    invoke-virtual {v3}, Lfg/k;->e()J
+
+    move-result-wide v1
+
+    cmp-long v1, p1, v1
+
+    if-lez v1, :cond_2
+
+    sget-object v1, Log/x0;->a:Log/x0;
+
+    new-instance v2, Lstudio/scillarium/ottnavigator/PlayerActivity$h;
+
+    invoke-direct {v2, p0, v3, p1, p2}, Lstudio/scillarium/ottnavigator/PlayerActivity$h;-><init>(Lstudio/scillarium/ottnavigator/PlayerActivity;Lfg/k;J)V
+
+    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object p1
+
+    invoke-virtual {v1, p1, v2}, Log/x0;->e(Ljava/lang/Number;Ltd/a;)V
+
+    goto :goto_0
+
+    :cond_2
+    invoke-virtual {p0}, Lstudio/scillarium/ottnavigator/PlayerActivity;->H()Lgg/y0;
+
+    move-result-object v0
+
+    invoke-virtual {v0, p1, p2}, Lgg/y0;->B(J)V
+
+    :goto_0
+    invoke-virtual {p0, v11}, Lstudio/scillarium/ottnavigator/PlayerActivity;->K(Z)V
+
+    return-void
+.end method
+
+.method public final W()Z
+    .locals 5
+
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+
+    const/4 v1, 0x0
+
+    const/16 v2, 0x1a
+
+    if-lt v0, v2, :cond_1
+
+    invoke-virtual {p0}, Landroid/app/Activity;->isInPictureInPictureMode()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    goto :goto_0
+
+    :cond_0
+    new-instance v0, Landroid/app/PictureInPictureParams$Builder;
+
+    invoke-direct {v0}, Landroid/app/PictureInPictureParams$Builder;-><init>()V
+
+    new-instance v2, Landroid/util/Rational;
+
+    const/16 v3, 0x10
+
+    const/16 v4, 0x9
+
+    invoke-direct {v2, v3, v4}, Landroid/util/Rational;-><init>(II)V
+
+    invoke-virtual {v0, v2}, Landroid/app/PictureInPictureParams$Builder;->setAspectRatio(Landroid/util/Rational;)Landroid/app/PictureInPictureParams$Builder;
+
+    move-result-object v0
+
+    :try_start_0
+    invoke-virtual {v0}, Landroid/app/PictureInPictureParams$Builder;->build()Landroid/app/PictureInPictureParams;
+
+    move-result-object v0
+
+    invoke-virtual {p0, v0}, Landroid/app/Activity;->enterPictureInPictureMode(Landroid/app/PictureInPictureParams;)Z
+
+    move-result v0
+    :try_end_0
+    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
+
+    return v0
+
+    :catch_0
+    :cond_1
+    :goto_0
+    return v1
+.end method
+
+.method public onBackPressed()V
+    .locals 12
+
+    invoke-virtual {p0}, Lstudio/scillarium/ottnavigator/PlayerActivity;->E()Lxg/v;
+
+    move-result-object v0
+
+    iget-boolean v0, v0, Lxg/v;->r:Z
+
+    const/4 v1, 0x0
+
+    if-eqz v0, :cond_0
+
+    sget-object v0, Ldh/q1;->a:Ldh/q1;
+
+    const v2, 0x7f120357
+
+    sget-object v3, Lbg/o;->v:Lbg/o;
+
+    invoke-static {}, Lbg/o;->d()Lbg/o;
+
+    move-result-object v3
+
+    invoke-virtual {v3, v2}, Landroid/app/Application;->getString(I)Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-virtual {v0, p0, v2, v1}, Ldh/q1;->C(Landroid/app/Activity;Ljava/lang/String;Ljava/lang/Number;)V
+
+    return-void
+
+    :cond_0
+    invoke-virtual {p0}, Lstudio/scillarium/ottnavigator/PlayerActivity;->J()Lstudio/scillarium/ottnavigator/ui/views/PlayerHud;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Landroid/widget/FrameLayout;->getVisibility()I
+
+    move-result v0
+
+    const/4 v2, 0x0
+
+    const/4 v3, 0x1
+
+    if-nez v0, :cond_2
+
+    sget-object v0, Lvf/r;->a:Lvf/r;
+
+    iget-wide v4, p0, Lstudio/scillarium/ottnavigator/PlayerActivity;->K:J
+
+    sget-object v0, Lcg/i4;->F3:Lcg/i4;
+
+    invoke-static {v0, v2, v3, v1}, Lcg/i4;->j(Lcg/i4;ZILjava/lang/Object;)I
+
+    move-result v0
+
+    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v0
+
+    invoke-static {v0}, Lqb/s0;->h(Ljava/lang/Number;)J
+
+    move-result-wide v6
+
+    add-long/2addr v6, v4
+
+    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
+
+    move-result-wide v4
+
+    sget-wide v8, Lvf/r;->b:J
+
+    add-long/2addr v4, v8
+
+    cmp-long v0, v6, v4
+
+    if-gez v0, :cond_1
+
+    move v0, v3
+
+    goto :goto_0
+
+    :cond_1
+    move v0, v2
+
+    :goto_0
+    if-nez v0, :cond_2
+
+    const-wide/16 v0, 0x0
+
+    iput-wide v0, p0, Lstudio/scillarium/ottnavigator/PlayerActivity;->K:J
+
+    return-void
+
+    :cond_2
+    sget-object v0, Lbg/o;->v:Lbg/o;
+
+    invoke-static {}, Lbg/o;->d()Lbg/o;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Lbg/o;->p()Z
+
+    move-result v0
+
+    const v4, 0x7f120318
+
+    const/16 v5, 0x7d0
+
+    if-eqz v0, :cond_4
+
+    sget-object v0, Lcg/i4;->Q:Lcg/i4;
+
+    invoke-static {v0, v2, v3, v1}, Lcg/i4;->e(Lcg/i4;ZILjava/lang/Object;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_4
+
+    sget-object v0, Lvf/r;->a:Lvf/r;
+
+    iget-wide v6, p0, Lstudio/scillarium/ottnavigator/PlayerActivity;->j0:J
+
+    int-to-long v8, v5
+
+    add-long/2addr v6, v8
+
+    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
+
+    move-result-wide v8
+
+    sget-wide v10, Lvf/r;->b:J
+
+    add-long/2addr v8, v10
+
+    cmp-long v0, v6, v8
+
+    if-gez v0, :cond_3
+
+    move v0, v3
+
+    goto :goto_1
+
+    :cond_3
+    move v0, v2
+
+    :goto_1
+    if-eqz v0, :cond_4
+
+    invoke-virtual {p0}, Lstudio/scillarium/ottnavigator/PlayerActivity;->E()Lxg/v;
+
+    move-result-object v0
+
+    iget v0, v0, Lxg/v;->c:I
+
+    if-ne v0, v3, :cond_4
+
+    sget-object v0, Ldh/q1;->a:Ldh/q1;
+
+    invoke-static {}, Lbg/o;->d()Lbg/o;
+
+    move-result-object v2
+
+    invoke-virtual {v2, v4}, Landroid/app/Application;->getString(I)Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-virtual {v0, p0, v2, v1}, Ldh/q1;->C(Landroid/app/Activity;Ljava/lang/String;Ljava/lang/Number;)V
+
+    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
+
+    move-result-wide v0
+
+    sget-wide v2, Lvf/r;->b:J
+
+    add-long/2addr v0, v2
+
+    iput-wide v0, p0, Lstudio/scillarium/ottnavigator/PlayerActivity;->j0:J
+
+    return-void
+
+    :cond_4
+    sget-object v0, Lcg/d0$a;->a:Lcg/d0$a;
+
+    sget-object v0, Lcg/i4;->z1:Lcg/i4;
+
+    invoke-static {v0, v2, v3, v1}, Lcg/i4;->e(Lcg/i4;ZILjava/lang/Object;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_6
+
+    sget-object v0, Lvf/r;->a:Lvf/r;
+
+    iget-wide v6, p0, Lstudio/scillarium/ottnavigator/PlayerActivity;->i0:J
+
+    int-to-long v8, v5
+
+    add-long/2addr v6, v8
+
+    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
+
+    move-result-wide v8
+
+    sget-wide v10, Lvf/r;->b:J
+
+    add-long/2addr v8, v10
+
+    cmp-long v0, v6, v8
+
+    if-gez v0, :cond_5
+
+    move v2, v3
+
+    :cond_5
+    if-eqz v2, :cond_6
+
+    sget-object v0, Ldh/q1;->a:Ldh/q1;
+
+    invoke-static {}, Lbg/o;->d()Lbg/o;
+
+    move-result-object v2
+
+    invoke-virtual {v2, v4}, Landroid/app/Application;->getString(I)Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-virtual {v0, p0, v2, v1}, Ldh/q1;->C(Landroid/app/Activity;Ljava/lang/String;Ljava/lang/Number;)V
+
+    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
+
+    move-result-wide v0
+
+    sget-wide v2, Lvf/r;->b:J
+
+    add-long/2addr v0, v2
+
+    iput-wide v0, p0, Lstudio/scillarium/ottnavigator/PlayerActivity;->i0:J
+
+    return-void
+
+    :cond_6
+    iget-object v0, p0, Landroidx/activity/ComponentActivity;->u:Landroidx/activity/OnBackPressedDispatcher;
+
+    invoke-virtual {v0}, Landroidx/activity/OnBackPressedDispatcher;->b()V
+
+    return-void
+.end method
+
+.method public onConfigurationChanged(Landroid/content/res/Configuration;)V
+    .locals 3
+
+    invoke-super {p0, p1}, Lvg/c;->onConfigurationChanged(Landroid/content/res/Configuration;)V
+
+    iget-boolean v0, p0, Lstudio/scillarium/ottnavigator/PlayerActivity;->N:Z
+
+    if-eqz v0, :cond_0
+
+    return-void
+
+    :cond_0
+    :try_start_0
+    iget v0, p1, Landroid/content/res/Configuration;->screenWidthDp:I
+
+    if-eqz v0, :cond_1
+
+    invoke-virtual {p0}, Lstudio/scillarium/ottnavigator/PlayerActivity;->H()Lgg/y0;
+
+    move-result-object v0
+
+    sget-object v1, Ldh/q1;->a:Ldh/q1;
+
+    iget v2, p1, Landroid/content/res/Configuration;->screenWidthDp:I
+
+    invoke-virtual {v1, v2}, Ldh/q1;->m(I)I
+
+    move-result v1
+
+    int-to-double v1, v1
+
+    iput-wide v1, v0, Lgg/y0;->s:D
+
+    :cond_1
+    iget v0, p1, Landroid/content/res/Configuration;->screenHeightDp:I
+
+    if-eqz v0, :cond_2
+
+    invoke-virtual {p0}, Lstudio/scillarium/ottnavigator/PlayerActivity;->H()Lgg/y0;
+
+    move-result-object v0
+
+    sget-object v1, Ldh/q1;->a:Ldh/q1;
+
+    iget p1, p1, Landroid/content/res/Configuration;->screenHeightDp:I
+
+    invoke-virtual {v1, p1}, Ldh/q1;->m(I)I
+
+    move-result p1
+
+    int-to-double v1, p1
+
+    iput-wide v1, v0, Lgg/y0;->t:D
+
+    :cond_2
+    invoke-virtual {p0}, Lstudio/scillarium/ottnavigator/PlayerActivity;->H()Lgg/y0;
+
+    move-result-object p1
+
+    invoke-virtual {p1}, Lgg/y0;->a()V
+    :try_end_0
+    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
+
+    :catch_0
+    return-void
+.end method
+
+.method public onCreate(Landroid/os/Bundle;)V
+    .locals 8
+
+    invoke-super {p0, p1}, Lvg/c;->onCreate(Landroid/os/Bundle;)V
+
+    sget-object p1, Log/x0;->a:Log/x0;
+
+    sget-object p1, Log/x0;->e:Log/m;
+
+    invoke-virtual {p0}, Landroid/app/Activity;->getIntent()Landroid/content/Intent;
+
+    move-result-object v0
+
+    const-string v1, "channel"
+
+    invoke-virtual {v0, v1}, Landroid/content/Intent;->getStringExtra(Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v0
+
+    const/4 v1, 0x0
+
+    const/4 v2, 0x2
+
+    invoke-static {p1, v0, v1, v2}, Log/m;->h(Log/m;Ljava/lang/String;Ljava/lang/String;I)Lfg/i;
+
+    move-result-object p1
+
+    if-nez p1, :cond_0
+
+    invoke-virtual {p0}, Landroid/app/Activity;->finish()V
+
+    return-void
+
+    :cond_0
+    const/4 v0, 0x0
+
+    iput-boolean v0, p0, Lstudio/scillarium/ottnavigator/PlayerActivity;->N:Z
+
+    new-instance v3, Lxg/v;
+
+    invoke-direct {v3, p0, p1}, Lxg/v;-><init>(Lstudio/scillarium/ottnavigator/PlayerActivity;Lfg/i;)V
+
+    iput-object v3, p0, Lstudio/scillarium/ottnavigator/PlayerActivity;->M:Lxg/v;
+
+    invoke-virtual {p0}, Lstudio/scillarium/ottnavigator/PlayerActivity;->E()Lxg/v;
+
+    move-result-object v3
+
+    invoke-virtual {p0}, Landroid/app/Activity;->getIntent()Landroid/content/Intent;
+
+    move-result-object v4
+
+    invoke-virtual {v3, v4, p1}, Lxg/v;->f(Landroid/content/Intent;Lfg/i;)Z
+
+    invoke-virtual {p0}, Lstudio/scillarium/ottnavigator/PlayerActivity;->E()Lxg/v;
+
+    move-result-object p1
+
+    new-instance v3, Ljava/lang/ref/WeakReference;
+
+    invoke-direct {v3, p1}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
+
+    sput-object v3, Ljb/e;->w:Ljava/lang/ref/WeakReference;
+
+    new-instance p1, Lxg/i;
+
+    invoke-virtual {p0}, Lstudio/scillarium/ottnavigator/PlayerActivity;->E()Lxg/v;
+
+    move-result-object v3
+
+    invoke-direct {p1, p0, v3}, Lxg/i;-><init>(Lstudio/scillarium/ottnavigator/PlayerActivity;Lxg/v;)V
+
+    iput-object p1, p0, Lstudio/scillarium/ottnavigator/PlayerActivity;->c0:Lxg/i;
+
+    sget-object p1, Lvf/r;->a:Lvf/r;
+
+    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
+
+    move-result-wide v3
+
+    sget-wide v5, Lvf/r;->b:J
+
+    add-long/2addr v3, v5
+
+    iput-wide v3, p0, Lstudio/scillarium/ottnavigator/PlayerActivity;->J:J
+
+    iput-wide v3, p0, Lstudio/scillarium/ottnavigator/PlayerActivity;->K:J
+
+    const p1, 0x7f0e0134
+
+    invoke-virtual {p0, p1}, Landroidx/activity/ComponentActivity;->setContentView(I)V
+
+    sget-object p1, Lgg/y0;->E:Lgg/y0$a;
+
+    invoke-virtual {p0}, Lstudio/scillarium/ottnavigator/PlayerActivity;->E()Lxg/v;
+
+    move-result-object v3
+
+    invoke-virtual {p1, v3, v1}, Lgg/y0$a;->a(Lxg/v;Lgg/y0;)Lgg/y0;
+
+    move-result-object p1
+
+    iput-object p1, p0, Lstudio/scillarium/ottnavigator/PlayerActivity;->P:Lgg/y0;
+
+    const p1, 0x7f0b0d1c
+
+    invoke-virtual {p0, p1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
+
+    move-result-object p1
+
+    check-cast p1, Lstudio/scillarium/ottnavigator/ui/views/PlayerHud;
+
+    iput-object p1, p0, Lstudio/scillarium/ottnavigator/PlayerActivity;->S:Lstudio/scillarium/ottnavigator/ui/views/PlayerHud;
+
+    invoke-virtual {p0}, Lstudio/scillarium/ottnavigator/PlayerActivity;->J()Lstudio/scillarium/ottnavigator/ui/views/PlayerHud;
+
+    move-result-object p1
+
+    invoke-virtual {p0}, Lstudio/scillarium/ottnavigator/PlayerActivity;->E()Lxg/v;
+
+    move-result-object v3
+
+    invoke-virtual {p1, p0, v3}, Lstudio/scillarium/ottnavigator/ui/views/PlayerHud;->b(Lstudio/scillarium/ottnavigator/PlayerActivity;Lxg/v;)V
+
+    const p1, 0x7f0b0d1b
+
+    invoke-virtual {p0, p1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
+
+    move-result-object p1
+
+    check-cast p1, Lstudio/scillarium/ottnavigator/ui/views/PlayerLayerOverlayView;
+
+    iput-object p1, p0, Lstudio/scillarium/ottnavigator/PlayerActivity;->Q:Lstudio/scillarium/ottnavigator/ui/views/PlayerLayerOverlayView;
+
+    invoke-virtual {p0}, Lstudio/scillarium/ottnavigator/PlayerActivity;->I()Lstudio/scillarium/ottnavigator/ui/views/PlayerLayerOverlayView;
+
+    move-result-object p1
+
+    invoke-virtual {p0}, Lstudio/scillarium/ottnavigator/PlayerActivity;->E()Lxg/v;
+
+    move-result-object v3
+
+    iput-object v3, p1, Lstudio/scillarium/ottnavigator/ui/views/PlayerLayerOverlayView;->x:Lxg/v;
+
+    if-nez v3, :cond_1
+
+    move-object v3, v1
+
+    :cond_1
+    iget-object v3, v3, Lxg/v;->a:Lstudio/scillarium/ottnavigator/PlayerActivity;
+
+    const-string v4, "audio"
+
+    invoke-virtual {v3, v4}, Landroid/app/Activity;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+
+    move-result-object v3
+
+    check-cast v3, Landroid/media/AudioManager;
+
+    iput-object v3, p1, Lstudio/scillarium/ottnavigator/ui/views/PlayerLayerOverlayView;->w:Landroid/media/AudioManager;
+
+    iget-object v3, p1, Lstudio/scillarium/ottnavigator/ui/views/PlayerLayerOverlayView;->o:Lstudio/scillarium/ottnavigator/ui/widget/VerticalSeekBar;
+
+    const/16 v4, 0xff
+
+    invoke-virtual {v3, v4}, Landroid/widget/SeekBar;->setMax(I)V
+
+    iget-object v3, p1, Lstudio/scillarium/ottnavigator/ui/views/PlayerLayerOverlayView;->o:Lstudio/scillarium/ottnavigator/ui/widget/VerticalSeekBar;
+
+    sget-object v4, Ldh/a;->a:Ljava/lang/Integer;
+
+    sget-object v4, Lbg/o;->w:Lbg/o;
+
+    invoke-virtual {v4}, Landroid/app/Application;->getContentResolver()Landroid/content/ContentResolver;
+
+    move-result-object v4
+
+    :try_start_0
+    const-string v5, "screen_brightness"
+
+    invoke-static {v4, v5}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;)I
+
+    move-result v4
+    :try_end_0
+    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
+
+    goto :goto_0
+
+    :catch_0
+    move v4, v0
+
+    :goto_0
+    invoke-virtual {v3, v4}, Landroid/widget/SeekBar;->setProgress(I)V
+
+    iget-object v3, p1, Lstudio/scillarium/ottnavigator/ui/views/PlayerLayerOverlayView;->o:Lstudio/scillarium/ottnavigator/ui/widget/VerticalSeekBar;
+
+    new-instance v4, Lzg/h;
+
+    invoke-direct {v4, p1}, Lzg/h;-><init>(Lstudio/scillarium/ottnavigator/ui/views/PlayerLayerOverlayView;)V
+
+    invoke-virtual {v3, v4}, Lstudio/scillarium/ottnavigator/ui/widget/VerticalSeekBar;->setListener(Lstudio/scillarium/ottnavigator/ui/widget/VerticalSeekBar$a;)V
+
+    iget-object v3, p1, Lstudio/scillarium/ottnavigator/ui/views/PlayerLayerOverlayView;->p:Lstudio/scillarium/ottnavigator/ui/widget/VerticalSeekBar;
+
+    iget-boolean v4, p1, Lstudio/scillarium/ottnavigator/ui/views/PlayerLayerOverlayView;->C:Z
+
+    const/16 v5, 0x64
+
+    if-eqz v4, :cond_2
+
+    sget-object v4, Log/x0;->a:Log/x0;
+
+    sget-object v4, Log/x0;->d:Log/c1;
+
+    const-string v6, "121"
+
+    invoke-virtual {v4, v6, v5}, Log/c1;->h(Ljava/lang/String;I)I
+
+    move-result v4
+
+    invoke-virtual {v3, v4}, Landroid/widget/SeekBar;->setProgress(I)V
+
+    move v4, v5
+
+    goto :goto_1
+
+    :cond_2
+    sget-object v4, Log/x0;->a:Log/x0;
+
+    new-instance v6, Lzg/j;
+
+    invoke-direct {v6, p1}, Lzg/j;-><init>(Lstudio/scillarium/ottnavigator/ui/views/PlayerLayerOverlayView;)V
+
+    const/16 v7, 0xa
+
+    invoke-static {v7}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v7
+
+    invoke-virtual {v4, v7, v6}, Log/x0;->e(Ljava/lang/Number;Ltd/a;)V
+
+    iget-object v4, p1, Lstudio/scillarium/ottnavigator/ui/views/PlayerLayerOverlayView;->w:Landroid/media/AudioManager;
+
+    if-nez v4, :cond_3
+
+    move-object v4, v1
+
+    :cond_3
+    const/4 v6, 0x3
+
+    invoke-virtual {v4, v6}, Landroid/media/AudioManager;->getStreamMaxVolume(I)I
+
+    move-result v4
+
+    :goto_1
+    invoke-virtual {v3, v4}, Landroid/widget/SeekBar;->setMax(I)V
+
+    iget-object v3, p1, Lstudio/scillarium/ottnavigator/ui/views/PlayerLayerOverlayView;->p:Lstudio/scillarium/ottnavigator/ui/widget/VerticalSeekBar;
+
+    new-instance v4, Lzg/i;
+
+    invoke-direct {v4, p1}, Lzg/i;-><init>(Lstudio/scillarium/ottnavigator/ui/views/PlayerLayerOverlayView;)V
+
+    invoke-virtual {v3, v4}, Lstudio/scillarium/ottnavigator/ui/widget/VerticalSeekBar;->setListener(Lstudio/scillarium/ottnavigator/ui/widget/VerticalSeekBar$a;)V
+
+    new-instance v3, Landroid/view/GestureDetector;
+
+    iget-object v4, p1, Lstudio/scillarium/ottnavigator/ui/views/PlayerLayerOverlayView;->x:Lxg/v;
+
+    if-nez v4, :cond_4
+
+    move-object v4, v1
+
+    :cond_4
+    iget-object v4, v4, Lxg/v;->a:Lstudio/scillarium/ottnavigator/PlayerActivity;
+
+    new-instance v6, Lzg/k;
+
+    invoke-direct {v6, p1}, Lzg/k;-><init>(Lstudio/scillarium/ottnavigator/ui/views/PlayerLayerOverlayView;)V
+
+    invoke-direct {v3, v4, v6}, Landroid/view/GestureDetector;-><init>(Landroid/content/Context;Landroid/view/GestureDetector$OnGestureListener;)V
+
+    iget-object v4, p1, Lstudio/scillarium/ottnavigator/ui/views/PlayerLayerOverlayView;->q:Landroid/view/View;
+
+    new-instance v6, Lzg/g;
+
+    invoke-direct {v6, v3}, Lzg/g;-><init>(Landroid/view/GestureDetector;)V
+
+    invoke-virtual {v4, v6}, Landroid/view/View;->setOnTouchListener(Landroid/view/View$OnTouchListener;)V
+
+    iget-object v3, p1, Lstudio/scillarium/ottnavigator/ui/views/PlayerLayerOverlayView;->q:Landroid/view/View;
+
+    new-instance v4, Lyg/w5;
+
+    const/4 v6, 0x1
+
+    invoke-direct {v4, p1, v6}, Lyg/w5;-><init>(Ljava/lang/Object;I)V
+
+    invoke-virtual {v3, v4}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+
+    const p1, 0x7f0b0a34
+
+    invoke-virtual {p0, p1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
+
+    move-result-object p1
+
+    check-cast p1, Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView;
+
+    iput-object p1, p0, Lstudio/scillarium/ottnavigator/PlayerActivity;->R:Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView;
+
+    invoke-virtual {p0}, Lstudio/scillarium/ottnavigator/PlayerActivity;->D()Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView;
+
+    move-result-object p1
+
+    invoke-virtual {p0}, Lstudio/scillarium/ottnavigator/PlayerActivity;->E()Lxg/v;
+
+    move-result-object v3
+
+    iput-object v3, p1, Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView;->o:Lxg/v;
+
+    iget-object v3, p1, Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView;->r:Ljd/b;
+
+    invoke-interface {v3}, Ljd/b;->getValue()Ljava/lang/Object;
+
+    move-result-object v3
+
+    check-cast v3, Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView$c;
+
+    iget-object v3, v3, Lstudio/scillarium/ottnavigator/ui/views/ChannelInfoQuickSwitchView$c;->a:Lstudio/scillarium/ottnavigator/ui/views/ChannelIconView;
+
+    invoke-virtual {v3, v1}, Landroid/widget/FrameLayout;->setBackground(Landroid/graphics/drawable/Drawable;)V
+
+    sget-object v3, Lcg/i4;->r3:Lcg/i4;
+
+    invoke-static {v3, v0, v6, v1}, Lcg/i4;->j(Lcg/i4;ZILjava/lang/Object;)I
+
+    move-result v3
+
+    if-gt v3, v5, :cond_5
+
+    const/4 v3, 0x0
+
+    invoke-virtual {p1, v3}, Landroid/widget/FrameLayout;->setAlpha(F)V
+
+    :cond_5
+    invoke-virtual {p0}, Landroid/app/Activity;->getIntent()Landroid/content/Intent;
+
+    move-result-object p1
+
+    const-string v3, "channel2"
+
+    invoke-virtual {p1, v3}, Landroid/content/Intent;->getStringExtra(Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object p1
+
+    if-eqz p1, :cond_6
+
+    sget-object v3, Log/x0;->a:Log/x0;
+
+    sget-object v3, Log/x0;->e:Log/m;
+
+    invoke-static {v3, p1, v1, v2}, Log/m;->h(Log/m;Ljava/lang/String;Ljava/lang/String;I)Lfg/i;
+
+    move-result-object p1
+
+    if-eqz p1, :cond_6
+
+    iget-object v2, p0, Lstudio/scillarium/ottnavigator/PlayerActivity;->X:Ljd/b;
+
+    invoke-interface {v2}, Ljd/b;->getValue()Ljava/lang/Object;
+
+    move-result-object v2
+
+    check-cast v2, Lvg/c0;
+
+    invoke-virtual {v2, p1}, Lvg/c0;->g(Lfg/i;)V
+
+    :cond_6
+    const p1, 0x7f0b0aac
+
+    invoke-virtual {p0, p1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
+
+    move-result-object p1
+
+    check-cast p1, Landroid/widget/FrameLayout;
+
+    iput-object p1, p0, Lstudio/scillarium/ottnavigator/PlayerActivity;->U:Landroid/widget/FrameLayout;
+
+    sget-object p1, Lbg/k;->a:Lbg/k;
+
+    sget-boolean p1, Lbg/k;->b:Z
+
+    if-eqz p1, :cond_7
+
+    iget-object p1, p0, Lstudio/scillarium/ottnavigator/PlayerActivity;->V:Ljd/b;
+
+    invoke-interface {p1}, Ljd/b;->getValue()Ljava/lang/Object;
+
+    move-result-object p1
+
+    check-cast p1, Lcom/facebook/drawee/view/SimpleDraweeView;
+
+    sget-object v1, Lk3/b;->a:Lk3/e;
+
+    invoke-virtual {v1}, Lk3/e;->a()Lk3/d;
+
+    move-result-object v1
+
+    iget-object v2, p0, Lstudio/scillarium/ottnavigator/PlayerActivity;->W:Ljd/b;
+
+    invoke-interface {v2}, Ljd/b;->getValue()Ljava/lang/Object;
+
+    move-result-object v2
+
+    check-cast v2, Lx2/k;
+
+    iput-object v2, v1, Lp3/c;->f:Lx2/k;
+
+    invoke-virtual {v1}, Lp3/c;->a()Lp3/b;
+
+    move-result-object v1
+
+    invoke-virtual {p1, v1}, Lw3/c;->setController(Lv3/a;)V
+
+    invoke-virtual {p1, v0}, Landroid/view/View;->setVisibility(I)V
+
+    goto :goto_2
+
+    :cond_7
+    sget-object p1, Lcg/i4;->v4:Lcg/i4;
+
+    invoke-static {p1, v0, v6, v1}, Lcg/i4;->t(Lcg/i4;ZILjava/lang/Object;)Ljava/lang/String;
+
+    move-result-object p1
+
+    invoke-virtual {p0, p1}, Lstudio/scillarium/ottnavigator/PlayerActivity;->A(Ljava/lang/String;)V
+
+    :goto_2
+    const p1, 0x7f0b0480
+
+    invoke-virtual {p0, p1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
+
+    move-result-object p1
+
+    iput-object p1, p0, Lstudio/scillarium/ottnavigator/PlayerActivity;->T:Landroid/view/View;
+
+    new-instance p1, Lxg/i0;
+
+    invoke-virtual {p0}, Lstudio/scillarium/ottnavigator/PlayerActivity;->E()Lxg/v;
+
+    move-result-object v1
+
+    invoke-direct {p1, p0, v1}, Lxg/i0;-><init>(Lstudio/scillarium/ottnavigator/PlayerActivity;Lxg/v;)V
+
+    iput-object p1, p0, Lstudio/scillarium/ottnavigator/PlayerActivity;->d0:Lxg/i0;
+
+    iget-object p1, p0, Lstudio/scillarium/ottnavigator/PlayerActivity;->O:Ljd/b;
+
+    invoke-interface {p1}, Ljd/b;->getValue()Ljava/lang/Object;
+
+    move-result-object p1
+
+    check-cast p1, Lvg/e;
+
+    invoke-virtual {p0}, Lstudio/scillarium/ottnavigator/PlayerActivity;->F()Lxg/i0;
+
+    move-result-object v1
+
+    const-wide/16 v2, 0x14d
+
+    invoke-virtual {p1, v1, v2, v3}, Landroid/os/Handler;->postDelayed(Ljava/lang/Runnable;J)Z
+
+    iget-object p1, p0, Lstudio/scillarium/ottnavigator/PlayerActivity;->O:Ljd/b;
+
+    invoke-interface {p1}, Ljd/b;->getValue()Ljava/lang/Object;
+
+    move-result-object p1
+
+    check-cast p1, Lvg/e;
+
+    new-instance v1, Lxg/m;
+
+    invoke-direct {v1, p0}, Lxg/m;-><init>(Lstudio/scillarium/ottnavigator/PlayerActivity;)V
+
+    invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v2
+
+    invoke-static {v2}, Lqb/s0;->g(Ljava/lang/Number;)J
+
+    move-result-wide v2
+
+    invoke-virtual {p1, v1, v2, v3}, Landroid/os/Handler;->postDelayed(Ljava/lang/Runnable;J)Z
+
+    new-instance p1, Lxg/l;
+
+    invoke-direct {p1, p0}, Lxg/l;-><init>(Lstudio/scillarium/ottnavigator/PlayerActivity;)V
+
+    iput-object p1, p0, Lstudio/scillarium/ottnavigator/PlayerActivity;->h0:Lxg/l;
+
+    invoke-virtual {p0}, Lstudio/scillarium/ottnavigator/PlayerActivity;->I()Lstudio/scillarium/ottnavigator/ui/views/PlayerLayerOverlayView;
+
+    move-result-object p1
+
+    sget-object v1, Lz9/ca2;->r:Lc8/e;
+
+    invoke-virtual {v1, p1, p0, v0}, Lc8/e;->o(Landroid/view/ViewGroup;Landroid/app/Activity;Z)Landroid/view/View;
+
+    move-result-object p1
+
+    iput-object p1, p0, Lstudio/scillarium/ottnavigator/PlayerActivity;->g0:Landroid/view/View;
+
+    return-void
+.end method
+
+.method public onGenericMotionEvent(Landroid/view/MotionEvent;)Z
+    .locals 7
+
+    invoke-virtual {p0}, Lstudio/scillarium/ottnavigator/PlayerActivity;->C()Lxg/i;
+
+    move-result-object v0
+
+    invoke-static {v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
+
+    sget-object v1, Lstudio/scillarium/ottnavigator/ui/views/PlayerLayerOverlayView$b;->o:Lstudio/scillarium/ottnavigator/ui/views/PlayerLayerOverlayView$b;
+
+    invoke-virtual {p1}, Landroid/view/MotionEvent;->getSource()I
+
+    move-result v2
+
+    and-int/lit16 v2, v2, 0x2002
+
+    const/4 v3, 0x1
+
+    const/4 v4, 0x0
+
+    if-eqz v2, :cond_2
+
+    invoke-virtual {p1}, Landroid/view/MotionEvent;->getAction()I
+
+    move-result v2
+
+    const/16 v5, 0x9
+
+    if-ne v2, v5, :cond_2
+
+    invoke-virtual {p1, v5}, Landroid/view/MotionEvent;->getAxisValue(I)F
+
+    move-result v2
+
+    const/4 v5, 0x0
+
+    cmpg-float v6, v2, v5
+
+    if-gez v6, :cond_0
+
+    iget-object v2, v0, Lxg/i;->a:Lstudio/scillarium/ottnavigator/PlayerActivity;
+
+    invoke-virtual {v2}, Lstudio/scillarium/ottnavigator/PlayerActivity;->I()Lstudio/scillarium/ottnavigator/ui/views/PlayerLayerOverlayView;
+
+    move-result-object v2
+
+    invoke-virtual {v2, v1}, Lstudio/scillarium/ottnavigator/ui/views/PlayerLayerOverlayView;->c(Lstudio/scillarium/ottnavigator/ui/views/PlayerLayerOverlayView$b;)V
+
+    const/4 v1, -0x1
+
+    iget-object v0, v0, Lxg/i;->b:Lxg/v;
+
+    iget-object v0, v0, Lxg/v;->a:Lstudio/scillarium/ottnavigator/PlayerActivity;
+
+    invoke-virtual {v0}, Lstudio/scillarium/ottnavigator/PlayerActivity;->H()Lgg/y0;
+
+    move-result-object v0
+
+    invoke-static {v1, v0}, Ldh/a;->a(ILgg/y0;)Z
+
+    move-result v0
+
+    goto :goto_0
+
+    :cond_0
+    cmpl-float v2, v2, v5
+
+    if-lez v2, :cond_1
+
+    iget-object v2, v0, Lxg/i;->a:Lstudio/scillarium/ottnavigator/PlayerActivity;
+
+    invoke-virtual {v2}, Lstudio/scillarium/ottnavigator/PlayerActivity;->I()Lstudio/scillarium/ottnavigator/ui/views/PlayerLayerOverlayView;
+
+    move-result-object v2
+
+    invoke-virtual {v2, v1}, Lstudio/scillarium/ottnavigator/ui/views/PlayerLayerOverlayView;->c(Lstudio/scillarium/ottnavigator/ui/views/PlayerLayerOverlayView$b;)V
+
+    iget-object v0, v0, Lxg/i;->b:Lxg/v;
+
+    iget-object v0, v0, Lxg/v;->a:Lstudio/scillarium/ottnavigator/PlayerActivity;
+
+    invoke-virtual {v0}, Lstudio/scillarium/ottnavigator/PlayerActivity;->H()Lgg/y0;
+
+    move-result-object v0
+
+    invoke-static {v3, v0}, Ldh/a;->a(ILgg/y0;)Z
+
+    move-result v0
+
+    goto :goto_0
+
+    :cond_1
+    move v0, v3
+
+    goto :goto_0
+
+    :cond_2
+    move v0, v4
+
+    :goto_0
+    if-nez v0, :cond_4
+
+    invoke-super {p0, p1}, Landroid/app/Activity;->onGenericMotionEvent(Landroid/view/MotionEvent;)Z
+
+    move-result p1
+
+    if-eqz p1, :cond_3
+
+    goto :goto_1
+
+    :cond_3
+    move v3, v4
+
+    :cond_4
+    :goto_1
+    return v3
+.end method
+
+.method public onKeyDown(ILandroid/view/KeyEvent;)Z
+    .locals 3
+
+    :try_start_0
+    invoke-virtual {p0}, Lstudio/scillarium/ottnavigator/PlayerActivity;->M()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    invoke-virtual {p0}, Lstudio/scillarium/ottnavigator/PlayerActivity;->C()Lxg/i;
+
+    move-result-object v0
+
+    invoke-virtual {v0, p1, p2}, Lxg/i;->a(ILandroid/view/KeyEvent;)Z
+
+    move-result v0
+    :try_end_0
+    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
+
+    if-eqz v0, :cond_0
+
+    const/4 p1, 0x1
+
+    return p1
+
+    :catch_0
+    move-exception v0
+
+    const/4 v1, 0x0
+
+    sget-object v2, Lvf/r;->a:Lvf/r;
+
+    invoke-virtual {v2, v0, v1}, Lvf/r;->c(Ljava/lang/Throwable;Ljava/lang/String;)V
+
+    :cond_0
+    invoke-super {p0, p1, p2}, Landroid/app/Activity;->onKeyDown(ILandroid/view/KeyEvent;)Z
+
+    move-result p1
+
+    return p1
+.end method
+
+.method public onKeyLongPress(ILandroid/view/KeyEvent;)Z
+    .locals 3
+
+    :try_start_0
+    invoke-virtual {p0}, Lstudio/scillarium/ottnavigator/PlayerActivity;->M()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    invoke-virtual {p0}, Lstudio/scillarium/ottnavigator/PlayerActivity;->C()Lxg/i;
+
+    move-result-object v0
+
+    invoke-virtual {v0, p1, p2}, Lxg/i;->c(ILandroid/view/KeyEvent;)Z
+
+    move-result v0
+    :try_end_0
+    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
+
+    if-eqz v0, :cond_0
+
+    const/4 p1, 0x1
+
+    return p1
+
+    :catch_0
+    move-exception v0
+
+    const/4 v1, 0x0
+
+    sget-object v2, Lvf/r;->a:Lvf/r;
+
+    invoke-virtual {v2, v0, v1}, Lvf/r;->c(Ljava/lang/Throwable;Ljava/lang/String;)V
+
+    :cond_0
+    invoke-super {p0, p1, p2}, Landroid/app/Activity;->onKeyLongPress(ILandroid/view/KeyEvent;)Z
+
+    move-result p1
+
+    return p1
+.end method
+
+.method public onKeyUp(ILandroid/view/KeyEvent;)Z
+    .locals 3
+
+    :try_start_0
+    invoke-virtual {p0}, Lstudio/scillarium/ottnavigator/PlayerActivity;->M()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    invoke-virtual {p0}, Lstudio/scillarium/ottnavigator/PlayerActivity;->C()Lxg/i;
+
+    move-result-object v0
+
+    invoke-virtual {v0, p1, p2}, Lxg/i;->b(ILandroid/view/KeyEvent;)Z
+
+    move-result v0
+    :try_end_0
+    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
+
+    if-eqz v0, :cond_0
+
+    const/4 p1, 0x1
+
+    return p1
+
+    :catch_0
+    move-exception v0
+
+    const/4 v1, 0x0
+
+    sget-object v2, Lvf/r;->a:Lvf/r;
+
+    invoke-virtual {v2, v0, v1}, Lvf/r;->c(Ljava/lang/Throwable;Ljava/lang/String;)V
+
+    :cond_0
+    invoke-super {p0, p1, p2}, Landroid/app/Activity;->onKeyUp(ILandroid/view/KeyEvent;)Z
+
+    move-result p1
+
+    return p1
+.end method
+
+.method public onNewIntent(Landroid/content/Intent;)V
+    .locals 10
+
+    invoke-super {p0, p1}, Lvg/c;->onNewIntent(Landroid/content/Intent;)V
+
+    iget-boolean v0, p0, Lstudio/scillarium/ottnavigator/PlayerActivity;->N:Z
+
+    if-nez v0, :cond_0
+
+    invoke-virtual {p0}, Lstudio/scillarium/ottnavigator/PlayerActivity;->E()Lxg/v;
+
+    move-result-object v0
+
+    const/4 v1, 0x0
+
+    invoke-virtual {v0, p1, v1}, Lxg/v;->f(Landroid/content/Intent;Lfg/i;)Z
+
+    move-result p1
+
+    if-eqz p1, :cond_0
+
+    invoke-virtual {p0}, Lstudio/scillarium/ottnavigator/PlayerActivity;->E()Lxg/v;
+
+    move-result-object p1
+
+    iget v1, p1, Lxg/v;->c:I
+
+    invoke-virtual {p0}, Lstudio/scillarium/ottnavigator/PlayerActivity;->E()Lxg/v;
+
+    move-result-object p1
+
+    iget-object v2, p1, Lxg/v;->d:Lfg/k;
+
+    invoke-virtual {p0}, Lstudio/scillarium/ottnavigator/PlayerActivity;->E()Lxg/v;
+
+    move-result-object p1
+
+    iget-object v3, p1, Lxg/v;->b:Lfg/i;
+
+    invoke-virtual {p0}, Lstudio/scillarium/ottnavigator/PlayerActivity;->E()Lxg/v;
+
+    move-result-object p1
+
+    iget-object v4, p1, Lxg/v;->e:Lvg/d;
+
+    invoke-virtual {p0}, Lstudio/scillarium/ottnavigator/PlayerActivity;->E()Lxg/v;
+
+    move-result-object p1
+
+    iget v5, p1, Lxg/v;->g:I
+
+    const-wide/16 v6, 0x0
+
+    const/4 v8, 0x0
+
+    const/16 v9, 0x60
+
+    move-object v0, p0
+
+    invoke-static/range {v0 .. v9}, Lstudio/scillarium/ottnavigator/PlayerActivity;->R(Lstudio/scillarium/ottnavigator/PlayerActivity;ILfg/k;Lfg/i;Lvg/d;IJZI)V
+
+    :cond_0
+    return-void
+.end method
+
+.method public onPause()V
+    .locals 8
+
+    invoke-super {p0}, Lvg/c;->onPause()V
+
+    const/4 v0, 0x0
+
+    const/4 v1, 0x1
+
+    invoke-static {p0, v0, v1}, Lstudio/scillarium/ottnavigator/PlayerActivity;->z(Lstudio/scillarium/ottnavigator/PlayerActivity;ZI)V
+
+    sget-object v2, Ldh/a;->a:Ljava/lang/Integer;
+
+    sget v2, Landroid/os/Build$VERSION;->SDK_INT:I
+
+    const/16 v3, 0x18
+
+    if-lt v2, v3, :cond_0
+
+    invoke-virtual {p0}, Landroid/app/Activity;->isInMultiWindowMode()Z
+
+    move-result v3
+
+    goto :goto_0
+
+    :cond_0
+    move v3, v0
+
+    :goto_0
+    const/16 v4, 0x1a
+
+    if-lt v2, v4, :cond_1
+
+    invoke-virtual {p0}, Landroid/app/Activity;->isInPictureInPictureMode()Z
+
+    move-result v2
+
+    if-eqz v2, :cond_1
+
+    move v0, v1
+
+    :cond_1
+    if-nez v3, :cond_5
+
+    if-nez v0, :cond_5
+
+    invoke-virtual {p0}, Lstudio/scillarium/ottnavigator/PlayerActivity;->E()Lxg/v;
+
+    move-result-object v0
+
+    iget v0, v0, Lxg/v;->c:I
+
+    if-ne v0, v1, :cond_2
+
+    sget-object v0, Log/d0;->a:Log/d0;
+
+    invoke-virtual {p0}, Lstudio/scillarium/ottnavigator/PlayerActivity;->E()Lxg/v;
+
+    move-result-object v2
+
+    iget-object v2, v2, Lxg/v;->b:Lfg/i;
+
+    invoke-virtual {p0}, Lstudio/scillarium/ottnavigator/PlayerActivity;->E()Lxg/v;
+
+    move-result-object v3
+
+    iget-object v3, v3, Lxg/v;->d:Lfg/k;
+
+    invoke-virtual {p0}, Lstudio/scillarium/ottnavigator/PlayerActivity;->E()Lxg/v;
+
+    move-result-object v4
+
+    iget-wide v4, v4, Lxg/v;->f:J
+
+    invoke-virtual {p0}, Lstudio/scillarium/ottnavigator/PlayerActivity;->H()Lgg/y0;
+
+    move-result-object v6
+
+    invoke-virtual {v6}, Lgg/y0;->f()J
+
+    move-result-wide v6
+
+    add-long/2addr v6, v4
+
+    invoke-static {v6, v7}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+
+    move-result-object v4
+
+    invoke-virtual {v0, v2, v3, v4}, Log/d0;->b(Lfg/i;Lfg/k;Ljava/lang/Long;)V
+
+    goto :goto_1
+
+    :cond_2
+    sget-object v0, Log/d0;->a:Log/d0;
+
+    invoke-virtual {p0}, Lstudio/scillarium/ottnavigator/PlayerActivity;->E()Lxg/v;
+
+    move-result-object v2
+
+    iget-object v2, v2, Lxg/v;->b:Lfg/i;
+
+    invoke-virtual {v0, v2}, Log/d0;->e(Lfg/i;)V
+
+    :goto_1
+    iget-object v0, p0, Lstudio/scillarium/ottnavigator/PlayerActivity;->O:Ljd/b;
+
+    invoke-interface {v0}, Ljd/b;->getValue()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Lvg/e;
+
+    invoke-virtual {v0, v1}, Lvg/e;->a(Z)V
+
+    invoke-virtual {p0}, Landroid/app/Activity;->isFinishing()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_3
+
+    invoke-virtual {p0}, Lstudio/scillarium/ottnavigator/PlayerActivity;->H()Lgg/y0;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Lgg/y0;->u()V
+
+    goto :goto_2
+
+    :cond_3
+    invoke-virtual {p0}, Lstudio/scillarium/ottnavigator/PlayerActivity;->H()Lgg/y0;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Lgg/y0;->p()V
+
+    :goto_2
+    iget-object v0, p0, Lstudio/scillarium/ottnavigator/PlayerActivity;->X:Ljd/b;
+
+    invoke-interface {v0}, Ljd/b;->getValue()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Lvg/c0;
+
+    invoke-virtual {v0}, Lvg/c0;->c()Z
+
+    move-result v1
+
+    if-nez v1, :cond_4
+
+    goto :goto_3
+
+    :cond_4
+    iget-object v0, v0, Lvg/c0;->e:Lkg/i;
+
+    if-eqz v0, :cond_5
+
+    invoke-virtual {v0}, Lkg/i;->e()V
+
+    :cond_5
+    :goto_3
+    :try_start_0
+    iget-object v0, p0, Lstudio/scillarium/ottnavigator/PlayerActivity;->g0:Landroid/view/View;
+
+    sget-object v1, Lz9/ca2;->r:Lc8/e;
+
+    invoke-virtual {v1, v0, p0}, Lc8/e;->m(Landroid/view/View;Landroid/app/Activity;)V
+    :try_end_0
+    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
+
+    goto :goto_4
+
+    :catch_0
+    move-exception v0
+
+    const/4 v1, 0x0
+
+    sget-object v2, Lvf/r;->a:Lvf/r;
+
+    invoke-virtual {v2, v0, v1}, Lvf/r;->c(Ljava/lang/Throwable;Ljava/lang/String;)V
+
+    :goto_4
+    return-void
+.end method
+
+.method public onPictureInPictureModeChanged(ZLandroid/content/res/Configuration;)V
+    .locals 3
+
+    invoke-super {p0, p1, p2}, Landroidx/activity/ComponentActivity;->onPictureInPictureModeChanged(ZLandroid/content/res/Configuration;)V
+
+    if-eqz p1, :cond_0
+
+    invoke-virtual {p0}, Lstudio/scillarium/ottnavigator/PlayerActivity;->H()Lgg/y0;
+
+    move-result-object p1
+
+    sget-object v0, Ldh/q1;->a:Ldh/q1;
+
+    iget v1, p2, Landroid/content/res/Configuration;->screenWidthDp:I
+
+    invoke-virtual {v0, v1}, Ldh/q1;->m(I)I
+
+    move-result v1
+
+    int-to-double v1, v1
+
+    iput-wide v1, p1, Lgg/y0;->s:D
+
+    invoke-virtual {p0}, Lstudio/scillarium/ottnavigator/PlayerActivity;->H()Lgg/y0;
+
+    move-result-object p1
+
+    iget p2, p2, Landroid/content/res/Configuration;->screenHeightDp:I
+
+    invoke-virtual {v0, p2}, Ldh/q1;->m(I)I
+
+    move-result p2
+
+    int-to-double v0, p2
+
+    iput-wide v0, p1, Lgg/y0;->t:D
+
+    goto :goto_0
+
+    :cond_0
+    sget-object p1, Ldh/q1;->a:Ldh/q1;
+
+    invoke-virtual {p0}, Lstudio/scillarium/ottnavigator/PlayerActivity;->E()Lxg/v;
+
+    move-result-object p2
+
+    iget-object p2, p2, Lxg/v;->a:Lstudio/scillarium/ottnavigator/PlayerActivity;
+
+    invoke-virtual {p1, p2}, Ldh/q1;->w(Landroid/app/Activity;)Ljd/c;
+
+    move-result-object p1
+
+    invoke-virtual {p0}, Lstudio/scillarium/ottnavigator/PlayerActivity;->H()Lgg/y0;
+
+    move-result-object p2
+
+    iget-object v0, p1, Ljd/c;->o:Ljava/lang/Object;
+
+    check-cast v0, Ljava/lang/Number;
+
+    invoke-virtual {v0}, Ljava/lang/Number;->intValue()I
+
+    move-result v0
+
+    int-to-double v0, v0
+
+    iput-wide v0, p2, Lgg/y0;->s:D
+
+    invoke-virtual {p0}, Lstudio/scillarium/ottnavigator/PlayerActivity;->H()Lgg/y0;
+
+    move-result-object p2
+
+    iget-object p1, p1, Ljd/c;->p:Ljava/lang/Object;
+
+    check-cast p1, Ljava/lang/Number;
+
+    invoke-virtual {p1}, Ljava/lang/Number;->intValue()I
+
+    move-result p1
+
+    int-to-double v0, p1
+
+    iput-wide v0, p2, Lgg/y0;->t:D
+
+    :goto_0
+    invoke-virtual {p0}, Lstudio/scillarium/ottnavigator/PlayerActivity;->H()Lgg/y0;
+
+    move-result-object p1
+
+    invoke-virtual {p1}, Lgg/y0;->a()V
+
+    return-void
+.end method
+
+.method public onResume()V
+    .locals 5
+
+    invoke-super {p0}, Lvg/c;->onResume()V
+
+    invoke-virtual {p0}, Lstudio/scillarium/ottnavigator/PlayerActivity;->G()Landroid/widget/FrameLayout;
+
+    move-result-object v0
+
+    sget-object v1, Lvg/z;->d:Ljava/lang/Float;
+
+    if-eqz v1, :cond_0
+
+    invoke-virtual {v1}, Ljava/lang/Number;->floatValue()F
+
+    move-result v1
+
+    invoke-virtual {p0}, Landroid/app/Activity;->getWindow()Landroid/view/Window;
+
+    move-result-object v2
+
+    invoke-virtual {v2}, Landroid/view/Window;->getAttributes()Landroid/view/WindowManager$LayoutParams;
+
+    move-result-object v2
+
+    iput v1, v2, Landroid/view/WindowManager$LayoutParams;->screenBrightness:F
+
+    invoke-virtual {p0}, Landroid/app/Activity;->getWindow()Landroid/view/Window;
+
+    move-result-object v1
+
+    invoke-virtual {v1, v2}, Landroid/view/Window;->setAttributes(Landroid/view/WindowManager$LayoutParams;)V
+
+    :cond_0
+    sget-object v1, Lvg/z;->c:Ljava/lang/Float;
+
+    if-eqz v1, :cond_2
+
+    invoke-virtual {v1}, Ljava/lang/Number;->floatValue()F
+
+    move-result v1
+
+    const/high16 v2, 0x3f800000    # 1.0f
+
+    cmpl-float v2, v1, v2
+
+    if-ltz v2, :cond_1
+
+    goto :goto_0
+
+    :cond_1
+    sget-object v2, Lvg/z;->a:Lvg/z;
+
+    invoke-virtual {v2, p0, v0, v1}, Lvg/z;->c(Landroid/app/Activity;Landroid/widget/FrameLayout;F)V
+
+    :cond_2
+    :goto_0
+    sget-object v0, Ldh/a;->a:Ljava/lang/Integer;
+
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+
+    const/16 v1, 0x18
+
+    const/4 v2, 0x0
+
+    if-lt v0, v1, :cond_3
+
+    invoke-virtual {p0}, Landroid/app/Activity;->isInMultiWindowMode()Z
+
+    move-result v1
+
+    goto :goto_1
+
+    :cond_3
+    move v1, v2
+
+    :goto_1
+    const/16 v3, 0x1a
+
+    const/4 v4, 0x1
+
+    if-lt v0, v3, :cond_4
+
+    invoke-virtual {p0}, Landroid/app/Activity;->isInPictureInPictureMode()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_4
+
+    move v0, v4
+
+    goto :goto_2
+
+    :cond_4
+    move v0, v2
+
+    :goto_2
+    if-nez v1, :cond_6
+
+    if-nez v0, :cond_6
+
+    invoke-virtual {p0}, Lstudio/scillarium/ottnavigator/PlayerActivity;->H()Lgg/y0;
+
+    move-result-object v0
+
+    invoke-virtual {v0, v2}, Lgg/y0;->t(Z)V
+
+    iget-object v0, p0, Lstudio/scillarium/ottnavigator/PlayerActivity;->X:Ljd/b;
+
+    invoke-interface {v0}, Ljd/b;->getValue()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Lvg/c0;
+
+    invoke-virtual {v0}, Lvg/c0;->c()Z
+
+    move-result v1
+
+    if-nez v1, :cond_5
+
+    goto :goto_3
+
+    :cond_5
+    iget-object v0, v0, Lvg/c0;->e:Lkg/i;
+
+    if-eqz v0, :cond_6
+
+    invoke-virtual {v0}, Lkg/i;->f()V
+
+    :cond_6
+    :goto_3
+    invoke-virtual {p0, v4}, Lstudio/scillarium/ottnavigator/PlayerActivity;->K(Z)V
+
+    iget-object v0, p0, Lstudio/scillarium/ottnavigator/PlayerActivity;->O:Ljd/b;
+
+    invoke-interface {v0}, Ljd/b;->getValue()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Lvg/e;
+
+    invoke-virtual {v0, v2}, Lvg/e;->a(Z)V
+
+    :try_start_0
+    iget-object v0, p0, Lstudio/scillarium/ottnavigator/PlayerActivity;->g0:Landroid/view/View;
+
+    sget-object v1, Lbg/o;->v:Lbg/o;
+
+    invoke-static {}, Lbg/o;->t()Lqg/m;
+
+    move-result-object v1
+
+    iget-boolean v1, v1, Lqg/m;->a:Z
+
+    sget-object v3, Lz9/ca2;->r:Lc8/e;
+
+    invoke-virtual {v3, v0, p0, v1, v2}, Lc8/e;->n(Landroid/view/View;Landroid/app/Activity;ZZ)V
+    :try_end_0
+    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
+
+    goto :goto_4
+
+    :catch_0
+    move-exception v0
+
+    const/4 v1, 0x0
+
+    sget-object v2, Lvf/r;->a:Lvf/r;
+
+    invoke-virtual {v2, v0, v1}, Lvf/r;->c(Ljava/lang/Throwable;Ljava/lang/String;)V
+
+    :goto_4
+    return-void
+.end method
+
+.method public onStop()V
+    .locals 2
+
+    iget-object v0, p0, Lstudio/scillarium/ottnavigator/PlayerActivity;->O:Ljd/b;
+
+    invoke-interface {v0}, Ljd/b;->getValue()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Lvg/e;
+
+    const/4 v1, 0x1
+
+    invoke-virtual {v0, v1}, Lvg/e;->a(Z)V
+
+    invoke-virtual {p0}, Lstudio/scillarium/ottnavigator/PlayerActivity;->H()Lgg/y0;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Lgg/y0;->u()V
+
+    iget-object v0, p0, Lstudio/scillarium/ottnavigator/PlayerActivity;->X:Ljd/b;
+
+    invoke-interface {v0}, Ljd/b;->getValue()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Lvg/c0;
+
+    invoke-virtual {v0}, Lvg/c0;->c()Z
+
+    move-result v1
+
+    if-nez v1, :cond_0
+
+    goto :goto_0
+
+    :cond_0
+    iget-object v0, v0, Lvg/c0;->e:Lkg/i;
+
+    if-eqz v0, :cond_1
+
+    invoke-virtual {v0}, Lkg/i;->d()V
+
+    :cond_1
+    :goto_0
+    sget-object v0, Lxg/c;->a:Lxg/c;
+
+    invoke-virtual {v0, p0}, Lxg/c;->e(Landroid/app/Activity;)V
+
+    invoke-super {p0}, Lvg/c;->onStop()V
+
+    return-void
+.end method
+
+.method public onUserLeaveHint()V
+    .locals 4
+
+    invoke-super {p0}, Landroid/app/Activity;->onUserLeaveHint()V
+
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+
+    const/16 v1, 0x1a
+
+    if-lt v0, v1, :cond_0
+
+    sget-object v0, Lbg/o;->v:Lbg/o;
+
+    invoke-static {}, Lbg/o;->d()Lbg/o;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Lbg/o;->p()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    sget-object v0, Lcg/i4;->c0:Lcg/i4;
+
+    const/4 v1, 0x0
+
+    const/4 v2, 0x1
+
+    const/4 v3, 0x0
+
+    invoke-static {v0, v1, v2, v3}, Lcg/i4;->e(Lcg/i4;ZILjava/lang/Object;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    invoke-virtual {p0}, Lstudio/scillarium/ottnavigator/PlayerActivity;->W()Z
+
+    :cond_0
+    return-void
+.end method
+
+.method public u()Ljava/lang/String;
+    .locals 1
+
+    sget-object v0, Ldh/i1;->a:Ldh/i1;
+
+    sget-object v0, Ldh/i1;->A:Ljd/b;
+
+    check-cast v0, Ljd/e;
+
+    invoke-virtual {v0}, Ljd/e;->getValue()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Ljava/lang/String;
+
+    return-object v0
+.end method
