@@ -1,0 +1,73 @@
+11-07 21:45:02.970 W/HdmiControlService( 3521): Local playback device not available
+11-07 21:45:02.058 I/chatty  ( 3285): uid=1000(system) HwBinder:3285_1 identical 581 lines
+11-07 21:45:02.459 E/MesonHwc( 3285): too many layers need CURSOR_PLANE, skip. 
+11-07 21:45:02.970 W/WindowManager( 3521): One touch play failed: 2
+11-07 21:45:02.978 D/AutofillManagerService( 3521): Close system dialogs
+11-07 21:45:02.982 I/ActivityManager( 3521): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.google.android.tvlauncher/.MainActivity (has extras)} from uid 1000
+11-07 21:45:02.985 V/StatusBar( 3686): mStatusBarWindow: com.android.systemui.statusbar.phone.StatusBarWindowView{25f8b3d V.ED..... ......ID 0,0-1920,42} canPanelBeCollapsed(): false
+11-07 21:45:02.986 I/vol.Events( 3686): writeEvent dismiss_dialog volume_controller
+11-07 21:45:03.009 E/MesonHwc( 3285): too many layers need CURSOR_PLANE, skip. 
+11-07 21:45:03.058 E/MesonHwc( 3285): too many layers need CURSOR_PLANE, skip. 
+11-07 21:45:03.079 I/gralloc ( 5744): ddebug, free share_fd=88, user_hnd=0x2, ion client=59
+11-07 21:45:03.080 I/gralloc ( 5744): ddebug, free share_fd=95, user_hnd=0x3, ion client=59
+11-07 21:45:03.080 I/gralloc ( 5744): ddebug, free share_fd=86, user_hnd=0x1, ion client=59
+11-07 21:45:03.082 E/BufferQueueProducer( 3297): [com.Sbxtv.Logviewer/com.Sbxtv.Logviewer.MainActivity#0] disconnect: not connected (req=1)
+11-07 21:45:03.085 E/ActivityThread( 4236): Failed to find provider info for tvlauncher.mic
+11-07 21:45:03.082 W/libEGL  ( 5744): EGLNativeWindowType 0x8e660808 disconnect failed
+11-07 21:45:03.088 E/JavaBinder(25653): *** Uncaught remote exception!  (Exceptions are not yet supported across processes.)
+11-07 21:45:03.088 E/JavaBinder(25653): android.content.res.Resources$NotFoundException: String resource ID #0x7f040001
+11-07 21:45:03.088 E/JavaBinder(25653): 	at android.content.res.Resources.getText(Resources.java:348)
+11-07 21:45:03.088 E/JavaBinder(25653): 	at android.content.res.Resources.getString(Resources.java:441)
+11-07 21:45:03.088 E/JavaBinder(25653): 	at android.content.Context.getString(Context.java:578)
+11-07 21:45:03.088 E/JavaBinder(25653): 	at slim.box.tv.customizer.ConfigurationProvider.query(Unknown Source:32)
+11-07 21:45:03.088 E/JavaBinder(25653): 	at android.content.ContentProvider.query(ContentProvider.java:1057)
+11-07 21:45:03.088 E/JavaBinder(25653): 	at android.content.ContentProvider.query(ContentProvider.java:1149)
+11-07 21:45:03.088 E/JavaBinder(25653): 	at android.content.ContentProvider$Transport.query(ContentProvider.java:241)
+11-07 21:45:03.088 E/JavaBinder(25653): 	at android.content.ContentProviderNative.onTransact(ContentProviderNative.java:102)
+11-07 21:45:03.088 E/JavaBinder(25653): 	at android.os.Binder.execTransact(Binder.java:731)
+11-07 21:45:03.091 E/MesonHwc( 3285): too many layers need CURSOR_PLANE, skip. 
+11-07 21:45:03.114 I/gralloc ( 3284): framebuffer hal alread move to hwcomposer
+11-07 21:45:03.118 I/gralloc ( 3297): ddebug, pair (share_fd=93, user_hnd=7, ion_client=30)
+11-07 21:45:03.118 I/gralloc ( 3284): framebuffer hal alread move to hwcomposer
+11-07 21:45:03.126 E/MesonHwc( 3285): too many layers need CURSOR_PLANE, skip. 
+11-07 21:45:03.129 I/gralloc ( 3297): ddebug, pair (share_fd=127, user_hnd=8, ion_client=30)
+11-07 21:45:03.130 I/gralloc ( 3284): framebuffer hal alread move to hwcomposer
+11-07 21:45:03.138 I/gralloc ( 3297): ddebug, pair (share_fd=105, user_hnd=b, ion_client=30)
+11-07 21:45:03.139 D/mali_winsys( 4236): EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, EGLBoolean) returns 0x3000
+11-07 21:45:03.143 E/Clearcut-EventLogger( 4236): Unexpected log parameter home_selected_row_position
+11-07 21:45:03.143 W/HomeController( 4236): onResume: List view global layout completed.
+11-07 21:45:03.147 E/Clearcut-EventLogger( 4236): Unexpected log parameter shown_channel_count
+11-07 21:45:03.175 I/gralloc ( 4190): ddebug, pair (share_fd=68, user_hnd=3, ion_client=62)
+11-07 21:45:03.183 I/gralloc ( 3297): ddebug, free share_fd=105, user_hnd=0xb, ion client=30
+11-07 21:45:03.184 I/gralloc ( 3284): framebuffer hal alread move to hwcomposer
+11-07 21:45:03.190 I/gralloc ( 3297): ddebug, pair (share_fd=105, user_hnd=b, ion_client=30)
+11-07 21:45:03.193 I/gralloc ( 4236): ddebug, pair (share_fd=100, user_hnd=1, ion_client=98)
+11-07 21:45:03.226 E/MesonHwc( 3285): too many layers need CURSOR_PLANE, skip. 
+11-07 21:45:03.239 I/gralloc ( 3284): framebuffer hal alread move to hwcomposer
+11-07 21:45:03.242 E/MesonHwc( 3285): too many layers need CURSOR_PLANE, skip. 
+11-07 21:45:03.248 I/gralloc ( 3297): ddebug, pair (share_fd=134, user_hnd=c, ion_client=30)
+11-07 21:45:03.255 I/gralloc ( 3297): ddebug, free share_fd=134, user_hnd=0xc, ion client=30
+11-07 21:45:03.259 I/gralloc ( 3521): ddebug, pair (share_fd=251, user_hnd=1, ion_client=267)
+11-07 21:45:03.269 I/gralloc ( 3297): ddebug, free share_fd=127, user_hnd=0x8, ion client=30
+11-07 21:45:03.270 I/gralloc ( 3284): framebuffer hal alread move to hwcomposer
+11-07 21:45:03.276 E/MesonHwc( 3285): too many layers need CURSOR_PLANE, skip. 
+11-07 21:45:03.278 I/gralloc ( 3297): ddebug, pair (share_fd=127, user_hnd=8, ion_client=30)
+11-07 21:45:03.279 I/gralloc ( 3686): ddebug, pair (share_fd=101, user_hnd=1, ion_client=87)
+11-07 21:45:03.279 I/gralloc ( 4190): ddebug, pair (share_fd=76, user_hnd=1, ion_client=62)
+11-07 21:45:03.283 I/gralloc ( 4236): ddebug, pair (share_fd=103, user_hnd=2, ion_client=98)
+11-07 21:45:03.293 E/MesonHwc( 3285): too many layers need CURSOR_PLANE, skip. 
+11-07 21:45:03.309 E/MesonHwc( 3285): too many layers need CURSOR_PLANE, skip. 
+11-07 21:45:03.325 E/Clearcut-EventLogger( 4236): Unexpected log parameter tray_notification_count
+11-07 21:45:03.325 E/Clearcut-EventLogger( 4236): Unexpected log parameter notification_indicator_total
+11-07 21:45:03.326 E/MesonHwc( 3285): too many layers need CURSOR_PLANE, skip. 
+11-07 21:45:03.343 E/MesonHwc( 3285): too many layers need CURSOR_PLANE, skip. 
+11-07 21:45:03.349 I/gralloc ( 3686): ddebug, free share_fd=101, user_hnd=0x1, ion client=87
+11-07 21:45:03.359 E/MesonHwc( 3285): too many layers need CURSOR_PLANE, skip. 
+11-07 21:45:03.362 I/gralloc ( 3297): ddebug, free share_fd=93, user_hnd=0x7, ion client=30
+11-07 21:45:03.363 I/gralloc ( 3284): framebuffer hal alread move to hwcomposer
+11-07 21:45:03.366 I/gralloc ( 3297): ddebug, pair (share_fd=100, user_hnd=7, ion_client=30)
+11-07 21:45:03.370 I/gralloc ( 4236): ddebug, pair (share_fd=105, user_hnd=3, ion_client=98)
+11-07 21:45:03.376 E/MesonHwc( 3285): too many layers need CURSOR_PLANE, skip. 
+11-07 21:45:03.643 I/chatty  ( 3285): uid=1000(system) HwBinder:3285_1 identical 16 lines
+11-07 21:45:03.660 E/MesonHwc( 3285): too many layers need CURSOR_PLANE, skip. 
+11-07 21:45:03.662 W/SurfaceFlinger( 3297): Attempting to set client state on removed layer: com.Sbxtv.Logviewer/com.Sbxtv.Logviewer.MainActivity#0
