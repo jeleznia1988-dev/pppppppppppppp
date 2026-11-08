@@ -1,0 +1,459 @@
+package studio.scillarium.ottnavigator.ui.views;
+
+import android.content.Context;
+import android.os.Handler;
+import android.util.AttributeSet;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.FrameLayout;
+import android.widget.ImageView;
+import android.widget.TextView;
+import java.lang.ref.WeakReference;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import studio.scillarium.ottnavigator.PlayerActivity;
+import studio.scillarium.ottnavigator.R;
+import studio.scillarium.ottnavigator.ui.Bread;
+
+/* loaded from: classes4.dex */
+public final class ChannelInfoQuickSwitchView extends FrameLayout {
+    public static final /* synthetic */ int j = 0;
+    public b03 b;
+    public oy c;
+    public c d;
+    public final p24 e;
+    public long f;
+    public int g;
+    public volatile a h;
+    public volatile lw i;
+
+    /* loaded from: classes4.dex */
+    public static final class a {
+        public final lw a;
+        public final int b;
+        public final List<oy> c;
+        public final ArrayList d;
+        public final HashMap e;
+        public volatile long f;
+
+        public a(lw lwVar, int i, List list, ArrayList arrayList, HashMap hashMap) {
+            this.a = lwVar;
+            this.b = i;
+            this.c = list;
+            this.d = arrayList;
+            this.e = hashMap;
+            p24 p24Var = af4.c;
+            this.f = System.currentTimeMillis() + af4.a;
+        }
+    }
+
+    /* loaded from: classes4.dex */
+    public final class b {
+        public final ViewGroup a;
+        public final ChannelIconView b;
+        public final TextView c;
+        public final TextView d;
+
+        public b(ViewGroup viewGroup) {
+            this.a = viewGroup;
+            ChannelIconView channelIconView = (ChannelIconView) viewGroup.findViewById(R.id.channel_icon);
+            this.b = channelIconView;
+            this.c = (TextView) viewGroup.findViewById(R.id.channel_name);
+            this.d = (TextView) viewGroup.findViewById(R.id.current_show);
+            channelIconView.setBackground(null);
+        }
+    }
+
+    /* loaded from: classes4.dex */
+    public final class c implements Runnable {
+        public final oy b;
+        public boolean c = true;
+
+        public c(oy oyVar) {
+            this.b = oyVar;
+        }
+
+        @Override // java.lang.Runnable
+        public final void run() {
+            String str;
+            oy oyVar = this.b;
+            ChannelInfoQuickSwitchView channelInfoQuickSwitchView = ChannelInfoQuickSwitchView.this;
+            if (this.c) {
+                b03 b03Var = channelInfoQuickSwitchView.b;
+                if (b03Var == null) {
+                    b03Var = null;
+                }
+                if (!zz1.a(b03Var.b.b, oyVar.b)) {
+                    ez3.a(gn0.a(4), new Object[0]);
+                    b03 b03Var2 = channelInfoQuickSwitchView.b;
+                    if (b03Var2 == null) {
+                        b03Var2 = null;
+                    }
+                    PlayerActivity playerActivity = b03Var2.a;
+                    lw b = channelInfoQuickSwitchView.b();
+                    if (b == null) {
+                        b = oyVar.g;
+                    }
+                    if (b != null) {
+                        str = b.d;
+                    } else {
+                        lw lwVar = oyVar.g;
+                        str = lwVar != null ? lwVar.d : null;
+                    }
+                    PlayerActivity.V(playerActivity, 0, null, oyVar, new Bread(str, oyVar.b), 0, 0L, false, 112);
+                }
+                channelInfoQuickSwitchView.d = null;
+                channelInfoQuickSwitchView.c = null;
+                a aVar = channelInfoQuickSwitchView.h;
+                if (aVar != null) {
+                    aVar.f = 0L;
+                }
+                b03 b03Var3 = channelInfoQuickSwitchView.b;
+                PlayerActivity.K((b03Var3 != null ? b03Var3 : null).a);
+            }
+        }
+    }
+
+    /* loaded from: classes4.dex */
+    public final class d {
+        public final ImageView a;
+        public final ChannelIconView b;
+        public final View c;
+        public final TextView d;
+        public final TextView e;
+        public final b f;
+        public final b g;
+        public final b h;
+        public final b i;
+
+        public d(ChannelInfoQuickSwitchView channelInfoQuickSwitchView) {
+            this.a = (ImageView) channelInfoQuickSwitchView.findViewById(R.id.poster);
+            this.b = (ChannelIconView) channelInfoQuickSwitchView.findViewById(R.id.channel_info_icon);
+            this.c = channelInfoQuickSwitchView.findViewById(R.id.selected_channel);
+            this.d = (TextView) channelInfoQuickSwitchView.findViewById(R.id.channel_info_name);
+            this.e = (TextView) channelInfoQuickSwitchView.findViewById(R.id.channel_info_current_show);
+            this.f = new b((ViewGroup) channelInfoQuickSwitchView.findViewById(R.id.prev_p2));
+            this.g = new b((ViewGroup) channelInfoQuickSwitchView.findViewById(R.id.prev_p1));
+            this.h = new b((ViewGroup) channelInfoQuickSwitchView.findViewById(R.id.next_p1));
+            this.i = new b((ViewGroup) channelInfoQuickSwitchView.findViewById(R.id.next_p2));
+        }
+    }
+
+    /* loaded from: classes4.dex */
+    public static final class e implements Runnable {
+        public final /* synthetic */ WeakReference b;
+        public final /* synthetic */ ChannelInfoQuickSwitchView c;
+
+        public e(WeakReference weakReference, ChannelInfoQuickSwitchView channelInfoQuickSwitchView) {
+            this.b = weakReference;
+            this.c = channelInfoQuickSwitchView;
+        }
+
+        @Override // java.lang.Runnable
+        public final void run() {
+            try {
+                View view = (View) this.b.get();
+                if (view != null && view.isAttachedToWindow()) {
+                    this.c.setVisibility(8);
+                }
+            } catch (Exception e) {
+                p24 p24Var = af4.c;
+                af4.c(e, null);
+            }
+        }
+    }
+
+    public ChannelInfoQuickSwitchView(Context context) {
+        this(context, null, 0, 6, null);
+    }
+
+    public ChannelInfoQuickSwitchView(Context context, AttributeSet attributeSet) {
+        this(context, attributeSet, 0, 4, null);
+    }
+
+    public ChannelInfoQuickSwitchView(Context context, AttributeSet attributeSet, int i) {
+        super(context, attributeSet, i);
+        this.e = new p24(new d6(5, this));
+        View.inflate(context, R.layout.channel_info_quickswitch, this);
+        if (ns3.r4.c(true)) {
+            findViewById(R.id.channel_info_qs__bg).setBackgroundColor(0);
+        }
+    }
+
+    public /* synthetic */ ChannelInfoQuickSwitchView(Context context, AttributeSet attributeSet, int i, int i2, zz0 zz0Var) {
+        this(context, (i2 & 2) != 0 ? null : attributeSet, (i2 & 4) != 0 ? 0 : i);
+    }
+
+    public static a e(lw lwVar, List list) {
+        cl2.a.getClass();
+        int i = cl2.e.f.b;
+        ArrayList arrayList = new ArrayList();
+        for (Object obj : list) {
+            cl2.a.getClass();
+            if (!cl2.e.f.a((oy) obj)) {
+                arrayList.add(obj);
+            }
+        }
+        HashMap hashMap = new HashMap(arrayList.size() * 2);
+        int size = arrayList.size();
+        int i2 = 0;
+        int i3 = 0;
+        while (i3 < size) {
+            Object obj2 = arrayList.get(i3);
+            i3++;
+            int i4 = i2 + 1;
+            if (i2 < 0) {
+                u30.r0();
+                throw null;
+            }
+            oy oyVar = (oy) obj2;
+            if (!hashMap.containsKey(oyVar)) {
+                hashMap.put(oyVar, Integer.valueOf(i2));
+            }
+            i2 = i4;
+        }
+        return new a(lwVar, i, list, arrayList, hashMap);
+    }
+
+    public final void a(boolean z) {
+        if (d()) {
+            c cVar = this.d;
+            if (cVar != null) {
+                cVar.c = false;
+            }
+            if (cVar != null) {
+                b03 b03Var = this.b;
+                if (b03Var == null) {
+                    b03Var = null;
+                }
+                ((ms1) b03Var.a.O.getValue()).removeCallbacks(cVar);
+            }
+            this.d = null;
+        }
+        if (z) {
+            p24 p24Var = af4.c;
+            Integer num = -1;
+            long longValue = num.longValue();
+            e eVar = new e(new WeakReference(this), this);
+            if (longValue <= 0) {
+                ((Handler) af4.c.getValue()).post(eVar);
+            } else {
+                ((Handler) af4.c.getValue()).postDelayed(eVar, longValue);
+            }
+        }
+    }
+
+    public final lw b() {
+        boolean c2;
+        lw b2;
+        Boolean bool = w10.a;
+        if (bool != null) {
+            c2 = bool.booleanValue();
+        } else {
+            c2 = ns3.g0.c(true);
+            w10.a = Boolean.valueOf(c2);
+        }
+        if (c2 || ns3.Q1.c(true)) {
+            return (lw) kw.b.getValue();
+        }
+        b03 b03Var = this.b;
+        if (b03Var == null) {
+            b03Var = null;
+        }
+        Bread bread = b03Var.e;
+        if (bread != null && (b2 = bread.b()) != null) {
+            if (b2.b == ux.Recent) {
+                b2 = null;
+            }
+            if (b2 != null) {
+                return b2;
+            }
+        }
+        b03 b03Var2 = this.b;
+        oy oyVar = (b03Var2 != null ? b03Var2 : null).b;
+        cl2.a.getClass();
+        cl2.i.getClass();
+        return (!bk2.h(oyVar) || ((int) ns3.T0.y(true)) < 0) ? oyVar.g : (lw) kw.a.getValue();
+    }
+
+    /* JADX WARN: Removed duplicated region for block: B:26:0x0089  */
+    /*
+        Code decompiled incorrectly, please refer to instructions dump.
+        To view partially-correct code enable 'Show inconsistent code' option in preferences
+    */
+    public final defpackage.p94<defpackage.oy, java.lang.Integer, java.util.List<defpackage.oy>> c(boolean r14) {
+        /*
+            Method dump skipped, instructions count: 412
+            To view this dump change 'Code comments level' option to 'DEBUG'
+        */
+        throw new UnsupportedOperationException("Method not decompiled: studio.scillarium.ottnavigator.ui.views.ChannelInfoQuickSwitchView.c(boolean):p94");
+    }
+
+    public final boolean d() {
+        return this.d != null;
+    }
+}
+
+package defpackage;
+
+import defpackage.rx1;
+import studio.scillarium.ottnavigator.ui.views.ChannelInfoQuickSwitchView;
+
+/* renamed from: yy  reason: default package */
+/* loaded from: classes4.dex */
+public final class yy implements rx1.b {
+    public final /* synthetic */ ChannelInfoQuickSwitchView b;
+
+    public yy(ChannelInfoQuickSwitchView channelInfoQuickSwitchView) {
+        this.b = channelInfoQuickSwitchView;
+    }
+
+    @Override // defpackage.rx1.b
+    public final void a() {
+        ((ChannelInfoQuickSwitchView.d) this.b.e.getValue()).a.setVisibility(8);
+    }
+
+    @Override // defpackage.rx1.b
+    public final void onSuccess() {
+        ((ChannelInfoQuickSwitchView.d) this.b.e.getValue()).a.setVisibility(0);
+    }
+}
+
+package defpackage;
+
+import studio.scillarium.ottnavigator.PlayerActivity;
+import studio.scillarium.ottnavigator.ui.Bread;
+import studio.scillarium.ottnavigator.ui.views.ChannelInfoQuickSwitchView;
+
+/* renamed from: zy  reason: default package */
+/* loaded from: classes4.dex */
+public final class zy implements Runnable {
+    public final /* synthetic */ ChannelInfoQuickSwitchView b;
+    public final /* synthetic */ oy c;
+
+    public zy(ChannelInfoQuickSwitchView channelInfoQuickSwitchView, oy oyVar) {
+        this.b = channelInfoQuickSwitchView;
+        this.c = oyVar;
+    }
+
+    @Override // java.lang.Runnable
+    public final void run() {
+        String str;
+        try {
+            ChannelInfoQuickSwitchView channelInfoQuickSwitchView = this.b;
+            b03 b03Var = channelInfoQuickSwitchView.b;
+            if (b03Var == null) {
+                b03Var = null;
+            }
+            PlayerActivity playerActivity = b03Var.a;
+            lw b = channelInfoQuickSwitchView.b();
+            oy oyVar = this.c;
+            if (b == null) {
+                b = oyVar.g;
+            }
+            if (b != null) {
+                str = b.d;
+            } else {
+                lw lwVar = oyVar.g;
+                str = lwVar != null ? lwVar.d : null;
+            }
+            PlayerActivity.V(playerActivity, 0, null, oyVar, new Bread(str, oyVar.b), 0, 0L, false, 112);
+        } catch (Exception e) {
+            p24 p24Var = af4.c;
+            af4.c(e, null);
+        }
+    }
+}
+
+package defpackage;
+
+import studio.scillarium.ottnavigator.PlayerActivity;
+import studio.scillarium.ottnavigator.ui.Bread;
+import studio.scillarium.ottnavigator.ui.views.ChannelInfoQuickSwitchView;
+
+/* renamed from: zy  reason: default package */
+/* loaded from: classes4.dex */
+public final class zy implements Runnable {
+    public final /* synthetic */ ChannelInfoQuickSwitchView b;
+    public final /* synthetic */ oy c;
+
+    public zy(ChannelInfoQuickSwitchView channelInfoQuickSwitchView, oy oyVar) {
+        this.b = channelInfoQuickSwitchView;
+        this.c = oyVar;
+    }
+
+    @Override // java.lang.Runnable
+    public final void run() {
+        String str;
+        try {
+            ChannelInfoQuickSwitchView channelInfoQuickSwitchView = this.b;
+            b03 b03Var = channelInfoQuickSwitchView.b;
+            if (b03Var == null) {
+                b03Var = null;
+            }
+            PlayerActivity playerActivity = b03Var.a;
+            lw b = channelInfoQuickSwitchView.b();
+            oy oyVar = this.c;
+            if (b == null) {
+                b = oyVar.g;
+            }
+            if (b != null) {
+                str = b.d;
+            } else {
+                lw lwVar = oyVar.g;
+                str = lwVar != null ? lwVar.d : null;
+            }
+            PlayerActivity.V(playerActivity, 0, null, oyVar, new Bread(str, oyVar.b), 0, 0L, false, 112);
+        } catch (Exception e) {
+            p24 p24Var = af4.c;
+            af4.c(e, null);
+        }
+    }
+}
+
+package defpackage;
+
+import studio.scillarium.ottnavigator.PlayerActivity;
+import studio.scillarium.ottnavigator.ui.Bread;
+import studio.scillarium.ottnavigator.ui.views.ChannelInfoQuickSwitchView;
+
+/* renamed from: zy  reason: default package */
+/* loaded from: classes4.dex */
+public final class zy implements Runnable {
+    public final /* synthetic */ ChannelInfoQuickSwitchView b;
+    public final /* synthetic */ oy c;
+
+    public zy(ChannelInfoQuickSwitchView channelInfoQuickSwitchView, oy oyVar) {
+        this.b = channelInfoQuickSwitchView;
+        this.c = oyVar;
+    }
+
+    @Override // java.lang.Runnable
+    public final void run() {
+        String str;
+        try {
+            ChannelInfoQuickSwitchView channelInfoQuickSwitchView = this.b;
+            b03 b03Var = channelInfoQuickSwitchView.b;
+            if (b03Var == null) {
+                b03Var = null;
+            }
+            PlayerActivity playerActivity = b03Var.a;
+            lw b = channelInfoQuickSwitchView.b();
+            oy oyVar = this.c;
+            if (b == null) {
+                b = oyVar.g;
+            }
+            if (b != null) {
+                str = b.d;
+            } else {
+                lw lwVar = oyVar.g;
+                str = lwVar != null ? lwVar.d : null;
+            }
+            PlayerActivity.V(playerActivity, 0, null, oyVar, new Bread(str, oyVar.b), 0, 0L, false, 112);
+        } catch (Exception e) {
+            p24 p24Var = af4.c;
+            af4.c(e, null);
+        }
+    }
+}
