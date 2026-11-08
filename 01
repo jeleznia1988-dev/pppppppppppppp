@@ -1,0 +1,94 @@
+package defpackage;
+
+import android.app.Activity;
+import android.view.View;
+import androidx.fragment.app.FragmentActivity;
+import com.applovin.impl.mediation.debugger.ui.testmode.a;
+import defpackage.bz2;
+import defpackage.nx2;
+import studio.scillarium.ottnavigator.c;
+import studio.scillarium.ottnavigator.ui.views.ChannelInfoQuickSwitchView;
+
+/* renamed from: jg2  reason: default package */
+/* loaded from: classes4.dex */
+public final /* synthetic */ class jg2 implements View.OnClickListener {
+    public final /* synthetic */ int b;
+    public final /* synthetic */ Object c;
+
+    public /* synthetic */ jg2(int i, Object obj) {
+        this.b = i;
+        this.c = obj;
+    }
+
+    @Override // android.view.View.OnClickListener
+    public final void onClick(View view) {
+        int i = this.b;
+        Object obj = this.c;
+        switch (i) {
+            case 0:
+                ys4 J0 = ((kg2) obj).J0();
+                if (J0 != null) {
+                    ys4 ys4Var = J0.q() ? J0 : null;
+                    if (ys4Var != null) {
+                        ys4Var.d();
+                        return;
+                    }
+                    return;
+                }
+                return;
+            case 1:
+                ChannelInfoQuickSwitchView channelInfoQuickSwitchView = ((as2) obj).a.a.S;
+                ChannelInfoQuickSwitchView channelInfoQuickSwitchView2 = channelInfoQuickSwitchView != null ? channelInfoQuickSwitchView : null;
+                channelInfoQuickSwitchView2.getClass();
+                af4.f(new wy(channelInfoQuickSwitchView2, true));
+                return;
+            case 2:
+                nx2.c cVar = ((bz2) obj).b;
+                cVar.d(cVar.b() ? bz2.a.c : bz2.a.d);
+                return;
+            case 3:
+                wc4 wc4Var = wc4.a;
+                wc4.A((Activity) obj);
+                return;
+            case 4:
+                ((w93) obj).d();
+                return;
+            case 5:
+                je3 je3Var = (je3) obj;
+                int i2 = je3Var.m;
+                if (i2 != je3Var.l) {
+                    je3Var.k.invoke(Integer.valueOf(i2));
+                }
+                je3Var.d();
+                return;
+            case 6:
+                ((ya4) obj).b(false);
+                return;
+            case 7:
+                ((cl4) obj).A();
+                return;
+            case 8:
+                sr4 sr4Var = (sr4) obj;
+                if (ns3.K4.c(true) && sr4Var.A0().size() >= 5) {
+                    sr4Var.d();
+                    return;
+                }
+                FragmentActivity i0 = sr4Var.i0();
+                wc4 wc4Var2 = wc4.a;
+                c o = wc4.o(i0);
+                if (o == null || !o.O() || o.I == null) {
+                    o = null;
+                }
+                if (o == null) {
+                    new mm3(i0, null, null, null, 30);
+                    return;
+                }
+                c.K0(o, null, 3);
+                id4 id4Var = id4.a;
+                return;
+            default:
+                ((a) obj).d(view);
+                return;
+        }
+    }
+}
