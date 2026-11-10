@@ -1,0 +1,426 @@
+11-10 11:41:41.959 W/gralloc ( 3280): omx buffer: descriptorInfo->width:1920 descriptorInfo->height:1080
+11-10 11:41:53.002 I/chatty  ( 3280): uid=1000(system) composer@2.2-se identical 36 lines
+11-10 11:41:53.336 W/gralloc ( 3280): omx buffer: descriptorInfo->width:1920 descriptorInfo->height:1080
+11-10 11:41:53.412 I/um.ottnavigato(13383): Background concurrent copying GC freed 15142(11MB) AllocSpace objects, 0(0B) LOS objects, 41% free, 33MB/57MB, paused 163us total 202.582ms
+11-10 11:41:53.670 W/gralloc ( 3280): omx buffer: descriptorInfo->width:1920 descriptorInfo->height:1080
+11-10 11:41:55.355 I/chatty  ( 3280): uid=1000(system) composer@2.2-se identical 5 lines
+11-10 11:41:55.671 W/gralloc ( 3280): omx buffer: descriptorInfo->width:1920 descriptorInfo->height:1080
+11-10 11:41:55.997 I/um.ottnavigato(13383): Background concurrent copying GC freed 123323(13MB) AllocSpace objects, 337(6MB) LOS objects, 32% free, 49MB/73MB, paused 233us total 230.363ms
+11-10 11:41:56.005 W/gralloc ( 3280): omx buffer: descriptorInfo->width:1920 descriptorInfo->height:1080
+11-10 11:41:56.129 I/system_server( 3490): Background concurrent copying GC freed 80170(4MB) AllocSpace objects, 165(3MB) LOS objects, 42% free, 10MB/18MB, paused 185us total 180.235ms
+11-10 11:41:56.356 W/gralloc ( 3280): omx buffer: descriptorInfo->width:1920 descriptorInfo->height:1080
+11-10 11:42:04.740 E/storaged( 3355): getDiskStats failed with result NOT_SUPPORTED and size 0
+11-10 11:42:05.009 D/AutofillManagerService( 3490): onBackKeyPressed()
+11-10 11:42:04.398 I/chatty  ( 3280): uid=1000(system) composer@2.2-se identical 26 lines
+11-10 11:42:04.715 W/gralloc ( 3280): omx buffer: descriptorInfo->width:1920 descriptorInfo->height:1080
+11-10 11:42:05.027 I/OmxComponent( 3358): OMX_CommandFlush 740 Cmd 0x1 nParam1 0xffffffff
+11-10 11:42:05.027 I/OmxComponent( 3358): OMX.amlogic.avc.decoder.awesome: flush input
+11-10 11:42:05.027 V/AmlogicVideoDecoderAwesome( 3358): flushInput:980 >
+11-10 11:42:05.027 V/OMX_WorkerPeer( 3358): hardware/amlogic/omx/omx_framework/WorkerPeer.cpp:flushInput:56 --------------------
+11-10 11:42:05.027 V/AmlogicVideoDecoderAwesome( 3358): pause:291 >
+11-10 11:42:05.030 V/AmlogicVideoDecoderAwesome( 3358): reset:337 >
+11-10 11:42:05.030 D/AmlogicVideoDecoderAwesome( 3358): reset_1
+11-10 11:42:05.030 I/amcodec ( 3358): AMSTREAM_SET_OMX_RUNNING ret=0
+11-10 11:42:05.085 D/UEventObserver( 3746): remove@/devices/platform/vdec/ammvdec_h264.0��ACTION=remove��DEVPATH=/devices/platform/vdec/ammvdec_h264.0��SUBSYSTEM=platform��MODALIAS=platform:ammvdec_h264��SEQNUM=3105��
+11-10 11:42:05.101 I/logcat  (16863): type=1400 audit(0.0:1629): avc: denied { getattr } for path="/odm" dev="mmcblk0p17" ino=2 scontext=u:r:zygote:s0 tcontext=u:object_r:unlabeled:s0 tclass=dir permissive=1
+11-10 11:42:05.101 I/logcat  (16863): type=1400 audit(0.0:1630): avc: denied { getattr } for path="/product" dev="mmcblk0p19" ino=2 scontext=u:r:zygote:s0 tcontext=u:object_r:unlabeled:s0 tclass=dir permissive=1
+11-10 11:42:05.128 I/SystemControl( 3268): write /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq, val:1908000 end
+11-10 11:42:05.129 D/UEventObserver( 3746): add@/devices/platform/vdec/ammvdec_h264.0��ACTION=add��DEVPATH=/devices/platform/vdec/ammvdec_h264.0��SUBSYSTEM=platform��MODALIAS=platform:ammvdec_h264��SEQNUM=3106��
+11-10 11:42:05.214 I/amcodec ( 3358): [codec_reset:1127]ret=0
+11-10 11:42:05.217 D/AmlogicVideoDecoderAwesome( 3358): reset_2
+11-10 11:42:05.217 D/AmlogicVideoDecoderAwesome( 3358): mDTaskStatus=1
+11-10 11:42:05.217 V/AmlogicVideoDecoderAwesome( 3358): start:299 >
+11-10 11:42:05.217 E/ThreadWorker( 3358): pthread on exit wait clean
+11-10 11:42:05.217 D/AmlogicVideoDecoderAwesome( 3358): mVideo start
+11-10 11:42:05.217 V/AmlogicVideoDecoderAwesome( 3358): flushInput:1005 >
+11-10 11:42:05.217 I/OmxComponent( 3358): OMX.amlogic.avc.decoder.awesome: flush output
+11-10 11:42:05.217 V/AmlogicVideoDecoderAwesome( 3358): flushOutput:1008 >
+11-10 11:42:05.218 V/OMX_WorkerPeer( 3358): hardware/amlogic/omx/omx_framework/WorkerPeer.cpp:runWorkerStatic:154 --------------------
+11-10 11:42:05.218 V/OMX_WorkerPeer( 3358): hardware/amlogic/omx/omx_framework/WorkerPeer.cpp:runWorker:160 --------------------
+11-10 11:42:05.220 I/OmxComponent( 3358): OMX_CommandStateSet 740 Cmd 0 nParam1 0x2
+11-10 11:42:05.221 I/OmxComponent( 3358): STATE_SET:   OMX_StateExecuting => OMX_StateIdle : OMX.amlogic.avc.decoder.awesome
+11-10 11:42:05.221 I/OmxComponent( 3358): OMX.amlogic.avc.decoder.awesome: flush input
+11-10 11:42:05.221 V/AmlogicVideoDecoderAwesome( 3358): flushInput:980 >
+11-10 11:42:05.221 V/OMX_WorkerPeer( 3358): hardware/amlogic/omx/omx_framework/WorkerPeer.cpp:flushInput:56 --------------------
+11-10 11:42:05.221 V/AmlogicVideoDecoderAwesome( 3358): pause:291 >
+11-10 11:42:05.221 V/AmlogicVideoDecoderAwesome( 3358): reset:337 >
+11-10 11:42:05.221 D/AmlogicVideoDecoderAwesome( 3358): reset_1
+11-10 11:42:05.221 I/amcodec ( 3358): AMSTREAM_SET_OMX_RUNNING ret=0
+11-10 11:42:05.221 I/Binder:3490_C( 3490): type=1400 audit(0.0:1631): avc: denied { call } for scontext=u:r:system_server:s0 tcontext=u:r:zygote:s0 tclass=binder permissive=1
+11-10 11:42:05.221 I/Binder:3490_C( 3490): type=1400 audit(0.0:1632): avc: denied { transfer } for scontext=u:r:system_server:s0 tcontext=u:r:zygote:s0 tclass=binder permissive=1
+11-10 11:42:05.325 D/UEventObserver( 3746): remove@/devices/platform/vdec/ammvdec_h264.0��ACTION=remove��DEVPATH=/devices/platform/vdec/ammvdec_h264.0��SUBSYSTEM=platform��MODALIAS=platform:ammvdec_h264��SEQNUM=3107��
+11-10 11:42:05.359 I/SystemControl( 3268): write /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq, val:1908000 end
+11-10 11:42:05.360 D/UEventObserver( 3746): add@/devices/platform/vdec/ammvdec_h264.0��ACTION=add��DEVPATH=/devices/platform/vdec/ammvdec_h264.0��SUBSYSTEM=platform��MODALIAS=platform:ammvdec_h264��SEQNUM=3108��
+11-10 11:42:05.380 I/amcodec ( 3358): [codec_reset:1127]ret=0
+11-10 11:42:05.383 D/AmlogicVideoDecoderAwesome( 3358): reset_2
+11-10 11:42:05.383 D/AmlogicVideoDecoderAwesome( 3358): mDTaskStatus=1
+11-10 11:42:05.383 V/AmlogicVideoDecoderAwesome( 3358): start:299 >
+11-10 11:42:05.383 E/ThreadWorker( 3358): pthread on exit wait clean
+11-10 11:42:05.383 D/AmlogicVideoDecoderAwesome( 3358): mVideo start
+11-10 11:42:05.383 V/AmlogicVideoDecoderAwesome( 3358): flushInput:1005 >
+11-10 11:42:05.383 I/OmxComponent( 3358): OMX.amlogic.avc.decoder.awesome: flush output
+11-10 11:42:05.383 V/AmlogicVideoDecoderAwesome( 3358): flushOutput:1008 >
+11-10 11:42:05.383 D/AmlogicVideoDecoderAwesome( 3358): flushOutput: fillBufferDone_OMX_BUFFERFLAG_EOS
+11-10 11:42:05.383 V/OMX_WorkerPeer( 3358): hardware/amlogic/omx/omx_framework/WorkerPeer.cpp:runWorkerStatic:154 --------------------
+11-10 11:42:05.383 D/AmlogicVideoDecoderAwesome( 3358): flushOutput: fillBufferDone_OMX_BUFFERFLAG_EOS
+11-10 11:42:05.383 V/OMX_WorkerPeer( 3358): hardware/amlogic/omx/omx_framework/WorkerPeer.cpp:runWorker:160 --------------------
+11-10 11:42:05.383 D/AmlogicVideoDecoderAwesome( 3358): flushOutput: fillBufferDone_OMX_BUFFERFLAG_EOS
+11-10 11:42:05.383 D/AmlogicVideoDecoderAwesome( 3358): flushOutput: fillBufferDone_OMX_BUFFERFLAG_EOS
+11-10 11:42:05.383 D/AmlogicVideoDecoderAwesome( 3358): mVideo stop
+11-10 11:42:05.433 V/AmlogicVideoDecoderAwesome( 3358): stop:325 >
+11-10 11:42:05.433 I/OmxComponent( 3358): STATE_TRANS: OMX_StateExecuting => OMX_StateIdle : OMX.amlogic.avc.decoder.awesome
+11-10 11:42:05.433 I/chatty  ( 3358): uid=1046(mediacodec) decoder.awesome identical 3 lines
+11-10 11:42:05.433 I/OmxComponent( 3358): STATE_TRANS: OMX_StateExecuting => OMX_StateIdle : OMX.amlogic.avc.decoder.awesome
+11-10 11:42:05.433 I/OmxComponent( 3358): STATE_DONE:  OMX_StateExecuting => OMX_StateIdle : OMX.amlogic.avc.decoder.awesome
+11-10 11:42:05.436 I/OmxComponent( 3358): OMX_CommandStateSet 740 Cmd 0 nParam1 0x1
+11-10 11:42:05.436 I/OmxComponent( 3358): STATE_SET:   OMX_StateIdle => OMX_StateLoaded : OMX.amlogic.avc.decoder.awesome
+11-10 11:42:05.436 V/AmlogicVideoDecoderAwesome( 3358): releaseResources:379 >
+11-10 11:42:05.436 V/AmlogicVideoDecoderAwesome( 3358): tearDown:873 >
+11-10 11:42:05.436 V/AmlogicVideoDecoderAwesome( 3358): tearDown:1524 >
+11-10 11:42:05.436 V/AmlogicVideoDecoderAwesome( 3358): initializeState_l:1602 >
+11-10 11:42:05.438 I/gralloc ( 3358): ddebug, free share_fd=34, user_hnd=0x8, ion client=21
+11-10 11:42:05.438 I/gralloc ( 3358): ddebug, free share_fd=32, user_hnd=0x7, ion client=21
+11-10 11:42:05.439 I/gralloc ( 3358): ddebug, free share_fd=30, user_hnd=0x6, ion client=21
+11-10 11:42:05.439 I/gralloc ( 3358): ddebug, free share_fd=28, user_hnd=0x5, ion client=21
+11-10 11:42:05.440 I/gralloc ( 3358): ddebug, free share_fd=26, user_hnd=0x4, ion client=21
+11-10 11:42:05.440 I/gralloc ( 3358): ddebug, free share_fd=24, user_hnd=0x3, ion client=21
+11-10 11:42:05.441 I/gralloc ( 3358): ddebug, free share_fd=22, user_hnd=0x2, ion client=21
+11-10 11:42:05.442 I/gralloc ( 3358): ddebug, free share_fd=19, user_hnd=0x1, ion client=21
+11-10 11:42:05.478 D/UEventObserver( 3746): remove@/devices/platform/vdec/ammvdec_h264.0��ACTION=remove��DEVPATH=/devices/platform/vdec/ammvdec_h264.0��SUBSYSTEM=platform��MODALIAS=platform:ammvdec_h264��SEQNUM=3109��
+11-10 11:42:05.479 V/AmlogicVideoDecoderAwesome( 3358): disable osd video ...-1550904644
+11-10 11:42:05.480 I/OmxComponent( 3358): STATE_TRANS: OMX_StateIdle => OMX_StateLoaded : OMX.amlogic.avc.decoder.awesome
+11-10 11:42:05.480 I/OmxComponent( 3358): STATE_DONE:  OMX_StateIdle => OMX_StateLoaded : OMX.amlogic.avc.decoder.awesome
+11-10 11:42:05.481 D/OmxComponentManagerImpl( 3358): DecreaseEntryNumByName pEntry->mNum=1, pEntry->mMaxNum:9,componentName:OMX.amlogic.avc.decoder.awesome
+11-10 11:42:05.481 I/omx_core( 3358): OMX_freeHandle_num_= 0
+11-10 11:42:05.481 D/AmlogicVideoDecoderAwesome( 3358): ~AmlogicVideoDecoderAwesome
+11-10 11:42:05.481 D/AmlogicVideoDecoderAwesome( 3358): ~AmlogicVideoDecoder
+11-10 11:42:05.481 D/AmlogicVideoDecoderAwesome( 3358): set video_inuse 0
+11-10 11:42:05.481 D/AmlogicVideoDecoderAwesome( 3358): ~AmlogicVideoDecoder, mOmxInstancenum 0
+11-10 11:42:05.483 D/SurfaceUtils(13383): disconnecting from surface 0x8dab0008, reason disconnectFromSurface
+11-10 11:42:05.483 I/gralloc (13383): ddebug, free share_fd=95, user_hnd=0x1, ion client=77
+11-10 11:42:05.483 I/gralloc (13383): ddebug, free share_fd=99, user_hnd=0x2, ion client=77
+11-10 11:42:05.483 I/gralloc (13383): ddebug, free share_fd=107, user_hnd=0x3, ion client=77
+11-10 11:42:05.483 I/gralloc (13383): ddebug, free share_fd=109, user_hnd=0x7, ion client=77
+11-10 11:42:05.483 I/gralloc (13383): ddebug, free share_fd=111, user_hnd=0x8, ion client=77
+11-10 11:42:05.483 I/gralloc (13383): ddebug, free share_fd=113, user_hnd=0x9, ion client=77
+11-10 11:42:05.483 I/gralloc (13383): ddebug, free share_fd=115, user_hnd=0xa, ion client=77
+11-10 11:42:05.483 I/gralloc (13383): ddebug, free share_fd=117, user_hnd=0xb, ion client=77
+11-10 11:42:05.484 I/gralloc ( 3292): ddebug, free share_fd=151, user_hnd=0x16, ion client=30
+11-10 11:42:05.484 I/gralloc ( 3292): ddebug, free share_fd=153, user_hnd=0x17, ion client=30
+11-10 11:42:05.484 I/gralloc ( 3292): ddebug, free share_fd=155, user_hnd=0x18, ion client=30
+11-10 11:42:05.484 I/gralloc ( 3292): ddebug, free share_fd=157, user_hnd=0x19, ion client=30
+11-10 11:42:05.484 I/gralloc ( 3292): ddebug, free share_fd=149, user_hnd=0x15, ion client=30
+11-10 11:42:05.484 I/gralloc ( 3292): ddebug, free share_fd=147, user_hnd=0x14, ion client=30
+11-10 11:42:05.485 I/gralloc ( 3292): ddebug, free share_fd=144, user_hnd=0x13, ion client=30
+11-10 11:42:05.485 I/gralloc ( 3292): ddebug, free share_fd=122, user_hnd=0x12, ion client=30
+11-10 11:42:05.523 I/SystemControl( 3268): write /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq, val:1908000 end
+11-10 11:42:05.550 W/gralloc ( 3280): omx buffer: descriptorInfo->width:1920 descriptorInfo->height:1080
+11-10 11:42:05.550 I/gralloc ( 3279): framebuffer hal alread move to hwcomposer
+11-10 11:42:05.555 I/gralloc ( 3292): ddebug, pair (share_fd=112, user_hnd=12, ion_client=30)
+11-10 11:42:05.556 I/gralloc ( 3279): framebuffer hal alread move to hwcomposer
+11-10 11:42:05.564 I/gralloc ( 3292): ddebug, pair (share_fd=142, user_hnd=13, ion_client=30)
+11-10 11:42:05.565 I/gralloc ( 3279): framebuffer hal alread move to hwcomposer
+11-10 11:42:05.567 W/gralloc ( 3280): omx buffer: descriptorInfo->width:1920 descriptorInfo->height:1080
+11-10 11:42:05.576 I/gralloc ( 3292): ddebug, pair (share_fd=145, user_hnd=14, ion_client=30)
+11-10 11:42:05.576 D/mali_winsys(13383): EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, EGLBoolean) returns 0x3000
+11-10 11:42:05.639 I/gralloc ( 3292): ddebug, free share_fd=145, user_hnd=0x14, ion client=30
+11-10 11:42:05.641 I/gralloc ( 3279): framebuffer hal alread move to hwcomposer
+11-10 11:42:05.649 I/gralloc ( 3292): ddebug, pair (share_fd=145, user_hnd=14, ion_client=30)
+11-10 11:42:05.653 I/gralloc (13383): ddebug, pair (share_fd=82, user_hnd=1, ion_client=77)
+11-10 11:42:05.716 W/gralloc ( 3280): omx buffer: descriptorInfo->width:1920 descriptorInfo->height:1080
+11-10 11:42:05.733 W/gralloc ( 3280): omx buffer: descriptorInfo->width:1920 descriptorInfo->height:1080
+11-10 11:42:05.753 I/gralloc ( 3280): ddebug, pair (share_fd=69, user_hnd=f, ion_client=31)
+11-10 11:42:05.753 W/gralloc ( 3280): omx buffer: descriptorInfo->width:1920 descriptorInfo->height:1080
+11-10 11:42:05.834 I/chatty  ( 3280): uid=1000(system) composer@2.2-se identical 5 lines
+11-10 11:42:05.850 W/gralloc ( 3280): omx buffer: descriptorInfo->width:1920 descriptorInfo->height:1080
+11-10 11:42:05.863 I/gralloc ( 3292): ddebug, free share_fd=142, user_hnd=0x13, ion client=30
+11-10 11:42:05.864 I/gralloc ( 3279): framebuffer hal alread move to hwcomposer
+11-10 11:42:05.867 W/gralloc ( 3280): omx buffer: descriptorInfo->width:1920 descriptorInfo->height:1080
+11-10 11:42:05.869 I/gralloc ( 3292): ddebug, pair (share_fd=147, user_hnd=13, ion_client=30)
+11-10 11:42:05.872 I/gralloc (13383): ddebug, pair (share_fd=86, user_hnd=2, ion_client=77)
+11-10 11:42:05.884 W/gralloc ( 3280): omx buffer: descriptorInfo->width:1920 descriptorInfo->height:1080
+11-10 11:42:05.900 W/gralloc ( 3280): omx buffer: descriptorInfo->width:1920 descriptorInfo->height:1080
+11-10 11:42:05.920 I/gralloc ( 3280): ddebug, pair (share_fd=74, user_hnd=10, ion_client=31)
+11-10 11:42:05.920 W/gralloc ( 3280): omx buffer: descriptorInfo->width:1920 descriptorInfo->height:1080
+11-10 11:42:05.934 W/gralloc ( 3280): omx buffer: descriptorInfo->width:1920 descriptorInfo->height:1080
+11-10 11:42:05.937 I/gralloc ( 3292): ddebug, free share_fd=112, user_hnd=0x12, ion client=30
+11-10 11:42:05.938 I/gralloc ( 3279): framebuffer hal alread move to hwcomposer
+11-10 11:42:05.942 I/gralloc ( 3292): ddebug, pair (share_fd=150, user_hnd=12, ion_client=30)
+11-10 11:42:05.944 I/gralloc (13383): ddebug, pair (share_fd=90, user_hnd=3, ion_client=77)
+11-10 11:42:05.951 W/gralloc ( 3280): omx buffer: descriptorInfo->width:1920 descriptorInfo->height:1080
+11-10 11:42:05.969 I/gralloc ( 3280): ddebug, pair (share_fd=76, user_hnd=11, ion_client=31)
+11-10 11:42:05.969 W/gralloc ( 3280): omx buffer: descriptorInfo->width:1920 descriptorInfo->height:1080
+11-10 11:42:06.118 I/chatty  ( 3280): uid=1000(system) composer@2.2-se identical 9 lines
+11-10 11:42:06.134 W/gralloc ( 3280): omx buffer: descriptorInfo->width:1920 descriptorInfo->height:1080
+11-10 11:42:06.151 I/gralloc ( 3280): ddebug, free share_fd=37, user_hnd=0x1, ion client=31
+11-10 11:42:06.151 W/gralloc ( 3280): Warning shared attribute region mapped at free. Unmapping
+11-10 11:42:06.151 I/gralloc ( 3280): ddebug, free share_fd=47, user_hnd=0x6, ion client=31
+11-10 11:42:06.151 W/gralloc ( 3280): Warning shared attribute region mapped at free. Unmapping
+11-10 11:42:06.151 I/gralloc ( 3280): ddebug, free share_fd=45, user_hnd=0x9, ion client=31
+11-10 11:42:06.151 W/gralloc ( 3280): Warning shared attribute region mapped at free. Unmapping
+11-10 11:42:06.151 I/gralloc ( 3280): ddebug, free share_fd=46, user_hnd=0xa, ion client=31
+11-10 11:42:06.151 W/gralloc ( 3280): Warning shared attribute region mapped at free. Unmapping
+11-10 11:42:06.152 I/gralloc ( 3280): ddebug, free share_fd=52, user_hnd=0xb, ion client=31
+11-10 11:42:06.152 W/gralloc ( 3280): Warning shared attribute region mapped at free. Unmapping
+11-10 11:42:06.152 I/gralloc ( 3280): ddebug, free share_fd=57, user_hnd=0xc, ion client=31
+11-10 11:42:06.152 W/gralloc ( 3280): Warning shared attribute region mapped at free. Unmapping
+11-10 11:42:06.152 I/gralloc ( 3280): ddebug, free share_fd=59, user_hnd=0xd, ion client=31
+11-10 11:42:06.152 W/gralloc ( 3280): Warning shared attribute region mapped at free. Unmapping
+11-10 11:42:06.152 I/gralloc ( 3280): ddebug, free share_fd=61, user_hnd=0xe, ion client=31
+11-10 11:42:06.152 W/gralloc ( 3280): Warning shared attribute region mapped at free. Unmapping
+11-10 11:42:06.152 I/gralloc ( 3292): ddebug, free share_fd=140, user_hnd=0x11, ion client=30
+11-10 11:42:06.152 I/gralloc ( 3292): ddebug, free share_fd=135, user_hnd=0xf, ion client=30
+11-10 11:42:06.152 I/gralloc ( 3292): ddebug, free share_fd=133, user_hnd=0xe, ion client=30
+11-10 11:42:06.153 I/gralloc ( 3292): ddebug, free share_fd=128, user_hnd=0xd, ion client=30
+11-10 11:42:06.153 I/gralloc ( 3292): ddebug, free share_fd=126, user_hnd=0xc, ion client=30
+11-10 11:42:06.153 I/gralloc ( 3292): ddebug, free share_fd=124, user_hnd=0xb, ion client=30
+11-10 11:42:06.153 I/gralloc ( 3292): ddebug, free share_fd=114, user_hnd=0x9, ion client=30
+11-10 11:42:06.154 I/gralloc ( 3280): ddebug, free share_fd=50, user_hnd=0x7, ion client=31
+11-10 11:42:06.154 I/gralloc ( 3280): ddebug, free share_fd=41, user_hnd=0x3, ion client=31
+11-10 11:42:06.155 I/gralloc ( 3280): ddebug, free share_fd=54, user_hnd=0x8, ion client=31
+11-10 11:42:06.159 D/MesonHwc( 3280): muteVideo to 1
+11-10 11:42:06.171 I/gralloc ( 3292): ddebug, free share_fd=107, user_hnd=0x7, ion client=30
+11-10 11:42:06.172 I/gralloc ( 3292): ddebug, free share_fd=82, user_hnd=0x8, ion client=30
+11-10 11:42:06.172 I/gralloc (13383): ddebug, free share_fd=102, user_hnd=0x5, ion client=77
+11-10 11:42:06.173 I/gralloc (13383): ddebug, free share_fd=100, user_hnd=0x4, ion client=77
+11-10 11:42:06.174 I/gralloc (13383): ddebug, free share_fd=105, user_hnd=0x6, ion client=77
+11-10 11:42:06.174 E/BufferQueueProducer( 3292): [studio.scillarium.ottnavigator/studio.scillarium.ottnavigator.PlayerActivity#0] disconnect: not connected (req=1)
+11-10 11:42:06.174 W/libEGL  (13383): EGLNativeWindowType 0x79af1008 disconnect failed
+11-10 11:42:06.233 I/gralloc ( 3292): ddebug, free share_fd=138, user_hnd=0x10, ion client=30
+11-10 11:42:06.234 I/gralloc ( 3292): ddebug, free share_fd=131, user_hnd=0xa, ion client=30
+11-10 11:42:06.251 I/um.ottnavigato(13383): Background concurrent copying GC freed 143770(21MB) AllocSpace objects, 806(37MB) LOS objects, 49% free, 14MB/29MB, paused 168us total 271.520ms
+11-10 11:42:06.674 W/HdmiControlService( 3490): Local playback device not available
+11-10 11:42:06.675 W/WindowManager( 3490): One touch play failed: 2
+11-10 11:42:06.677 D/AutofillManagerService( 3490): Close system dialogs
+11-10 11:42:06.678 V/StatusBar( 3657): mStatusBarWindow: com.android.systemui.statusbar.phone.StatusBarWindowView{65fd346 V.ED..... ......ID 0,0-1920,42} canPanelBeCollapsed(): false
+11-10 11:42:06.681 I/vol.Events( 3657): writeEvent dismiss_dialog volume_controller
+11-10 11:42:06.682 I/ActivityManager( 3490): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.google.android.tvlauncher/.MainActivity (has extras)} from uid 1000
+11-10 11:42:06.763 I/gralloc (13383): ddebug, free share_fd=90, user_hnd=0x3, ion client=77
+11-10 11:42:06.764 I/gralloc (13383): ddebug, free share_fd=82, user_hnd=0x1, ion client=77
+11-10 11:42:06.764 I/gralloc (13383): ddebug, free share_fd=86, user_hnd=0x2, ion client=77
+11-10 11:42:06.765 E/BufferQueueProducer( 3292): [studio.scillarium.ottnavigator/studio.scillarium.ottnavigator.MainActivity#0] disconnect: not connected (req=1)
+11-10 11:42:06.765 W/libEGL  (13383): EGLNativeWindowType 0x8dab0008 disconnect failed
+11-10 11:42:06.781 I/lmkd    ( 3291): type=1400 audit(0.0:1633): avc: denied { write } for name="oom_score_adj" dev="proc" ino=213941 scontext=u:r:lmkd:s0 tcontext=u:r:zygote:s0 tclass=file permissive=1
+11-10 11:42:06.789 E/ActivityThread( 4194): Failed to find provider info for tvlauncher.mic
+11-10 11:42:06.791 E/JavaBinder(16325): *** Uncaught remote exception!  (Exceptions are not yet supported across processes.)
+11-10 11:42:06.791 E/JavaBinder(16325): android.content.res.Resources$NotFoundException: String resource ID #0x7f040001
+11-10 11:42:06.791 E/JavaBinder(16325): 	at android.content.res.Resources.getText(Resources.java:348)
+11-10 11:42:06.791 E/JavaBinder(16325): 	at android.content.res.Resources.getString(Resources.java:441)
+11-10 11:42:06.791 E/JavaBinder(16325): 	at android.content.Context.getString(Context.java:578)
+11-10 11:42:06.791 E/JavaBinder(16325): 	at slim.box.tv.customizer.ConfigurationProvider.query(Unknown Source:32)
+11-10 11:42:06.791 E/JavaBinder(16325): 	at android.content.ContentProvider.query(ContentProvider.java:1057)
+11-10 11:42:06.791 E/JavaBinder(16325): 	at android.content.ContentProvider.query(ContentProvider.java:1149)
+11-10 11:42:06.791 E/JavaBinder(16325): 	at android.content.ContentProvider$Transport.query(ContentProvider.java:241)
+11-10 11:42:06.791 E/JavaBinder(16325): 	at android.content.ContentProviderNative.onTransact(ContentProviderNative.java:102)
+11-10 11:42:06.791 E/JavaBinder(16325): 	at android.os.Binder.execTransact(Binder.java:731)
+11-10 11:42:06.817 I/gralloc ( 3279): framebuffer hal alread move to hwcomposer
+11-10 11:42:06.821 I/gralloc ( 3292): ddebug, pair (share_fd=26, user_hnd=7, ion_client=30)
+11-10 11:42:06.821 I/gralloc ( 3279): framebuffer hal alread move to hwcomposer
+11-10 11:42:06.824 I/gralloc ( 3292): ddebug, pair (share_fd=119, user_hnd=8, ion_client=30)
+11-10 11:42:06.825 I/gralloc ( 3279): framebuffer hal alread move to hwcomposer
+11-10 11:42:06.828 I/gralloc ( 3292): ddebug, pair (share_fd=122, user_hnd=9, ion_client=30)
+11-10 11:42:06.829 D/mali_winsys( 4194): EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, EGLBoolean) returns 0x3000
+11-10 11:42:06.838 E/Clearcut-EventLogger( 4194): Unexpected log parameter home_selected_row_position
+11-10 11:42:06.838 W/HomeController( 4194): onResume: List view global layout completed.
+11-10 11:42:06.851 E/Clearcut-EventLogger( 4194): Unexpected log parameter shown_channel_count
+11-10 11:42:06.866 I/gralloc ( 4186): ddebug, pair (share_fd=63, user_hnd=2, ion_client=57)
+11-10 11:42:06.887 I/gralloc ( 3292): ddebug, free share_fd=122, user_hnd=0x9, ion client=30
+11-10 11:42:06.887 I/gralloc ( 3279): framebuffer hal alread move to hwcomposer
+11-10 11:42:06.893 I/gralloc ( 3292): ddebug, pair (share_fd=120, user_hnd=9, ion_client=30)
+11-10 11:42:06.895 I/gralloc ( 4194): ddebug, pair (share_fd=85, user_hnd=1, ion_client=115)
+11-10 11:42:06.943 I/gralloc ( 3279): framebuffer hal alread move to hwcomposer
+11-10 11:42:06.953 I/gralloc ( 3292): ddebug, pair (share_fd=118, user_hnd=a, ion_client=30)
+11-10 11:42:06.962 I/gralloc ( 3292): ddebug, free share_fd=118, user_hnd=0xa, ion client=30
+11-10 11:42:06.967 I/gralloc ( 3490): ddebug, pair (share_fd=272, user_hnd=8, ion_client=268)
+11-10 11:42:06.986 I/gralloc ( 4186): ddebug, pair (share_fd=65, user_hnd=3, ion_client=57)
+11-10 11:42:06.990 I/gralloc ( 3657): ddebug, pair (share_fd=98, user_hnd=2, ion_client=87)
+11-10 11:42:07.008 I/gralloc ( 4186): ddebug, free share_fd=58, user_hnd=0x1, ion client=57
+11-10 11:42:07.008 I/gralloc ( 4186): ddebug, free share_fd=65, user_hnd=0x3, ion client=57
+11-10 11:42:07.037 E/Clearcut-EventLogger( 4194): Unexpected log parameter tray_notification_count
+11-10 11:42:07.037 E/Clearcut-EventLogger( 4194): Unexpected log parameter notification_indicator_total
+11-10 11:42:07.056 I/gralloc ( 3657): ddebug, free share_fd=98, user_hnd=0x2, ion client=87
+11-10 11:42:07.113 I/gralloc ( 3292): ddebug, free share_fd=119, user_hnd=0x8, ion client=30
+11-10 11:42:07.114 I/gralloc ( 3279): framebuffer hal alread move to hwcomposer
+11-10 11:42:07.118 I/gralloc ( 3292): ddebug, pair (share_fd=118, user_hnd=8, ion_client=30)
+11-10 11:42:07.121 I/gralloc ( 4194): ddebug, pair (share_fd=88, user_hnd=2, ion_client=115)
+11-10 11:42:07.132 I/gralloc ( 3292): ddebug, free share_fd=26, user_hnd=0x7, ion client=30
+11-10 11:42:07.133 I/gralloc ( 3279): framebuffer hal alread move to hwcomposer
+11-10 11:42:07.138 I/gralloc ( 3292): ddebug, pair (share_fd=114, user_hnd=7, ion_client=30)
+11-10 11:42:07.141 I/gralloc ( 4194): ddebug, pair (share_fd=91, user_hnd=3, ion_client=115)
+11-10 11:42:07.357 W/SurfaceFlinger( 3292): Attempting to set client state on removed layer: studio.scillarium.ottnavigator/studio.scillarium.ottnavigator.MainActivity#0
+11-10 11:42:07.357 W/SurfaceFlinger( 3292): Attempting to destroy on removed layer: studio.scillarium.ottnavigator/studio.scillarium.ottnavigator.MainActivity#0
+11-10 11:42:07.367 I/gralloc ( 3280): ddebug, free share_fd=76, user_hnd=0x11, ion client=31
+11-10 11:42:07.368 I/gralloc ( 3280): ddebug, free share_fd=74, user_hnd=0x10, ion client=31
+11-10 11:42:07.368 I/gralloc ( 3280): ddebug, free share_fd=69, user_hnd=0xf, ion client=31
+11-10 11:42:07.368 I/gralloc ( 3292): ddebug, free share_fd=145, user_hnd=0x14, ion client=30
+11-10 11:42:07.369 I/gralloc ( 3292): ddebug, free share_fd=150, user_hnd=0x12, ion client=30
+11-10 11:42:07.373 I/gralloc ( 3280): ddebug, pair (share_fd=40, user_hnd=1, ion_client=31)
+11-10 11:42:07.378 I/gralloc ( 3292): ddebug, free share_fd=147, user_hnd=0x13, ion client=30
+11-10 11:42:07.387 I/gralloc ( 3280): ddebug, pair (share_fd=33, user_hnd=3, ion_client=31)
+11-10 11:42:07.403 I/gralloc ( 3280): ddebug, pair (share_fd=46, user_hnd=6, ion_client=31)
+11-10 11:42:10.201 I/cat     (16894): type=1400 audit(0.0:1634): avc: denied { dac_override } for capability=1 scontext=u:r:toolbox:s0 tcontext=u:r:toolbox:s0 tclass=capability permissive=1
+11-10 11:42:10.465 D/AutofillManagerService( 3490): Close system dialogs
+11-10 11:42:10.468 V/StatusBar( 3657): mStatusBarWindow: com.android.systemui.statusbar.phone.StatusBarWindowView{65fd346 V.ED..... ......ID 0,0-1920,42} canPanelBeCollapsed(): false
+11-10 11:42:10.470 I/vol.Events( 3657): writeEvent dismiss_dialog volume_controller
+11-10 11:42:10.477 I/ActivityManager( 3490): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.DEFAULT] flg=0x10000000 cmp=com.android.launcher3/com.android.quickstep.RecentsActivity} from uid 10021
+11-10 11:42:10.546 W/ActivityThread( 4186): handleWindowVisibility: no activity for token android.os.BinderProxy@de2cef6
+11-10 11:42:10.581 I/gralloc ( 3279): framebuffer hal alread move to hwcomposer
+11-10 11:42:10.596 W/SurfaceFlinger( 3292): Attempting to destroy on removed layer: AppWindowToken{b3b9ee6 token=Token{e107941 ActivityRecord{63f2828 u0 com.android.tv.settings/.MainSettings t3754}}}#0
+11-10 11:42:10.565 I/Binder:3490_B( 3490): type=1400 audit(0.0:1635): avc: denied { setsched } for scontext=u:r:system_server:s0 tcontext=u:r:zygote:s0 tclass=process permissive=1 b/77856826
+11-10 11:42:10.617 I/gralloc ( 3292): ddebug, pair (share_fd=127, user_hnd=a, ion_client=30)
+11-10 11:42:10.620 I/gralloc ( 3490): ddebug, pair (share_fd=274, user_hnd=9, ion_client=268)
+11-10 11:42:10.565 I/Binder:3490_B( 3490): type=1400 audit(0.0:1636): avc: denied { write } for name="timerslack_ns" dev="proc" ino=239176 scontext=u:r:system_server:s0 tcontext=u:r:zygote:s0 tclass=file permissive=1
+11-10 11:42:10.716 I/gralloc ( 3279): framebuffer hal alread move to hwcomposer
+11-10 11:42:10.565 I/oid.tv.settings( 3763): type=1400 audit(0.0:1638): avc: denied { call } for scontext=u:r:zygote:s0 tcontext=u:r:surfaceflinger:s0 tclass=binder permissive=1
+11-10 11:42:10.739 I/gralloc ( 3292): ddebug, pair (share_fd=100, user_hnd=b, ion_client=30)
+11-10 11:42:10.741 D/Tonal   ( 4186): Tonal Palette - index: 0. Main color: ff000000
+11-10 11:42:10.741 D/Tonal   ( 4186): Colors: ff000000, ff080808, ff121212, ff1f1f1f, ff383838, ff525252, ff6b6b6b, ff8a8a8a, ffa3a3a3, ffbdbdbd, ffd6d6d6, ffdedede
+11-10 11:42:10.744 I/gralloc ( 3490): ddebug, pair (share_fd=276, user_hnd=a, ion_client=268)
+11-10 11:42:10.852 I/gralloc ( 4186): ddebug, pair (share_fd=66, user_hnd=3, ion_client=57)
+11-10 11:42:10.863 I/gralloc ( 4186): ddebug, pair (share_fd=68, user_hnd=1, ion_client=57)
+11-10 11:42:10.873 I/gralloc ( 3280): ddebug, pair (share_fd=53, user_hnd=7, ion_client=31)
+11-10 11:42:10.875 I/gralloc ( 3280): ddebug, pair (share_fd=29, user_hnd=8, ion_client=31)
+11-10 11:42:10.875 I/gralloc ( 3279): framebuffer hal alread move to hwcomposer
+11-10 11:42:10.883 I/gralloc ( 3292): ddebug, pair (share_fd=136, user_hnd=c, ion_client=30)
+11-10 11:42:10.883 I/gralloc ( 3279): framebuffer hal alread move to hwcomposer
+11-10 11:42:10.890 I/gralloc ( 3292): ddebug, pair (share_fd=138, user_hnd=d, ion_client=30)
+11-10 11:42:10.892 I/gralloc ( 3279): framebuffer hal alread move to hwcomposer
+11-10 11:42:10.897 I/gralloc ( 3292): ddebug, pair (share_fd=140, user_hnd=e, ion_client=30)
+11-10 11:42:10.904 I/ConfigStore( 4186): android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasWideColorDisplay retrieved: 0
+11-10 11:42:10.905 I/ConfigStore( 4186): android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasHDRDisplay retrieved: 0
+11-10 11:42:10.905 I/OpenGLRenderer( 4186): Initialized EGL, version 1.4
+11-10 11:42:10.905 D/OpenGLRenderer( 4186): Swap behavior 2
+11-10 11:42:10.932 D/mali_winsys( 4186): EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, EGLBoolean) returns 0x3000
+11-10 11:42:10.946 I/gralloc ( 3292): ddebug, free share_fd=140, user_hnd=0xe, ion client=30
+11-10 11:42:10.946 I/gralloc ( 3279): framebuffer hal alread move to hwcomposer
+11-10 11:42:10.952 I/gralloc ( 3292): ddebug, pair (share_fd=131, user_hnd=e, ion_client=30)
+11-10 11:42:10.955 I/gralloc ( 4186): ddebug, pair (share_fd=77, user_hnd=4, ion_client=57)
+11-10 11:42:10.990 I/gralloc ( 3280): ddebug, pair (share_fd=61, user_hnd=9, ion_client=31)
+11-10 11:42:10.996 I/ActivityManager( 3490): Displayed com.android.launcher3/com.android.quickstep.RecentsActivity: +453ms
+11-10 11:42:11.014 I/gralloc ( 3292): ddebug, free share_fd=138, user_hnd=0xd, ion client=30
+11-10 11:42:11.016 I/gralloc ( 3279): framebuffer hal alread move to hwcomposer
+11-10 11:42:11.023 I/gralloc ( 3292): ddebug, pair (share_fd=138, user_hnd=d, ion_client=30)
+11-10 11:42:11.025 I/gralloc ( 4186): ddebug, pair (share_fd=80, user_hnd=5, ion_client=57)
+11-10 11:42:11.036 I/gralloc ( 3292): ddebug, free share_fd=136, user_hnd=0xc, ion client=30
+11-10 11:42:11.036 I/gralloc ( 3279): framebuffer hal alread move to hwcomposer
+11-10 11:42:11.041 I/gralloc ( 3292): ddebug, pair (share_fd=141, user_hnd=c, ion_client=30)
+11-10 11:42:11.042 I/gralloc ( 3280): ddebug, pair (share_fd=66, user_hnd=a, ion_client=31)
+11-10 11:42:11.047 I/gralloc ( 4186): ddebug, pair (share_fd=83, user_hnd=3, ion_client=57)
+11-10 11:42:11.053 I/gralloc ( 4186): ddebug, pair (share_fd=88, user_hnd=6, ion_client=57)
+11-10 11:42:11.061 I/gralloc ( 4186): ddebug, pair (share_fd=91, user_hnd=1, ion_client=57)
+11-10 11:42:11.075 I/gralloc ( 3280): ddebug, pair (share_fd=68, user_hnd=b, ion_client=31)
+11-10 11:42:11.100 I/gralloc ( 4186): ddebug, free share_fd=68, user_hnd=0x1, ion client=57
+11-10 11:42:11.100 I/gralloc ( 4186): ddebug, free share_fd=66, user_hnd=0x3, ion client=57
+11-10 11:42:11.106 I/gralloc ( 3280): ddebug, free share_fd=40, user_hnd=0x1, ion client=31
+11-10 11:42:11.106 I/gralloc ( 3280): ddebug, free share_fd=46, user_hnd=0x6, ion client=31
+11-10 11:42:11.107 I/gralloc ( 3280): ddebug, free share_fd=33, user_hnd=0x3, ion client=31
+11-10 11:42:11.115 I/gralloc ( 3292): ddebug, free share_fd=118, user_hnd=0x8, ion client=30
+11-10 11:42:11.116 I/gralloc ( 3292): ddebug, free share_fd=120, user_hnd=0x9, ion client=30
+11-10 11:42:11.117 I/gralloc ( 4194): ddebug, free share_fd=85, user_hnd=0x1, ion client=115
+11-10 11:42:11.117 I/gralloc ( 4194): ddebug, free share_fd=88, user_hnd=0x2, ion client=115
+11-10 11:42:11.118 I/gralloc ( 4194): ddebug, free share_fd=91, user_hnd=0x3, ion client=115
+11-10 11:42:11.122 E/BufferQueueProducer( 3292): [com.google.android.tvlauncher/com.google.android.tvlauncher.MainActivity#0] disconnect: not connected (req=1)
+11-10 11:42:11.122 W/libEGL  ( 4194): EGLNativeWindowType 0x8f3d6008 disconnect failed
+11-10 11:42:11.161 I/gralloc ( 3490): ddebug, free share_fd=274, user_hnd=0x9, ion client=268
+11-10 11:42:11.162 I/gralloc ( 3292): ddebug, free share_fd=127, user_hnd=0xa, ion client=30
+11-10 11:42:11.162 I/gralloc ( 3490): ddebug, free share_fd=276, user_hnd=0xa, ion client=268
+11-10 11:42:11.163 W/SurfaceFlinger( 3292): Attempting to set client state on removed layer: Splash Screen com.android.launcher3#0
+11-10 11:42:11.163 W/SurfaceFlinger( 3292): Attempting to destroy on removed layer: Splash Screen com.android.launcher3#0
+11-10 11:42:11.170 I/gralloc ( 3280): ddebug, free share_fd=29, user_hnd=0x8, ion client=31
+11-10 11:42:11.177 I/gralloc ( 3292): ddebug, free share_fd=100, user_hnd=0xb, ion client=30
+11-10 11:42:11.187 I/gralloc ( 3292): ddebug, free share_fd=114, user_hnd=0x7, ion client=30
+11-10 11:42:12.209 I/gralloc ( 4186): ddebug, pair (share_fd=67, user_hnd=7, ion_client=57)
+11-10 11:42:12.228 I/gralloc ( 4186): ddebug, pair (share_fd=73, user_hnd=7, ion_client=57)
+11-10 11:42:13.092 I/gralloc ( 3292): ddebug, pair (share_fd=119, user_hnd=7, ion_client=30)
+11-10 11:42:13.143 W/ViewRootImpl[RecentsActivity]( 4186): Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=28, metaState=0, flags=0x28, repeatCount=0, eventTime=8308166, downTime=8308125, deviceId=4, source=0x301 }
+11-10 11:42:13.153 I/su      (16912): type=1400 audit(0.0:1640): avc: denied { getattr } for path="/odm" dev="mmcblk0p17" ino=2 scontext=u:r:priv_app:s0:c512,c768 tcontext=u:object_r:unlabeled:s0 tclass=dir permissive=1
+11-10 11:42:13.177 I/gralloc ( 3280): ddebug, pair (share_fd=37, user_hnd=1, ion_client=31)
+11-10 11:42:13.373 I/gralloc ( 3279): framebuffer hal alread move to hwcomposer
+11-10 11:42:13.379 I/gralloc ( 3292): ddebug, pair (share_fd=82, user_hnd=8, ion_client=30)
+11-10 11:42:13.379 I/gralloc ( 3279): framebuffer hal alread move to hwcomposer
+11-10 11:42:13.384 I/gralloc ( 3292): ddebug, pair (share_fd=118, user_hnd=9, ion_client=30)
+11-10 11:42:13.385 I/gralloc ( 3279): framebuffer hal alread move to hwcomposer
+11-10 11:42:13.387 I/gralloc ( 3292): ddebug, pair (share_fd=123, user_hnd=a, ion_client=30)
+11-10 11:42:13.388 D/mali_winsys(16492): EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, EGLBoolean) returns 0x3000
+11-10 11:42:13.401 I/gralloc ( 3279): framebuffer hal alread move to hwcomposer
+11-10 11:42:13.403 I/gralloc ( 3292): ddebug, pair (share_fd=111, user_hnd=b, ion_client=30)
+11-10 11:42:13.404 I/gralloc ( 3279): framebuffer hal alread move to hwcomposer
+11-10 11:42:13.407 I/gralloc ( 3292): ddebug, pair (share_fd=128, user_hnd=f, ion_client=30)
+11-10 11:42:13.408 I/gralloc ( 3279): framebuffer hal alread move to hwcomposer
+11-10 11:42:13.414 I/gralloc ( 3292): ddebug, pair (share_fd=134, user_hnd=10, ion_client=30)
+11-10 11:42:13.415 D/mali_winsys(16523): EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, EGLBoolean) returns 0x3000
+11-10 11:42:13.424 I/gralloc ( 3292): ddebug, free share_fd=134, user_hnd=0x10, ion client=30
+11-10 11:42:13.424 I/gralloc ( 3279): framebuffer hal alread move to hwcomposer
+11-10 11:42:13.427 I/gralloc ( 3292): ddebug, pair (share_fd=134, user_hnd=10, ion_client=30)
+11-10 11:42:13.429 I/gralloc (16523): ddebug, pair (share_fd=55, user_hnd=1, ion_client=57)
+11-10 11:42:13.466 D/SurfaceFlinger( 3292): duplicate layer name: changing Surface(name=c6c08ec Toast)/@0xf86c7d8 - animation-leash to Surface(name=c6c08ec Toast)/@0xf86c7d8 - animation-leash#1
+11-10 11:42:13.476 I/gralloc ( 3280): ddebug, pair (share_fd=55, user_hnd=3, ion_client=31)
+11-10 11:42:13.482 I/gralloc ( 3292): ddebug, free share_fd=128, user_hnd=0xf, ion client=30
+11-10 11:42:13.482 I/gralloc ( 3292): ddebug, free share_fd=111, user_hnd=0xb, ion client=30
+11-10 11:42:13.483 I/gralloc (16523): ddebug, free share_fd=55, user_hnd=0x1, ion client=57
+11-10 11:42:13.484 E/BufferQueueProducer( 3292): [Toast#0] disconnect: not connected (req=1)
+11-10 11:42:13.484 W/libEGL  (16523): EGLNativeWindowType 0xa42ae008 disconnect failed
+11-10 11:42:13.485 D/mali_winsys(16523): EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, EGLBoolean) returns 0x3000
+11-10 11:42:13.486 I/gralloc ( 3279): framebuffer hal alread move to hwcomposer
+11-10 11:42:13.488 I/gralloc ( 3292): ddebug, pair (share_fd=111, user_hnd=b, ion_client=30)
+11-10 11:42:13.489 I/gralloc (16523): ddebug, pair (share_fd=55, user_hnd=1, ion_client=57)
+11-10 11:42:13.495 I/gralloc ( 3279): framebuffer hal alread move to hwcomposer
+11-10 11:42:13.498 I/gralloc ( 3292): ddebug, pair (share_fd=128, user_hnd=f, ion_client=30)
+11-10 11:42:13.500 I/gralloc (16523): ddebug, pair (share_fd=58, user_hnd=2, ion_client=57)
+11-10 11:42:13.509 I/gralloc ( 3280): ddebug, free share_fd=53, user_hnd=0x7, ion client=31
+11-10 11:42:13.510 I/gralloc ( 3280): ddebug, free share_fd=68, user_hnd=0xb, ion client=31
+11-10 11:42:13.510 I/gralloc ( 3280): ddebug, free share_fd=66, user_hnd=0xa, ion client=31
+11-10 11:42:13.510 I/gralloc ( 3280): ddebug, free share_fd=61, user_hnd=0x9, ion client=31
+11-10 11:42:13.511 I/gralloc ( 3292): ddebug, free share_fd=141, user_hnd=0xc, ion client=30
+11-10 11:42:13.512 I/gralloc ( 3280): ddebug, pair (share_fd=53, user_hnd=6, ion_client=31)
+11-10 11:42:13.513 I/gralloc ( 4186): ddebug, free share_fd=88, user_hnd=0x6, ion client=57
+11-10 11:42:13.514 I/gralloc ( 4186): ddebug, free share_fd=77, user_hnd=0x4, ion client=57
+11-10 11:42:13.514 I/gralloc ( 4186): ddebug, free share_fd=80, user_hnd=0x5, ion client=57
+11-10 11:42:13.514 E/BufferQueueProducer( 3292): [com.android.launcher3/com.android.quickstep.RecentsActivity#0] disconnect: not connected (req=1)
+11-10 11:42:13.515 W/libEGL  ( 4186): EGLNativeWindowType 0x90466008 disconnect failed
+11-10 11:42:13.526 I/gralloc ( 3280): ddebug, pair (share_fd=40, user_hnd=7, ion_client=31)
+11-10 11:42:13.590 I/gralloc ( 3292): ddebug, free share_fd=123, user_hnd=0xa, ion client=30
+11-10 11:42:13.590 I/gralloc ( 3279): framebuffer hal alread move to hwcomposer
+11-10 11:42:13.596 I/gralloc ( 3292): ddebug, pair (share_fd=124, user_hnd=a, ion_client=30)
+11-10 11:42:13.598 I/gralloc (16492): ddebug, pair (share_fd=62, user_hnd=1, ion_client=59)
+11-10 11:42:13.626 I/gralloc ( 3280): ddebug, pair (share_fd=51, user_hnd=8, ion_client=31)
+11-10 11:42:13.696 I/gralloc ( 3292): ddebug, free share_fd=118, user_hnd=0x9, ion client=30
+11-10 11:42:13.697 I/gralloc ( 3279): framebuffer hal alread move to hwcomposer
+11-10 11:42:13.701 I/gralloc ( 3292): ddebug, pair (share_fd=121, user_hnd=9, ion_client=30)
+11-10 11:42:13.703 I/gralloc (16492): ddebug, pair (share_fd=64, user_hnd=2, ion_client=59)
+11-10 11:42:13.723 I/gralloc ( 3292): ddebug, free share_fd=82, user_hnd=0x8, ion client=30
+11-10 11:42:13.723 I/gralloc ( 3279): framebuffer hal alread move to hwcomposer
+11-10 11:42:13.726 I/gralloc ( 3292): ddebug, pair (share_fd=122, user_hnd=8, ion_client=30)
+11-10 11:42:13.726 I/gralloc ( 3280): ddebug, pair (share_fd=60, user_hnd=9, ion_client=31)
+11-10 11:42:13.729 I/gralloc (16492): ddebug, pair (share_fd=69, user_hnd=3, ion_client=59)
+11-10 11:42:13.742 I/gralloc ( 3280): ddebug, pair (share_fd=62, user_hnd=a, ion_client=31)
+11-10 11:42:13.790 I/gralloc ( 3292): ddebug, free share_fd=138, user_hnd=0xd, ion client=30
+11-10 11:42:13.791 I/gralloc ( 3292): ddebug, free share_fd=131, user_hnd=0xe, ion client=30
+11-10 11:42:13.795 W/SurfaceFlinger( 3292): Attempting to set client state on removed layer: SnapshotStartingWindow for taskId=3755#0
+11-10 11:42:13.795 W/SurfaceFlinger( 3292): Attempting to destroy on removed layer: SnapshotStartingWindow for taskId=3755#0
+11-10 11:42:13.807 I/gralloc ( 3280): ddebug, free share_fd=37, user_hnd=0x1, ion client=31
+11-10 11:42:13.814 I/gralloc ( 3292): ddebug, free share_fd=119, user_hnd=0x7, ion client=30
+11-10 11:42:15.301 I/cat     (16925): type=1400 audit(0.0:1642): avc: denied { write } for path="pipe:[251202]" dev="pipefs" ino=251202 scontext=u:r:toolbox:s0 tcontext=u:r:init:s0 tclass=fifo_file permissive=1
+11-10 11:42:15.367 I/gralloc (16523): ddebug, free share_fd=55, user_hnd=0x1, ion client=57
+11-10 11:42:15.367 I/gralloc (16523): ddebug, free share_fd=58, user_hnd=0x2, ion client=57
+11-10 11:42:15.367 E/BufferQueueProducer( 3292): [Toast#0] disconnect: not connected (req=1)
+11-10 11:42:15.367 W/libEGL  (16523): EGLNativeWindowType 0xa42ae008 disconnect failed
+11-10 11:42:15.305 I/sed     (16926): type=1400 audit(0.0:1643): avc: denied { getattr } for path="pipe:[251202]" dev="pipefs" ino=251202 scontext=u:r:toolbox:s0 tcontext=u:r:init:s0 tclass=fifo_file permissive=1
+11-10 11:42:13.155 I/chatty  ( 4186): uid=10021(com.android.launcher3) identical 7 lines
+11-10 11:42:13.155 W/ViewRootImpl[RecentsActivity]( 4186): Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=28, metaState=0, flags=0x28, repeatCount=0, eventTime=8308166, downTime=8308125, deviceId=4, source=0x301 }
+11-10 11:42:15.380 W/NotificationService( 3490): Toast already killed. pkg=eu.chainfire.supersu callback=android.app.ITransientNotification$Stub$Proxy@752fb52
+11-10 11:42:15.305 I/sed     (16926): type=1400 audit(0.0:1644): avc: denied { read } for path="pipe:[251202]" dev="pipefs" ino=251202 scontext=u:r:toolbox:s0 tcontext=u:r:init:s0 tclass=fifo_file permissive=1
+11-10 11:42:15.910 I/gralloc ( 3280): ddebug, free share_fd=53, user_hnd=0x6, ion client=31
+11-10 11:42:15.911 I/gralloc ( 3280): ddebug, free share_fd=40, user_hnd=0x7, ion client=31
+11-10 11:42:15.911 I/gralloc ( 3280): ddebug, free share_fd=55, user_hnd=0x3, ion client=31
+11-10 11:42:15.911 I/gralloc ( 3292): ddebug, free share_fd=134, user_hnd=0x10, ion client=30
+11-10 11:42:15.911 I/gralloc ( 3292): ddebug, free share_fd=111, user_hnd=0xb, ion client=30
+11-10 11:42:15.919 W/SurfaceFlinger( 3292): Attempting to destroy on removed layer: c6c08ec Toast#0
+11-10 11:42:15.926 I/gralloc ( 3292): ddebug, free share_fd=128, user_hnd=0xf, ion client=30
+11-10 11:42:16.875 W/WindowManager( 3490): Unable to start animation, surface is null or no children.
+11-10 11:42:17.617 I/gralloc ( 3280): ddebug, pair (share_fd=28, user_hnd=1, ion_client=31)
+11-10 11:42:17.618 E/MesonHwc( 3280): too many layers need CURSOR_PLANE, skip. 
+11-10 11:42:18.363 I/chatty  ( 3280): uid=1000(system) HwBinder:3280_3 identical 31 lines
+11-10 11:42:18.380 E/MesonHwc( 3280): too many layers need CURSOR_PLANE, skip. 
+11-10 11:42:18.397 I/gralloc ( 3280): ddebug, pair (share_fd=32, user_hnd=3, ion_client=31)
+11-10 11:42:18.398 E/MesonHwc( 3280): too many layers need CURSOR_PLANE, skip. 
