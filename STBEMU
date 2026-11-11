@@ -1,0 +1,38 @@
+http://85.11.144.8/stalker_portal/server/load.php?type=vod&action=get_ordered_list&movie_id=1587&season_id=0&episode_id=0&category=*&fav=0&sortby=added&hd=0&not_ended=0&p=1&JsHttpRequest=1-xml&row=0&abc=*&genre=*&years=*&search=%D0%90%D0%BD%D0%B0%D0%B1%D0%B5%D0%BB
+
+ПОРТАЛА ОТГОВАРЯ .JSON
+
+"accessed" : "1",
+            "cmd" : "/media/file_999.mpg",
+            "date_add" : "2022-04-25 11:41:32",
+            "date_modify" : "2022-04-25 11:41:36",
+            "file_name" : "Annabelle.Comes.Home.2019.BDRip.x264.AC3.BGAUDiO-SiSO.mkv",
+            "file_type" : "video",
+            "for_rent" : 0,
+            "id" : "999",
+            "is_file" : true,
+            "languages" : "a:1:{i:0;s:2:\"bg\";}",
+            "name" : "Bulgarian / Regular quality (320)",
+            "protocol" : "http",
+            "quality" : "2",
+            "series_id" : null,
+            "status" : "1",
+            "tmp_link_type" : null,
+            "url" : "",
+            "video_id" : "1587",
+			
+http://85.11.144.8/stalker_portal/server/load.php?type=vod&action=create_link&cmd=/media/file_999.mpg&series=&forced_storage=&disable_ad=0&download=0&force_ch_link_check=0&JsHttpRequest=1-xml
+
+ПОРТАЛА ОТГОВАРЯ В .JSON
+{
+   "js" : {
+      "cmd" : "ffmpeg http://85.11.144.8/media/bb3/00:1A:79:48:8C:76/1587.mkv?st=6gOQCywN9Fel1sqlTrJHiA&e=1794423047",
+      "error" : "",
+      "from_cache" : true,
+      "id" : 1587,
+      "load" : 0,0000000000000000,
+      "storage_id" : "5",
+      "subtitles" : []
+   },
+   
+   И ФИЛМА ТРЪГВА http://85.11.144.8/media/bb3/00:1A:79:48:8C:76/1587.mkv?st=6gOQCywN9Fel1sqlTrJHiA&e=1794423047
