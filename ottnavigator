@@ -1,0 +1,296 @@
+http://85.11.144.8/stalker_portal/server/load.php?type=vod&action=create_link&cmd=%2Fmedia%2F1587.mpg&series=&forced_storage=&disable_ad=0&download=0&force_ch_link_check=0&JsHttpRequest=1-xml
+
+ПОРТАЛА ВРЪЩА JSON
+
+{
+   "js" : {
+      "cmd" : "",
+      "error" : "link_fault",
+      "id" : 0,
+      "load" : "",
+      "storage_id" : "",
+      "subtitles" : []
+   },
+   "text" : "Could not create link /media/raid0/storage/Annabelle_Comes_Home_2019/Annabelle.Comes.Home.2019.BDRip.x264.AC3.BGAUDiO-SiSO.mkv to /media/raid0/mac/00:1A:79:48:8C:76/1587.mkv on bb3\n#0 /var/www/stalker_portal/server/lib/restclient.class.php(34): RESTClient->execute()\n#1 /var/www/stalker_portal/server/lib/master.class.php(111): RESTClient->create(Array)\n#2 /var/www/stalker_portal/server/lib/vod.class.php(256): Master->play(1587, 0, true, '', 0)\n#3 /var/www/stalker_portal/server/lib/vod.class.php(111): Vod->getLinkByVideoId(1587, 0, '', 0)\n#4 [internal function]: Vod->createLink()\n#5 /var/www/stalker_portal/server/lib/core/dataloader.class.php(42): call_user_func(Array)\n#6 /var/www/stalker_portal/server/load.php(22): Stalker\\Lib\\Core\\DataLoader->getResult()\n#7 {main}Could not create link /media/raid0/storage/Annabelle_Comes_Home_2019/Annabelle.Comes.Home.2019.BDRip.x264.AC3.BGAUDiO-SiSO.mkv to /media/raid0/mac/00:1A:79:48:8C:76/1587.mkv on bb3\n#0 /var/www/stalker_portal/server/lib/restclient.class.php(34): RESTClient->execute()\n#1 /var/www/stalker_portal/server/lib/master.class.php(111): RESTClient->create(Array)\n#2 /var/www/stalker_portal/server/lib/master.class.php(124): Master->play(1587, 0, false, '', 0)\n#3 /var/www/stalker_portal/server/lib/vod.class.php(256): Master->play(1587, 0, true, '', 0)\n#4 /var/www/stalker_portal/server/lib/vod.class.php(111): Vod->getLinkByVideoId(1587, 0, '', 0)\n#5 [internal function]: Vod->createLink()\n#6 /var/www/stalker_portal/server/lib/core/dataloader.class.php(42): call_user_func(Array)\n#7 /var/www/stalker_portal/server/load.php(22): Stalker\\Lib\\Core\\DataLoader->getResult()\n#8 {main}array(6) {\n  [\"id\"]=>\n  int(0)\n  [\"cmd\"]=>\n  string(0) \"\"\n  [\"storage_id\"]=>\n  string(0) \"\"\n  [\"load\"]=>\n  string(0) \"\"\n  [\"error\"]=>\n  string(10) \"link_fault\"\n  [\"subtitles\"]=>\n  array(0) {\n  }\n}\ngenerated in: 0.085s; query counter: 54; cache hits: 0; cache miss: 0; php errors: 0; sql errors: 0;"
+}
+
+Последва още една заявка която е същата със същия отговор от портала и после последва тази 
+
+http://85.11.144.8/stalker_portal/server/load.php?type=vod&action=get_ordered_list&movie_id=1587&JsHttpRequest=1-xml
+
+ПОРТАЛА ВРЪЩА 
+
+{
+   "js" : {
+      "cur_page" : 0,
+      "data" : [
+         {
+            "accessed" : "1",
+            "cmd" : "/media/file_999.mpg",
+            "date_add" : "2022-04-25 11:41:32",
+            "date_modify" : "2022-04-25 11:41:36",
+            "file_name" : "Annabelle.Comes.Home.2019.BDRip.x264.AC3.BGAUDiO-SiSO.mkv",
+            "file_type" : "video",
+            "for_rent" : 0,
+            "id" : "999",
+            "is_file" : true,
+            "languages" : "a:1:{i:0;s:2:\"bg\";}",
+            "name" : "Bulgarian / Regular quality (320)",
+            "protocol" : "http",
+            "quality" : "2",
+            "series_id" : null,
+            "status" : "1",
+            "tmp_link_type" : null,
+            "url" : "",
+            "video_id" : "1587",
+			
+СЛЕДВА ОЩЕ ЕДНА ЗАЯВКА 
+
+http://85.11.144.8/stalker_portal/server/load.php?type=vod&action=create_link&cmd=%2Fmedia%2F1587.mpg&series=&forced_storage=&disable_ad=0&download=0&force_ch_link_check=0&JsHttpRequest=1-xml
+
+ПОРТАЛЪТ ВРЪЩА 
+
+{
+   "js" : {
+      "cmd" : "",
+      "error" : "link_fault",
+      "id" : 0,
+      "load" : "",
+      "storage_id" : "",
+      "subtitles" : []
+   },
+   "text" : "Could not create link /media/raid0/storage/Annabelle_Comes_Home_2019/Annabelle.Comes.Home.2019.BDRip.x264.AC3.BGAUDiO-SiSO.mkv to /media/raid0/mac/00:1A:79:48:8C:76/1587.mkv on bb3\n#0 /var/www/stalker_portal/server/lib/restclient.class.php(34): RESTClient->execute()\n#1 /var/www/stalker_portal/server/lib/master.class.php(111): RESTClient->create(Array)\n#2 /var/www/stalker_portal/server/lib/vod.class.php(256): Master->play(1587, 0, true, '', 0)\n#3 /var/www/stalker_portal/server/lib/vod.class.php(111): Vod->getLinkByVideoId(1587, 0, '', 0)\n#4 [internal function]: Vod->createLink()\n#5 /var/www/stalker_portal/server/lib/core/dataloader.class.php(42): call_user_func(Array)\n#6 /var/www/stalker_portal/server/load.php(22): Stalker\\Lib\\Core\\DataLoader->getResult()\n#7 {main}Could not create link /media/raid0/storage/Annabelle_Comes_Home_2019/Annabelle.Comes.Home.2019.BDRip.x264.AC3.BGAUDiO-SiSO.mkv to /media/raid0/mac/00:1A:79:48:8C:76/1587.mkv on bb3\n#0 /var/www/stalker_portal/server/lib/restclient.class.php(34): RESTClient->execute()\n#1 /var/www/stalker_portal/server/lib/master.class.php(111): RESTClient->create(Array)\n#2 /var/www/stalker_portal/server/lib/master.class.php(124): Master->play(1587, 0, false, '', 0)\n#3 /var/www/stalker_portal/server/lib/vod.class.php(256): Master->play(1587, 0, true, '', 0)\n#4 /var/www/stalker_portal/server/lib/vod.class.php(111): Vod->getLinkByVideoId(1587, 0, '', 0)\n#5 [internal function]: Vod->createLink()\n#6 /var/www/stalker_portal/server/lib/core/dataloader.class.php(42): call_user_func(Array)\n#7 /var/www/stalker_portal/server/load.php(22): Stalker\\Lib\\Core\\DataLoader->getResult()\n#8 {main}array(6) {\n  [\"id\"]=>\n  int(0)\n  [\"cmd\"]=>\n  string(0) \"\"\n  [\"storage_id\"]=>\n  string(0) \"\"\n  [\"load\"]=>\n  string(0) \"\"\n  [\"error\"]=>\n  string(10) \"link_fault\"\n  [\"subtitles\"]=>\n  array(0) {\n  }\n}\ngenerated in: 0.099s; query counter: 54; cache hits: 0; cache miss: 0; php errors: 0; sql errors: 0;"
+}
+
+ПОСЛЕ ПОСЛЕДВА 
+
+http://85.11.144.8/stalker_portal/server/load.php?type=watchdog&action=get_events&cur_play_type=0&event_active_id=0&init=0&JsHttpRequest=1-xml
+
+С ОТГОВОР ОТ ПОРТАЛА 
+
+Authorization failed.
+
+http://85.11.144.8/stalker_portal/server/load.php?type=stb&action=log&real_action=stop&param=&content_id=0&tmp_type=0&JsHttpRequest=1-xml
+
+С ОТГОВОР ОТ ПОРТАЛА 
+
+Authorization failed.
+
+
+А ТАЗИ ГРЕШНА ДИРЕКТОРИЯ /media/raid0/records/ ЯВНО Я ЧЕТЕ ОТ ЗАЯВКАТА ЗА GET_PROFILE 
+
+http://85.11.144.8/stalker_portal/server/load.php?type=stb&action=get_profile.......
+
+ПОРТАЛА ВРЪЩА
+
+
+      "always_enabled_subtitles" : "1",
+      "aspect" : "16",
+      "audio_out" : "1",
+      "auth_access" : false,
+      "blocked" : "0",
+      "bright" : "200",
+      "cas_additional_params" : [],
+      "cas_hw_descrambling" : 0,
+      "cas_ini_file" : "",
+      "cas_params" : null,
+      "cas_type" : 0,
+      "cas_web_params" : null,
+      "check_ssl_certificate" : 0,
+      "city_id" : "0",
+      "client_type" : "STB",
+      "comment" : null,
+      "contrast" : "127",
+      "country" : "US",
+      "country_allow" : null,
+      "created" : "2025-03-26 16:04:25",
+      "default_led_level" : "10",
+      "default_locale" : "bg_BG.utf8",
+      "default_timezone" : "Europe/Sofia",
+      "demo_video_url" : "",
+      "deny_720p_gmode_on_mag200" : "1",
+      "disable_youtube_for_mag200" : "1",
+      "display_menu_after_loading" : "",
+      "enable_arrow_keys_setpos" : "",
+      "enable_buffering_indication" : "",
+      "enable_connection_problem_indication" : "1",
+      "enable_service_button" : "",
+      "enable_setting_access_by_pass" : "",
+      "enable_stream_error_logging" : "",
+      "enable_stream_losses_logging" : "",
+      "enable_tariff_plans" : "1",
+      "epg_data_block_period_for_stb" : "5",
+      "epg_update_time_range" : 7301,
+      "expire_billing_date" : "0000-00-00 00:00:00",
+      "external_payment_page_url" : "",
+      "fading_tv_retry_timeout" : "1",
+      "fav_itv_on" : "0",
+      "fname" : "",
+      "force_ch_link_check" : "",
+      "hd" : "1",
+      "hd_content" : "0",
+      "hdmi_event_reaction" : 1,
+      "hide_tv_genres_in_fullscreen" : [ 10 ],
+      "hls_fast_start" : "1",
+      "hw_version" : "1.7-BD-00",
+      "hw_version_2" : "36",
+      "id" : "35870",
+      "image_version" : "218",
+      "invert_channel_switch_direction" : "",
+      "ip" : "149.22.90.210",
+      "is_moderator" : false,
+      "just_started" : "0",
+      "keep_alive" : "2026-11-11 19:02:43",
+      "kinopoisk_rating" : "1",
+      "lang" : "",
+      "last_active" : "2026-11-11 18:59:11",
+      "last_change_status" : "0000-00-00 00:00:00",
+      "last_itv_id" : "1932",
+      "last_start" : "2026-11-11 19:02:43",
+      "last_watchdog" : "2026-11-11 19:01:59",
+      "locale" : "en_US.UTF-8",
+      "logarithm_volume_control" : "",
+      "login" : "26-mart-mag",
+      "ls" : "",
+      "mac" : "00:1A:79:48:8C:76",
+      "main_notify" : "1",
+      "max_local_recordings" : "10",
+      "name" : "",
+      "now_playing_content" : "",
+      "now_playing_link_id" : "0",
+      "now_playing_start" : "2026-11-11 18:59:07",
+      "now_playing_streamer_id" : "0",
+      "now_playing_type" : "0",
+      "num_banks" : "2",
+      "openweathermap_city_id" : "0",
+      "operator_id" : "0",
+      "overwrite_stb_ntp_server" : "1",
+      "parent_password" : "0000",
+      "pass" : "",
+      "password" : "8df0f876da2b789ec7e78c5f6cd63310",
+      "phone" : "",
+      "plasma_saving" : "0",
+      "plasma_saving_timeout" : "600",
+      "play_in_preview_by_ok" : null,
+      "play_in_preview_only_by_ok" : true,
+      "playback_buffer_bytes" : "0",
+      "playback_buffer_size" : "0",
+      "playback_limit" : 4,
+      "pri_audio_lang" : "",
+      "pri_subtitle_lang" : "",
+      "record_max_length" : 180,
+      "reseller_id" : "1",
+      "rtsp_flags" : "0",
+      "rtsp_type" : "4",
+      "saturation" : "127",
+      "screensaver_delay" : "10",
+      "sec_audio_lang" : "",
+      "sec_subtitle_lang" : "",
+      "settings_password" : "0000",
+      "show_after_loading" : "",
+      "show_channel_logo_in_preview" : "",
+      "show_purchased_filter" : "",
+      "show_tv_channel_logo" : "1",
+      "show_tv_only_hd_filter_option" : "",
+      "show_version_in_main_menu" : "1",
+      "sname" : "",
+      "standby_led_level" : "90",
+      "standby_on_hdmi_off" : "1",
+      "status" : "0",
+      "stb_lang" : "en",
+      "stb_ntp_server" : "pool.ntp.org",
+      "stb_type" : "MAG250",
+      "storage_name" : "",
+      "storages" : {
+         "bb3" : {
+            "apache_port" : "88",
+            "archive_stream_server" : "",
+            "dvr_type" : "stalker_dvr",
+            "external" : "0",
+            "fake_tv_archive" : "0",
+            "flussonic_dvr" : "0",
+            "for_moderator" : "0",
+            "for_records" : "1",
+            "for_simple_storage" : "1",
+            "id" : "5",
+            "max_online" : "1000",
+            "nfs_home_path" : "/media/raid0/records/",
+            "nimble_dvr" : "0",
+            "not_for_mag100" : "0",
+            "status" : "1",
+            "storage_ip" : "85.11.144.8",
+            "storage_name" : "bb3",
+            "stream_server_app" : "",
+            "stream_server_port" : "1935",
+            "stream_server_type" : "",
+            "user_agent_filter" : "",
+            "wowza_dvr" : "0"
+         },
+         "bb6" : {
+            "apache_port" : "8080",
+            "archive_stream_server" : "",
+            "dvr_type" : "stalker_dvr",
+            "external" : "0",
+            "fake_tv_archive" : "0",
+            "flussonic_dvr" : "0",
+            "for_moderator" : "0",
+            "for_records" : "1",
+            "for_simple_storage" : "0",
+            "id" : "9",
+            "max_online" : "1000",
+            "nfs_home_path" : "/media/raid0/records/",
+            "nimble_dvr" : "0",
+            "not_for_mag100" : "0",
+            "status" : "1",
+            "storage_ip" : "85.11.144.6",
+            "storage_name" : "bb6",
+            "stream_server_app" : "",
+            "stream_server_port" : "1935",
+            "stream_server_type" : "",
+            "user_agent_filter" : "",
+            "wowza_dvr" : "0"
+         }
+      },
+      "store_auth_data_on_stb" : false,
+      "strict_stb_type_check" : "",
+      "subtitle_color" : "16777215",
+      "subtitle_size" : "20",
+      "tariff_expired_date" : "0",
+      "tariff_plan_id" : "10",
+      "test_download_url" : "http://85.11.144.8:88/epg/test",
+      "tester" : false,
+      "theme" : "",
+      "time_last_play_tv" : "0000-00-00 00:00:00",
+      "time_last_play_video" : "2026-11-11 18:59:08",
+      "timeslot" : 117,0000000000000,
+      "timeslot_ratio" : 0,0000000000000000,
+      "timezone_diff" : 7200,
+      "ts_action_on_exit" : "no_save",
+      "ts_buffer_use" : "cyclic",
+      "ts_delay" : "on_pause",
+      "ts_enable_icon" : "1",
+      "ts_enabled" : "0",
+      "ts_max_length" : "3600",
+      "ts_path" : "",
+      "tv_archive_continued" : "1",
+      "tv_channel_default_aspect" : "fit",
+      "tv_playback_retry_limit" : "0",
+      "tv_quality" : "high",
+      "tv_quality_filter" : "",
+      "units" : "metric",
+      "update_url" : "",
+      "updated" : null,
+      "verified" : "0",
+      "version" : "ImageDescription: 0.2.18-r24-250; ImageDate: Tue Oct 8 12:50:33 EEST 2024; PORTAL version: 5.6.9; API Version: JS API version: 328; STB API version: 134; Player Engine version: 0x566",
+      "video_clock" : "Off",
+      "video_out" : "hdmi",
+      "volume" : "55",
+      "watchdog_timeout" : "120",
+      "web_proxy_exclude_list" : "",
+      "web_proxy_host" : "",
+      "web_proxy_pass" : "",
+      "web_proxy_port" : "",
+      "web_proxy_user" : ""
+   },
+   "text" : "generated in: 0.033s; query counter: 25; cache hits: 0; cache miss: 0; php errors: 0; sql errors: 0;"
+}
