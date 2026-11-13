@@ -1,0 +1,234 @@
+http://85.11.144.8/stalker_portal/server/load.php?type=vod&action=get_ordered_list&movie_id=1612&season_id=0&episode_id=0&row=0&category=2&fav=0&sortby=added&hd=0&not_ended=0&p=1&JsHttpRequest=1-xml
+
+   "js" : {
+      "cur_page" : 0,
+      "data" : [
+         {
+            "date_add" : "2022-05-13 13:29:34",
+            "date_modify" : "2022-05-18 11:40:48",
+            "id" : "33",
+            "is_season" : true,
+            "name" : "Сезон 1",
+            "season_name" : "",
+            "season_number" : "1",
+            "season_original_name" : "",
+            "season_series" : "13",
+            "video_id" : "1612"
+         }
+
+http://85.11.144.8/stalker_portal/server/load.php?type=vod&action=get_ordered_list&movie_id=1612&season_id=33&episode_id=0&row=0&category=2&fav=0&sortby=added&hd=0&not_ended=0&p=1&JsHttpRequest=1-xml
+
+js" : {
+      "cur_page" : 0,
+      "data" : [
+         {
+            "date_add" : "2022-05-13 13:29:34",
+            "date_modify" : "2022-05-18 11:40:48",
+            "id" : "289",
+            "is_episode" : true,
+            "name" : "Епизод 1",
+            "season_id" : "33",
+            "series" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13" ],
+            "series_files" : "1",
+            "series_name" : "",
+            "series_number" : "1",
+            "series_original_name" : ""
+         },
+         {
+            "date_add" : "2022-05-13 13:29:34",
+            "date_modify" : "2022-05-18 11:40:48",
+            "id" : "290",
+            "is_episode" : true,
+            "name" : "Епизод 2",
+            "season_id" : "33",
+            "series" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13" ],
+            "series_files" : "1",
+            "series_name" : "",
+            "series_number" : "2",
+            "series_original_name" : ""
+         },
+         {
+            "date_add" : "2022-05-13 13:29:34",
+            "date_modify" : "2022-05-18 11:40:48",
+            "id" : "291",
+            "is_episode" : true,
+            "name" : "Епизод 3",
+            "season_id" : "33",
+            "series" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13" ],
+            "series_files" : "1",
+            "series_name" : "",
+            "series_number" : "3",
+            "series_original_name" : ""
+         },
+         {
+            "date_add" : "2022-05-13 13:29:34",
+            "date_modify" : "2022-05-18 11:40:48",
+            "id" : "292",
+            "is_episode" : true,
+            "name" : "Епизод 4",
+            "season_id" : "33",
+            "series" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13" ],
+            "series_files" : "1",
+            "series_name" : "",
+            "series_number" : "4",
+            "series_original_name" : ""
+         },
+         {
+            "date_add" : "2022-05-13 13:29:34",
+            "date_modify" : "2022-05-18 11:40:48",
+            "id" : "293",
+            "is_episode" : true,
+            "name" : "Епизод 5",
+            "season_id" : "33",
+            "series" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13" ],
+            "series_files" : "1",
+            "series_name" : "",
+            "series_number" : "5",
+            "series_original_name" : ""
+         },
+         {
+            "date_add" : "2022-05-13 13:29:34",
+            "date_modify" : "2022-05-18 11:40:48",
+            "id" : "294",
+            "is_episode" : true,
+            "name" : "Епизод 6",
+            "season_id" : "33",
+            "series" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13" ],
+            "series_files" : "1",
+            "series_name" : "",
+            "series_number" : "6",
+            "series_original_name" : ""
+         },
+         {
+            "date_add" : "2022-05-13 13:29:34",
+            "date_modify" : "2022-05-18 11:40:48",
+            "id" : "295",
+            "is_episode" : true,
+            "name" : "Епизод 7",
+            "season_id" : "33",
+            "series" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13" ],
+            "series_files" : "1",
+            "series_name" : "",
+            "series_number" : "7",
+            "series_original_name" : ""
+         },
+         {
+            "date_add" : "2022-05-13 13:29:34",
+            "date_modify" : "2022-05-18 11:40:48",
+            "id" : "296",
+            "is_episode" : true,
+            "name" : "Епизод 8",
+            "season_id" : "33",
+            "series" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13" ],
+            "series_files" : "1",
+            "series_name" : "",
+            "series_number" : "8",
+            "series_original_name" : ""
+         },
+         {
+            "date_add" : "2022-05-13 13:29:34",
+            "date_modify" : "2022-05-18 11:40:48",
+            "id" : "297",
+            "is_episode" : true,
+            "name" : "Епизод 9",
+            "season_id" : "33",
+            "series" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13" ],
+            "series_files" : "1",
+            "series_name" : "",
+            "series_number" : "9",
+            "series_original_name" : ""
+         },
+         {
+            "date_add" : "2022-05-13 13:29:34",
+            "date_modify" : "2022-05-18 11:40:48",
+            "id" : "298",
+            "is_episode" : true,
+            "name" : "Епизод 10",
+            "season_id" : "33",
+            "series" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13" ],
+            "series_files" : "1",
+            "series_name" : "",
+            "series_number" : "10",
+            "series_original_name" : ""
+         },
+         {
+            "date_add" : "2022-05-13 13:29:34",
+            "date_modify" : "2022-05-18 11:40:48",
+            "id" : "299",
+            "is_episode" : true,
+            "name" : "Епизод 11",
+            "season_id" : "33",
+            "series" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13" ],
+            "series_files" : "1",
+            "series_name" : "",
+            "series_number" : "11",
+            "series_original_name" : 
+""
+         },
+         {
+            "date_add" : "2022-05-13 13:29:34",
+            "date_modify" : "2022-05-18 11:40:48",
+            "id" : "300",
+            "is_episode" : true,
+            "name" : "Епизод 12",
+            "season_id" : "33",
+            "series" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13" ],
+            "series_files" : "1",
+            "series_name" : "",
+            "series_number" : "12",
+            "series_original_name" : ""
+         },
+         {
+            "date_add" : "2022-05-13 13:29:34",
+            "date_modify" : "2022-05-18 11:40:48",
+            "id" : "301",
+            "is_episode" : true,
+            "name" : "Епизод 13",
+            "season_id" : "33",
+            "series" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13" ],
+            "series_files" : "1",
+            "series_name" : "",
+            "series_number" : "13",
+            "series_original_name" : ""
+         }
+http://85.11.144.8/stalker_portal/server/load.php?type=vod&action=get_ordered_list&movie_id=1612&season_id=33&episode_id=290&row=0&category=2&fav=0&sortby=added&hd=0&not_ended=0&p=1&JsHttpRequest=1-xml
+"js" : {
+      "cur_page" : 0,
+      "data" : [
+         {
+            "accessed" : "1",
+            "cmd" : "/media/file_1158.mpg",
+            "date_add" : "2022-05-18 10:20:26",
+            "date_modify" : "2022-05-18 10:20:34",
+            "file_name" : "Marvels.Agents.Of.S.H.I.E.L.D.S07E02.1080p.AMZN.WEB-DL.DDP5.1.H.264-T6D.mkv",
+            "file_type" : "video",
+            "for_rent" : 0,
+            "id" : "1158",
+            "is_file" : true,
+            "languages" : "a:2:{i:0;s:2:\"bg\";i:1;s:2:\"en\";}",
+            "name" : "български, английски / Отлично качество (1080)",
+            "protocol" : "http",
+            "quality" : "6",
+            "series_id" : "290",
+            "status" : "1",
+            "tmp_link_type" : null,
+            "url" : "",
+            "video_id" : "1612",
+            "volume_level" : "0"
+
+http://85.11.144.8/stalker_portal/server/load.php?type=vod&action=create_link&cmd=/media/file_1158.mpg&series=2&forced_storage=&disable_ad=0&download=0&force_ch_link_check=0&JsHttpRequest=1-xml
+{
+   "js" : {
+      "cmd" : "ffmpeg http://85.11.144.8/media/bb3/00:1A:79:72:9A:EF/1612.mkv?st=zLVYxmgmteF4MzlZrGGZNw&e=1794537925",
+      "error" : "",
+      "from_cache" : true,
+      "id" : 1612,
+      "load" : 0,0000000000000000,
+      "storage_id" : "5",
+      "subtitles" : []
+   },
+   "text" : "array(7) {\n  [\"id\"]=>\n  int(1612)\n  [\"cmd\"]=>\n  string(101) \"ffmpeg http://85.11.144.8/media/bb3/00:1A:79:72:9A:EF/1612.mkv?st=zLVYxmgmteF4MzlZrGGZNw&e=1794537925\"\n  [\"storage_id\"]=>\n  string(1) \"5\"\n  [\"load\"]=>\n  float(0.092)\n  [\"error\"]=>\n  string(0) \"\"\n  [\"from_cache\"]=>\n  bool(true)\n  [\"subtitles\"]=>\n  array(0) {\n  }\n}\ngenerated in: 0.077s; query counter: 49; cache hits: 0; cache miss: 0; php errors: 0; sql errors: 0;"
+}
+
+
+
